@@ -1,0 +1,4 @@
+22:55:00 (INFO): User storage loaded from XML!
+22:55:13 (INFO): User Mike Jones Added!
+22:55:16 (INFO): User Jack Jackson Removed!
+22:55:23 (INFO): User Mike Jones Removed!

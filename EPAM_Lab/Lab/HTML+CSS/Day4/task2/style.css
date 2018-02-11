@@ -1,0 +1,16 @@
+ .text1, .text2, .text3, .text4 {
+    position: relative; 
+} 
+.text1, .text3 {
+    font-size: 50px; 
+}
+.text2, .text4 {
+    top: -120px; 
+    left: 5px; 
+    color: orange; 
+    font-size:70px; 
+}
+.text2 { z-index: 1; }
+.text1 { z-index: 2; }
+.text3 { z-index: 3; }
+.text4 { z-index: 4; }

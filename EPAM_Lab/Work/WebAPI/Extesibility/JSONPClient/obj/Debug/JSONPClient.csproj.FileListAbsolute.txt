@@ -1,0 +1,6 @@
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Extesibility\JSONPClient\bin\JSONPClient.dll.config
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Extesibility\JSONPClient\bin\JSONPClient.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Extesibility\JSONPClient\bin\JSONPClient.pdb
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Extesibility\JSONPClient\obj\Debug\JSONPClient.csprojResolveAssemblyReference.cache
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Extesibility\JSONPClient\obj\Debug\JSONPClient.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Extesibility\JSONPClient\obj\Debug\JSONPClient.pdb

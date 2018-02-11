@@ -1,0 +1,21 @@
+﻿@model ControllersAdminBaseUser.Models.UserViewModel
+
+@{
+    ViewBag.Title = "title";
+}
+
+<h2>Add User</h2>
+
+@using (Html.BeginForm("AddUser", "User", FormMethod.Post))
+{
+    @Html.LabelFor(m => m.FirstName, new {@class = "label-field"})
+    @Html.TextBoxFor(m => m.FirstName, new {@class = "name-text"})
+    <p></p>
+    @Html.LabelFor(m => m.LastName, new {@class = "label-field"})
+    @Html.TextBoxFor(m => m.LastName, new {@class = "name-text"})
+
+
+    <p>
+        <input type="submit" value="Add" class="add-btn"/>
+    </p>
+}

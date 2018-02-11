@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestIntExtension</name>
+    </assembly>
+    <members>
+        <member name="T:TestIntExtension.ExtensionTest">
+            <summary>
+            Class for testing IntExtension methods
+            </summary>
+        </member>
+        <member name="M:TestIntExtension.ExtensionTest.ConvertIntegerToHexTest(System.Int32)">
+            <summary>
+            This method checks the correctness of calculation of hex representation of given integer
+            </summary>
+        </member>
+        <member name="T:TestIntExtension.ExtensionFactoryClass">
+            <summary>
+            Class for generating test case data
+            </summary>
+        </member>
+        <member name="P:TestIntExtension.ExtensionFactoryClass.TestCaseDatas">
+            <summary>
+            Property contains test case datas for creating hex representation of integer
+            </summary>
+        </member>
+    </members>
+</doc>

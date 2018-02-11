@@ -1,0 +1,75 @@
+body {
+    background-repeat: repeat;
+    background-image: url(fon_skazki.gif);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    line-height: 1.6;
+}
+
+.main_container {
+    margin: 20px auto;
+    width: 600px;
+    padding: 20px;
+    border: medium solid #FEA745;
+    background-color: #FAF5D7;
+    border-radius: 30px;
+    font-size: 85%;
+    text-indent: 30px;
+}
+
+.main_container P:first-letter {
+	font-size: 150%; 
+    color: red;
+}
+
+.poem {
+	text-indent: 0;
+	text-align: center;
+}
+
+.first_paragraph {
+    font-family: Helvetica;
+    color: #666;
+    font-size: 110%;
+}
+
+.second_paragraph {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.article_image {
+	float: left;
+	margin: 0 20px;
+}
+
+.spisok {
+	line-height: 2.0;
+}
+
+.spisok h3 {
+	color: #666;
+}
+
+.spisok a:link {
+	color: #8E3D00;
+    text-decoration: none;
+}
+
+.spisok a:visited {
+	color: #8E3D00;
+    text-decoration: none;
+}
+
+.spisok a:hover {
+    color: #FFBF00;
+    text-decoration: underline;
+}
+
+.link_tale {
+	color: #666;
+}
+
+.bottom_image {
+	margin-left: 85%;
+}

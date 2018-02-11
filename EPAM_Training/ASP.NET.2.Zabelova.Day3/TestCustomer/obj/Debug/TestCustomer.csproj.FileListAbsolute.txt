@@ -1,0 +1,10 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestCustomer\bin\Debug\TestCustomer.exe.config
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestCustomer\bin\Debug\TestCustomer.exe
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestCustomer\bin\Debug\TestCustomer.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestCustomer\bin\Debug\CustomerInfo.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestCustomer\bin\Debug\CustomerInfo.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestCustomer\obj\Debug\TestCustomer.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestCustomer\obj\Debug\TestCustomer.exe
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestCustomer\obj\Debug\TestCustomer.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestCustomer\bin\Debug\CustomerInfo.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestCustomer\bin\Debug\TestCustomer.XML

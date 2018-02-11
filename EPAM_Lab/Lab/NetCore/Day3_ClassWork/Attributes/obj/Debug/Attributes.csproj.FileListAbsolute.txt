@@ -1,0 +1,10 @@
+D:\dotnetcore-master\Day3\Attributes\obj\Debug\Attributes.csprojResolveAssemblyReference.cache
+D:\dotnetcore-master\Day3\Attributes\bin\Debug\Attributes.dll
+D:\dotnetcore-master\Day3\Attributes\bin\Debug\Attributes.pdb
+D:\dotnetcore-master\Day3\Attributes\obj\Debug\Attributes.dll
+D:\dotnetcore-master\Day3\Attributes\obj\Debug\Attributes.pdb
+D:\Katsiaryna_Zabelava\Day3.ClassWork\Attributes\bin\Debug\Attributes.dll
+D:\Katsiaryna_Zabelava\Day3.ClassWork\Attributes\bin\Debug\Attributes.pdb
+D:\Katsiaryna_Zabelava\Day3.ClassWork\Attributes\obj\Debug\Attributes.csprojResolveAssemblyReference.cache
+D:\Katsiaryna_Zabelava\Day3.ClassWork\Attributes\obj\Debug\Attributes.dll
+D:\Katsiaryna_Zabelava\Day3.ClassWork\Attributes\obj\Debug\Attributes.pdb

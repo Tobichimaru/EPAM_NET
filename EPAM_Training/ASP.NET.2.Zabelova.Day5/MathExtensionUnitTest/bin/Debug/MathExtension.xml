@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MathExtension</name>
+    </assembly>
+    <members>
+        <member name="T:MathExtension.Polynom">
+            <summary>
+            Immutable type Polynom with real coefficients
+            </summary>
+        </member>
+        <member name="M:MathExtension.Polynom.#ctor">
+            <summary>
+            Initializes a new instance of the Polynom class
+            </summary>
+        </member>
+        <member name="M:MathExtension.Polynom.#ctor(System.Double[])">
+            <summary>
+            Initializes a new instance of the Polynom class that contains inputted elements and has sufficient capacity to accommodate the number of elements.
+            </summary>
+            <param name="inputCoeff">Coefficients to be copied to the Polynom</param>
+        </member>
+        <member name="M:MathExtension.Polynom.op_Addition(MathExtension.Polynom,MathExtension.Polynom)">
+            <summary>
+            Calculates sum of two Polynoms
+            </summary>
+            <param name="lhs">first Polynom</param>
+            <param name="rhs">second Polynom</param>
+            <returns>The sum of two polynoms which is also Polynom</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.op_UnaryNegation(MathExtension.Polynom)">
+            <summary>
+            Unary operator minus, Inverses coefficients of Polynom
+            </summary>
+            <param name="polynom">Polynom to be Inversed</param>
+            <returns>Polynom with Inversed coefficients</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.op_Subtraction(MathExtension.Polynom,MathExtension.Polynom)">
+            <summary>
+            Calculates difference between two Polynoms
+            </summary>
+            <param name="lhs">first Polynom</param>
+            <param name="rhs">second Polynom</param>
+            <returns>The difference between two polynoms which is also Polynom</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.op_Multiply(MathExtension.Polynom,MathExtension.Polynom)">
+            <summary>
+            Multiplies Polynom by other Polynom
+            </summary>
+            <param name="lhs">First polynom to be multiplied</param>
+            <param name="rhs">Second polynom to be multiplied</param>
+            <returns>Product of Polynoms</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.op_Division(MathExtension.Polynom,MathExtension.Polynom)">
+            <summary>
+            Divide Polynom by other Polynom
+            </summary>
+            <param name="lhs">Divident</param>
+            <param name="rhs">Divisor</param>
+            <returns>The quotient from the division</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.op_Modulus(MathExtension.Polynom,MathExtension.Polynom)">
+            <summary>
+            Divide Polynom by other Polynom
+            </summary>
+            <param name="lhs">Divident</param>
+            <param name="rhs">Divisor</param>
+            <returns>The remainder from the division</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.op_Implicit(System.Double[])~MathExtension.Polynom">
+            <summary>
+            User-defined conversion from double array to Polynom
+            </summary>
+            <param name="arr">double array of coefficients</param>
+            <returns>Polynom with coefficients of the array</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.op_Implicit(System.Double)~MathExtension.Polynom">
+            <summary>
+            User-defined conversion from double to Polynom
+            </summary>
+            <param name="alpha">double coefficient</param>
+            <returns>>Polynom with inputted coefficient</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.op_Explicit(MathExtension.Polynom)~System.Double[]">
+            <summary>
+            User-defined type conversion operator that must be invoked with a cast
+            </summary>
+            <param name="polynom">Polynom to be casted to double</param>
+            <returns>double array of coefficients</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.op_Equality(MathExtension.Polynom,MathExtension.Polynom)">
+            <summary>
+            Check on equality two instances of Polynom
+            </summary>
+            <param name="lhs">first polynom</param>
+            <param name="rhs">second polynom</param>
+            <returns>true, if polynoms are equal, else false</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.op_Inequality(MathExtension.Polynom,MathExtension.Polynom)">
+            <summary>
+            Check on enequality two instances of Polynom
+            </summary>
+            <param name="lhs">first polynom</param>
+            <param name="rhs">second polynom</param>
+            <returns>true, if polynoms are not equal, else false</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.Add(MathExtension.Polynom)">
+            <summary>
+            Calculates sum of two Polynoms
+            </summary>
+            <param name="polynom">Polynom to be added</param>
+            <returns>The sum of two polynoms which is also Polynom</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.Subtract(MathExtension.Polynom)">
+            <summary>
+            Calculates difference between two Polynoms
+            </summary>
+            <param name="polynom">Polynom to be substracted</param>
+            <returns>The difference between two polynoms which is also Polynom</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.Inverse">
+            <summary>
+            Inverses coefficients of Polynom
+            </summary>
+            <returns>Polynom with Inversed coefficients</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.Multiply(MathExtension.Polynom)">
+            <summary>
+            Multiplies this polynom by other Polynom
+            </summary>
+            <param name="polynom">Polynom to be multiplied</param>
+            <returns>Product of Polynoms</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.Divide(MathExtension.Polynom)">
+            <summary>
+            Divide Polynom by other Polynom with remainder
+            </summary>
+            <param name="divisor"></param>
+            <param name="remainder"></param>
+            <returns>The quotient from the division</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.Mod(MathExtension.Polynom)">
+            <summary>
+            Divide Polynom by other Polynom with remainder
+            </summary>
+            <param name="divisor"></param>
+            <param name="remainder"></param>
+            <returns>The remainder from the division</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.Calculate(System.Double)">
+            <summary>
+            Calculates value of the polynom
+            </summary>
+            <param name="value">value of the variable</param>
+            <returns>Polynoms value</returns>
+        </member>
+        <member name="M:MathExtension.Polynom.Clone">
+            <summary>
+            Clones instance of Polynom
+            </summary>
+            <returns>New instance of Polynom</returns>
+        </member>
+        <member name="P:MathExtension.Polynom.Degree">
+            <summary>
+            Gets the Degree of Polynom
+            </summary>
+        </member>
+    </members>
+</doc>

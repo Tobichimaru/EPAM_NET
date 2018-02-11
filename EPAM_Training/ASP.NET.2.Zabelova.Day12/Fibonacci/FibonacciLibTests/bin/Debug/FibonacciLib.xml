@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FibonacciLib</name>
+    </assembly>
+    <members>
+        <member name="T:FibonacciLib.FibonacciNumbers">
+            <summary>
+                provides method for calculating fibonacci number
+            </summary>
+        </member>
+        <member name="M:FibonacciLib.FibonacciNumbers.Fibonacci(System.Int32)">
+            <summary>
+                Iterator that returns k Fibonacci numbers
+            </summary>
+            <param name="k">the number of Fibonacci numbers to be returned</param>
+            <returns>fibonacci number</returns>
+            <exception cref="T:System.ArgumentException">Parameter K should be non-negative.</exception>
+        </member>
+    </members>
+</doc>

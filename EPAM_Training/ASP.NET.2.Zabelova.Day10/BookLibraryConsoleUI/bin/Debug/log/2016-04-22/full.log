@@ -1,0 +1,38 @@
+22.04.2016 08:16:33 (TRACE) : Book("1", "Rowling", pages) called
+22.04.2016 08:16:33 (TRACE) : Book("2", "sir", pages) called
+22.04.2016 08:16:33 (TRACE) : Book("3", "weasley", pages) called
+22.04.2016 08:16:33 (TRACE) : Book("4", "harry", pages) called
+22.04.2016 08:16:33 (TRACE) : Book("5", "me", pages) called
+22.04.2016 08:16:33 (TRACE) : Library(IEnumerable<T>) called
+22.04.2016 08:16:33 (TRACE) : SaveLibrary("///") called
+22.04.2016 08:16:33 (TRACE) : BinaryFileWriter("///") called
+22.04.2016 08:16:33 (WARN) : Error occurs: Путь UNC должен иметь вид \\server\share.
+22.04.2016 08:16:33 (WARN) : Incorrect path. The path was replaced by default path: "library"
+22.04.2016 08:16:33 (TRACE) : BinaryFileWriter("library") called
+22.04.2016 08:16:33 (TRACE) : Library.ConvertToString() called
+22.04.2016 08:16:33 (TRACE) : BinaryFileWriter.Write(string) called
+22.04.2016 08:16:33 (TRACE) : SortItemsByTag(Comparison<T>) called
+22.04.2016 08:16:33 (TRACE) : GetEnumerator() called
+22.04.2016 08:16:33 (TRACE) : Book.ToString() called
+22.04.2016 08:16:33 (TRACE) : Book.ToString() called
+22.04.2016 08:16:33 (TRACE) : Book.ToString() called
+22.04.2016 08:16:33 (TRACE) : Book.ToString() called
+22.04.2016 08:16:33 (TRACE) : Book.ToString() called
+22.04.2016 08:16:33 (TRACE) : FindByTag(Predicate<T>) called
+22.04.2016 08:16:33 (TRACE) : Book.ToString() called
+22.04.2016 08:16:33 (TRACE) : LoadLibrary("library") called
+22.04.2016 08:16:33 (INFO) : The library was cleared
+22.04.2016 08:16:34 (TRACE) : BinaryFileReader("library") called
+22.04.2016 08:16:34 (TRACE) : BinaryFileReader.Read() called
+22.04.2016 08:16:34 (TRACE) : Library.ParseFromString(string) called
+22.04.2016 08:16:34 (TRACE) : Book() called
+22.04.2016 08:16:34 (TRACE) : Book() called
+22.04.2016 08:16:34 (TRACE) : Book() called
+22.04.2016 08:16:34 (TRACE) : Book() called
+22.04.2016 08:16:34 (TRACE) : Book() called
+22.04.2016 08:16:34 (TRACE) : GetEnumerator() called
+22.04.2016 08:16:34 (TRACE) : Book.ToString() called
+22.04.2016 08:16:34 (TRACE) : Book.ToString() called
+22.04.2016 08:16:34 (TRACE) : Book.ToString() called
+22.04.2016 08:16:34 (TRACE) : Book.ToString() called
+22.04.2016 08:16:34 (TRACE) : Book.ToString() called

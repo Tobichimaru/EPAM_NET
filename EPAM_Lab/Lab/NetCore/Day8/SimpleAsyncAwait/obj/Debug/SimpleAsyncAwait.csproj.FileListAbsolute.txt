@@ -1,0 +1,6 @@
+D:\Katsiaryna_Zabelava\NetCore\Day8\SimpleAsyncAwait\bin\Debug\SimpleAsyncAwait.exe.config
+D:\Katsiaryna_Zabelava\NetCore\Day8\SimpleAsyncAwait\bin\Debug\SimpleAsyncAwait.exe
+D:\Katsiaryna_Zabelava\NetCore\Day8\SimpleAsyncAwait\bin\Debug\SimpleAsyncAwait.pdb
+D:\Katsiaryna_Zabelava\NetCore\Day8\SimpleAsyncAwait\obj\Debug\SimpleAsyncAwait.csprojResolveAssemblyReference.cache
+D:\Katsiaryna_Zabelava\NetCore\Day8\SimpleAsyncAwait\obj\Debug\SimpleAsyncAwait.exe
+D:\Katsiaryna_Zabelava\NetCore\Day8\SimpleAsyncAwait\obj\Debug\SimpleAsyncAwait.pdb

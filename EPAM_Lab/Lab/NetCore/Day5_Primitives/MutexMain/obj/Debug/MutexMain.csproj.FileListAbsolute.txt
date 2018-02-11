@@ -1,0 +1,12 @@
+D:\Katsiaryna_Zabelava\Day5_Primitives\MutexMain\bin\Debug\MutexMain.exe.config
+D:\Katsiaryna_Zabelava\Day5_Primitives\MutexMain\bin\Debug\MutexMain.exe
+D:\Katsiaryna_Zabelava\Day5_Primitives\MutexMain\bin\Debug\MutexMain.pdb
+D:\Katsiaryna_Zabelava\Day5_Primitives\MutexMain\obj\Debug\MutexMain.csprojResolveAssemblyReference.cache
+D:\Katsiaryna_Zabelava\Day5_Primitives\MutexMain\obj\Debug\MutexMain.exe
+D:\Katsiaryna_Zabelava\Day5_Primitives\MutexMain\obj\Debug\MutexMain.pdb
+D:\github\EPAM.RD.2016.S\Day5_Primitives\MutexMain\bin\Debug\MutexMain.exe.config
+D:\github\EPAM.RD.2016.S\Day5_Primitives\MutexMain\bin\Debug\MutexMain.exe
+D:\github\EPAM.RD.2016.S\Day5_Primitives\MutexMain\bin\Debug\MutexMain.pdb
+D:\github\EPAM.RD.2016.S\Day5_Primitives\MutexMain\obj\Debug\MutexMain.csprojResolveAssemblyReference.cache
+D:\github\EPAM.RD.2016.S\Day5_Primitives\MutexMain\obj\Debug\MutexMain.exe
+D:\github\EPAM.RD.2016.S\Day5_Primitives\MutexMain\obj\Debug\MutexMain.pdb

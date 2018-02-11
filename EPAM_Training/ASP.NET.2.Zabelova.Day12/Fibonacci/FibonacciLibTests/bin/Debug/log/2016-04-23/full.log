@@ -1,0 +1,14 @@
+23.04.2016 16:25:05 (ERROR) : Parameter should be non-negative.
+23.04.2016 16:25:34 (ERROR) : Parameter should be non-negative.
+23.04.2016 16:26:33 (TRACE) : IEnumerable<int> Fibonacci(int -1) called
+23.04.2016 16:26:33 (ERROR) : Parameter -1 should be non-negative.
+23.04.2016 16:26:33 (TRACE) : IEnumerable<int> Fibonacci(int 4) called
+23.04.2016 16:26:33 (TRACE) : IEnumerable<int> Fibonacci(int 1) called
+23.04.2016 16:26:33 (TRACE) : IEnumerable<int> Fibonacci(int 7) called
+23.04.2016 16:26:33 (TRACE) : IEnumerable<int> Fibonacci(int 11) called
+23.04.2016 16:26:48 (TRACE) : IEnumerable<int> Fibonacci(int -1) called
+23.04.2016 16:26:48 (ERROR) : Parameter -1 should be non-negative.
+23.04.2016 16:26:48 (TRACE) : IEnumerable<int> Fibonacci(int 4) called
+23.04.2016 16:26:48 (TRACE) : IEnumerable<int> Fibonacci(int 1) called
+23.04.2016 16:26:48 (TRACE) : IEnumerable<int> Fibonacci(int 7) called
+23.04.2016 16:26:48 (TRACE) : IEnumerable<int> Fibonacci(int 11) called

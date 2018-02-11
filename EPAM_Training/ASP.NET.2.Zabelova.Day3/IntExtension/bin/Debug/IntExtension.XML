@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IntExtension</name>
+    </assembly>
+    <members>
+        <member name="T:IntExtension.Extension">
+            <summary>
+            Extension for integers
+            </summary>
+        </member>
+        <member name="M:IntExtension.Extension.ToHex(System.Int32)">
+            <summary>
+            Extension method calculate hex representation of integer
+            <returns>string representation of hex number</returns>
+            </summary>
+        </member>
+        <member name="M:IntExtension.Extension.Reverse(System.String)">
+            <summary>
+            Reverse elements of string
+            </summary>
+            <param name="s">string for reversing</param>
+            <returns>reversed string</returns>
+        </member>
+    </members>
+</doc>

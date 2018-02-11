@@ -1,0 +1,32 @@
+.content {
+	width: 800px;
+	margin: 10px auto;
+	display: table;
+	border: 1px solid grey;
+}
+
+.line {
+	display: table-row;
+}
+
+.main {
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.grey {
+	background-color: rgb(200,200,200);
+}
+
+.column {
+	float: left;
+	display: table-column;
+	padding: 1%;
+	border-top: 1px solid grey;
+	width: 66%;
+}
+
+.col {
+	width: 30%;
+}
+

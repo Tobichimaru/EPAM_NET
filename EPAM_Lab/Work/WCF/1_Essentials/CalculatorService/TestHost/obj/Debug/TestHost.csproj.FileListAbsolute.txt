@@ -1,0 +1,8 @@
+D:\study\WCF\1_Essentials\CalculatorService\TestHost\bin\Debug\TestHost.dll
+D:\study\WCF\1_Essentials\CalculatorService\TestHost\bin\Debug\TestHost.pdb
+D:\study\WCF\1_Essentials\CalculatorService\TestHost\bin\Debug\CalculatorService.dll
+D:\study\WCF\1_Essentials\CalculatorService\TestHost\bin\Debug\CalculatorService.pdb
+D:\study\WCF\1_Essentials\CalculatorService\TestHost\obj\Debug\TestHost.csprojResolveAssemblyReference.cache
+D:\study\WCF\1_Essentials\CalculatorService\TestHost\obj\Debug\TestHost.dll
+D:\study\WCF\1_Essentials\CalculatorService\TestHost\obj\Debug\TestHost.pdb
+D:\study\WCF\1_Essentials\CalculatorService\TestHost\bin\Debug\TestHost.dll.config

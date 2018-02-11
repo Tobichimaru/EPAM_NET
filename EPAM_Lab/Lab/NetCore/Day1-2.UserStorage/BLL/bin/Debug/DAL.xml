@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DAL</name>
+    </assembly>
+    <members>
+        <member name="T:DAL.DTO.DalGender">
+            <summary>
+                Gender of the user
+            </summary>
+        </member>
+        <member name="F:DAL.DTO.DalGender.None">
+            <summary>
+                Not assigned
+            </summary>
+        </member>
+        <member name="F:DAL.DTO.DalGender.Male">
+            <summary>
+                Male
+            </summary>
+        </member>
+        <member name="F:DAL.DTO.DalGender.Female">
+            <summary>
+                Female
+            </summary>
+        </member>
+        <member name="T:DAL.DTO.DalUser">
+            <summary>
+                User class in DAL
+            </summary>
+        </member>
+        <member name="M:DAL.DTO.DalUser.#ctor">
+            <summary>
+                Default constructor
+            </summary>
+        </member>
+        <member name="P:DAL.DTO.DalUser.Id">
+            <summary>
+                Gets of sets a Unique identifier
+            </summary>
+        </member>
+        <member name="P:DAL.DTO.DalUser.FirstName">
+            <summary>
+                Gets of sets a First Name
+            </summary>
+        </member>
+        <member name="P:DAL.DTO.DalUser.LastName">
+            <summary>
+                Gets of sets a Last Name
+            </summary>
+        </member>
+        <member name="P:DAL.DTO.DalUser.BirthDate">
+            <summary>
+                Gets of sets a Birth Date
+            </summary>
+        </member>
+        <member name="P:DAL.DTO.DalUser.Gender">
+            <summary>
+            Gender
+            </summary>
+        </member>
+        <member name="P:DAL.DTO.DalUser.Cards">
+            <summary>
+                Gets of sets a User's Visa cards
+            </summary>
+        </member>
+        <member name="M:DAL.DTO.DalUser.Equals(DAL.DTO.DalUser,DAL.DTO.DalUser)">
+            <summary>
+                Static Equals
+            </summary>
+            <param name="lhs">first user</param>
+            <param name="rhs">second user</param>
+            <returns>true, if objects are equal, otherwise false</returns>
+        </member>
+        <member name="M:DAL.DTO.DalUser.Equals(DAL.DTO.DalUser)">
+            <summary>
+                Instance Equals
+            </summary>
+            <param name="other">other user</param>
+            <returns>true, if objects are equal, otherwise false</returns>
+        </member>
+        <member name="M:DAL.DTO.DalUser.Equals(System.Object)">
+            <summary>
+                Overriden Equals
+            </summary>
+            <param name="obj">other user</param>
+            <returns>true, if objects are equal, otherwise false</returns>
+        </member>
+        <member name="M:DAL.DTO.DalUser.GetHashCode">
+            <summary>
+                Overriden GetHashCode
+            </summary>
+            <returns>hash code of the user</returns>
+        </member>
+        <member name="M:DAL.DTO.DalUser.ToString">
+            <summary>
+                Overriden ToString
+            </summary>
+            <returns>string representation of the user</returns>
+        </member>
+        <member name="T:DAL.DTO.DalVisaRecord">
+            <summary>
+                Class for Visa card description
+            </summary>
+        </member>
+        <member name="P:DAL.DTO.DalVisaRecord.Country">
+            <summary>
+                Gets or sets a Country of card owner
+            </summary>
+        </member>
+        <member name="P:DAL.DTO.DalVisaRecord.StartDate">
+            <summary>
+                Gets or sets a Card's Start Date 
+            </summary>
+        </member>
+        <member name="P:DAL.DTO.DalVisaRecord.ExpiryDate">
+            <summary>
+                Gets or sets a Card's Expiry Date 
+            </summary>
+        </member>
+        <member name="T:DAL.UserIdIterator">
+            <summary>
+                Iterator which generates even numbers
+            </summary>
+        </member>
+        <member name="M:DAL.UserIdIterator.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:DAL.UserIdIterator"/> class and sets current element
+            </summary>
+        </member>
+        <member name="M:DAL.UserIdIterator.#ctor(System.Int32)">
+            <summary>
+                 Initializes a new instance of the <see cref="T:DAL.UserIdIterator"/> class with custom start point
+            </summary>
+            <param name="current">start point</param>
+        </member>
+        <member name="P:DAL.UserIdIterator.Current">
+            <summary>
+                Gets Current element
+            </summary>
+        </member>
+        <member name="P:DAL.UserIdIterator.System#Collections#IEnumerator#Current">
+            <summary>
+                Gets Current element
+            </summary>
+        </member>
+        <member name="M:DAL.UserIdIterator.Dispose">
+            <summary>
+                Disposes an object
+            </summary>
+        </member>
+        <member name="M:DAL.UserIdIterator.MoveNext">
+            <summary>
+                Moves current to the next element
+            </summary>
+            <returns>true, if the move was successful, otherwise false</returns>
+        </member>
+        <member name="M:DAL.UserIdIterator.Reset">
+            <summary>
+                Resets current element to the start point
+            </summary>
+        </member>
+        <member name="T:DAL.Interface.IDalCriterion`1">
+            <summary>
+                Interface for search criterion
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:DAL.Interface.IDalCriterion`1.ApplyCriterion(`0)">
+            <summary>
+                Applies criterion to entity
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DAL.Interface.IEntity">
+            <summary>
+                Interface for entities with id
+            </summary>
+        </member>
+        <member name="P:DAL.Interface.IEntity.Id">
+            <summary>
+                Unique identifier
+            </summary>
+        </member>
+        <member name="T:DAL.Interface.IRepository`1">
+            <summary>
+                Interface for storing entities
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:DAL.Interface.IRepository`1.Add(`0)">
+            <summary>
+                Adds entity to repository
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.Interface.IRepository`1.Delete(`0)">
+            <summary>
+                Removes entity from repository
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="M:DAL.Interface.IRepository`1.GetByPredicate(System.Func{`0,System.Boolean}[])">
+            <summary>
+                Search entities by predicates
+            </summary>
+            <param name="predicates"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.Interface.IRepository`1.SearchForUsers(DAL.Interface.IDalCriterion{`0}[])">
+            <summary>
+                Search entities by criteria
+            </summary>
+            <param name="criteria"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.Interface.IRepository`1.Save">
+            <summary>
+                Saves entites
+            </summary>
+        </member>
+        <member name="M:DAL.Interface.IRepository`1.Load">
+            <summary>
+                Loads entites
+            </summary>
+        </member>
+        <member name="T:DAL.Interface.IUserRepository">
+            <summary>
+                Repository specified for storing users
+            </summary>
+        </member>
+        <member name="T:DAL.Interface.IUserValidator">
+            <summary>
+                Interface for users validation
+            </summary>
+        </member>
+        <member name="M:DAL.Interface.IUserValidator.Validate(DAL.DTO.DalUser)">
+            <summary>
+                Validates user
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DAL.SearchCriteria.FirstNameCriterion">
+            <summary>
+                Search criterion (comparing first name)
+            </summary>
+        </member>
+        <member name="M:DAL.SearchCriteria.FirstNameCriterion.#ctor(System.String)">
+            <summary>
+                Parametrized constructor
+            </summary>
+            <param name="firstName"></param>
+        </member>
+        <member name="M:DAL.SearchCriteria.FirstNameCriterion.ApplyCriterion(DAL.DTO.DalUser)">
+            <summary>
+                Method to apply criterion
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DAL.SearchCriteria.IdCriterion">
+            <summary>
+                Search criterion (comparing Id)
+            </summary>
+        </member>
+        <member name="M:DAL.SearchCriteria.IdCriterion.#ctor(System.Int32,System.Int32)">
+            <summary>
+                Parametrized constructor
+            </summary>
+            <param name="minId"></param>
+            <param name="maxId"></param>
+        </member>
+        <member name="M:DAL.SearchCriteria.IdCriterion.ApplyCriterion(DAL.DTO.DalUser)">
+            <summary>
+                Method to apply criterion
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DAL.SearchCriteria.LastNameCriterion">
+            <summary>
+            Search criterion (comparing last name)
+            </summary>
+        </member>
+        <member name="M:DAL.SearchCriteria.LastNameCriterion.#ctor(System.String)">
+            <summary>
+                Parametrized constructor
+            </summary>
+            <param name="lastName"></param>
+        </member>
+        <member name="M:DAL.SearchCriteria.LastNameCriterion.ApplyCriterion(DAL.DTO.DalUser)">
+            <summary>
+                Method to apply criterion
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DAL.SimpleUserValidator">
+            <summary>
+            Class for users validation
+            </summary>
+        </member>
+        <member name="M:DAL.SimpleUserValidator.Validate(DAL.DTO.DalUser)">
+            <summary>
+            Validates user according to its first name and last name
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DAL.UserRepository">
+            <summary>
+                User repository class
+            </summary>
+        </member>
+        <member name="M:DAL.UserRepository.#ctor">
+            <summary>
+                Default constructor
+            </summary>
+        </member>
+        <member name="M:DAL.UserRepository.#ctor(System.Collections.Generic.IEnumerator{System.Int32},DAL.Interface.IUserValidator)">
+            <summary>
+                Parametrized constructor
+            </summary>
+            <param name="iterator"></param>
+            <param name="validator"></param>
+        </member>
+        <member name="M:DAL.UserRepository.Add(DAL.DTO.DalUser)">
+            <summary>
+                Adds user to repository
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.UserRepository.Delete(DAL.DTO.DalUser)">
+            <summary>
+                Removes user from repository
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="M:DAL.UserRepository.GetByPredicate(System.Func{DAL.DTO.DalUser,System.Boolean}[])">
+            <summary>
+                Searches user according to predicates
+            </summary>
+            <param name="predicates"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.UserRepository.SearchForUsers(DAL.Interface.IDalCriterion{DAL.DTO.DalUser}[])">
+            <summary>
+                Searches user according to criteria
+            </summary>
+            <param name="criteria"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.UserRepository.Save">
+            <summary>
+                Saves user to xml
+            </summary>
+        </member>
+        <member name="M:DAL.UserRepository.Load">
+            <summary>
+                Loads user from xml
+            </summary>
+        </member>
+    </members>
+</doc>

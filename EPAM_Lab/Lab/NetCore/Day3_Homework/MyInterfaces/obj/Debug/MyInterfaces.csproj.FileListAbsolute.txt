@@ -1,0 +1,4 @@
+D:\Katsiaryna_Zabelava\Day3.Homework\MyInterfaces\bin\Debug\MyInterfaces.dll
+D:\Katsiaryna_Zabelava\Day3.Homework\MyInterfaces\bin\Debug\MyInterfaces.pdb
+D:\Katsiaryna_Zabelava\Day3.Homework\MyInterfaces\obj\Debug\MyInterfaces.dll
+D:\Katsiaryna_Zabelava\Day3.Homework\MyInterfaces\obj\Debug\MyInterfaces.pdb

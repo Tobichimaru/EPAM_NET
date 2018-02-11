@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:BookLibrary.Classes.BinaryFileReader">
+            <summary>
+                Reads data from binary file
+            </summary>
+        </member>
+        <member name="T:BookLibrary.Interfaces.IReader">
+            <summary>
+                Provides interface for instances that can read data
+            </summary>
+        </member>
+        <member name="M:BookLibrary.Interfaces.IReader.Read">
+            <summary>
+                Reads some data
+            </summary>
+            <returns>data</returns>
+        </member>
+        <member name="M:BookLibrary.Classes.BinaryFileReader.#ctor(System.String)">
+            <summary>
+                Initializes custom path of the file
+            </summary>
+            <param name="path">path of the file</param>
+        </member>
+        <member name="P:BookLibrary.Classes.BinaryFileReader.Path">
+            <summary>
+                Path of the file
+            </summary>
+        </member>
+        <member name="T:BookLibrary.Classes.BinaryFileWriter">
+            <summary>
+                Writes data to the binary file
+            </summary>
+        </member>
+        <member name="T:BookLibrary.Interfaces.IWriter">
+            <summary>
+                Provides interface for instances that can write data
+            </summary>
+        </member>
+        <member name="M:BookLibrary.Interfaces.IWriter.Write(System.String)">
+            <summary>
+                Writes data
+            </summary>
+            <param name="str">data</param>
+        </member>
+        <member name="M:BookLibrary.Classes.BinaryFileWriter.#ctor(System.String)">
+            <summary>
+                Initializes custom path of file
+            </summary>
+            <param name="path">path of file</param>
+        </member>
+        <member name="P:BookLibrary.Classes.BinaryFileWriter.Path">
+            <summary>
+                Path of the file
+            </summary>
+        </member>
+        <member name="T:BookLibrary.Classes.Book">
+            <summary>
+                Describes abstraction of Book
+            </summary>
+        </member>
+        <member name="T:BookLibrary.Interfaces.IBook">
+            <summary>
+                Defines methods and properties for Books
+            </summary>
+        </member>
+        <member name="P:BookLibrary.Interfaces.IBook.Title">
+            <summary>
+                The title of the book
+            </summary>
+        </member>
+        <member name="P:BookLibrary.Interfaces.IBook.Author">
+            <summary>
+                The author of the book
+            </summary>
+        </member>
+        <member name="P:BookLibrary.Interfaces.IBook.NumberOfPages">
+            <summary>
+                The number of pages of the book
+            </summary>
+        </member>
+        <member name="T:BookLibrary.Interfaces.IStringConvertable">
+            <summary>
+                Provides interface for classes that can be converted to sting and vice versa
+            </summary>
+        </member>
+        <member name="M:BookLibrary.Interfaces.IStringConvertable.ConvertToString">
+            <summary>
+                Converts instance to string
+            </summary>
+            <returns>converted instance to string</returns>
+        </member>
+        <member name="M:BookLibrary.Interfaces.IStringConvertable.ParseFromString(System.String)">
+            <summary>
+                Parses instance from string
+            </summary>
+            <param name="str">string to be parsed</param>
+        </member>
+        <member name="M:BookLibrary.Classes.Book.#ctor">
+            <summary>
+                Initializes empty Book
+            </summary>
+        </member>
+        <member name="M:BookLibrary.Classes.Book.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+                Initializes Book with specified data
+            </summary>
+            <param name="title">the title of the book</param>
+            <param name="author">the author of the book</param>
+            <param name="pages">the pages of the book</param>
+        </member>
+        <member name="T:BookLibrary.Interfaces.ILibrary`1">
+            <summary>
+                Defines methods for managing instances of type T in the Library
+            </summary>
+        </member>
+        <member name="M:BookLibrary.Interfaces.ILibrary`1.AddItem(`0)">
+            <summary>
+                Adds the item in the Library, if there is no such item there, otherwise throws exception
+            </summary>
+            <param name="item">Item to be added in the Library</param>
+        </member>
+        <member name="M:BookLibrary.Interfaces.ILibrary`1.RemoveItem(`0)">
+            <summary>
+                Removes the item from the Library, if Library contains this item, otherwise throws exception
+            </summary>
+            <param name="item">Item to be removed from the Library</param>
+        </member>
+        <member name="M:BookLibrary.Interfaces.ILibrary`1.FindByTag(System.Predicate{`0})">
+            <summary>
+                Searches for an element that matches the conditions defined by the specified predicate,
+                and returns the first occurrence within the entire Library
+            </summary>
+            <param name="predicate">Criteria for comparing the items</param>
+            <returns>the first occurrence of the element within the entire Library</returns>
+        </member>
+        <member name="M:BookLibrary.Interfaces.ILibrary`1.SortItemsByTag(System.Comparison{`0})">
+            <summary>
+                Sorts the elements of the Library by specified criteria
+            </summary>
+            <param name="comparison">Criteria for comparing the elements</param>
+        </member>
+        <member name="M:BookLibrary.Interfaces.ILibrary`1.SaveLibrary(System.String)">
+            <summary>
+                Saves library collection into the binary file in the specified path. If there is no file, it creates the file.
+            </summary>
+            <param name="path">The path to the file</param>
+        </member>
+        <member name="M:BookLibrary.Interfaces.ILibrary`1.LoadLibrary(System.String)">
+            <summary>
+                Loads library from binary file from specified path
+            </summary>
+            <param name="path">The path of the file</param>
+        </member>
+        <member name="T:BookLibrary.Classes.Library`1">
+            <summary>
+                Describes collection of Books
+            </summary>
+        </member>
+        <member name="M:BookLibrary.Classes.Library`1.#ctor">
+            <summary>
+                Initializes a new instance of the Library class that is empty and has the default initial capacity.
+            </summary>
+        </member>
+        <member name="M:BookLibrary.Classes.Library`1.#ctor(System.Int32)">
+            <summary>
+                Initializes a new instance of the Library class that is empty and has the specified initial capacity.
+            </summary>
+            <param name="capacity">The initial number of elements that the Library can contain</param>
+        </member>
+        <member name="M:BookLibrary.Classes.Library`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+                Initializes a new instance of the Library class that contains elements copied from the specified collection
+                and has sufficient capacity to accommodate the number of elements copied.
+            </summary>
+            <param name="collection">The collection whose elements are copied to the new Library.</param>
+        </member>
+        <member name="P:BookLibrary.Classes.Library`1.DefaultPath">
+            <summary>
+                Default path for storing library collection in binary format
+            </summary>
+        </member>
+    </members>
+</doc>

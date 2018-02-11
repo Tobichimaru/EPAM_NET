@@ -1,0 +1,13 @@
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Hosting\WebAPISelfHost\bin\Debug\WebAPISelfHost.exe
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Hosting\WebAPISelfHost\bin\Debug\WebAPISelfHost.pdb
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Hosting\WebAPISelfHost\bin\Debug\Newtonsoft.Json.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Hosting\WebAPISelfHost\bin\Debug\System.Net.Http.Formatting.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Hosting\WebAPISelfHost\bin\Debug\System.Web.Http.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Hosting\WebAPISelfHost\bin\Debug\System.Web.Http.SelfHost.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Hosting\WebAPISelfHost\bin\Debug\Newtonsoft.Json.xml
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Hosting\WebAPISelfHost\bin\Debug\System.Net.Http.Formatting.xml
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Hosting\WebAPISelfHost\bin\Debug\System.Web.Http.xml
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Hosting\WebAPISelfHost\bin\Debug\System.Web.Http.SelfHost.xml
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Hosting\WebAPISelfHost\obj\x86\Debug\WebAPISelfHost.csprojResolveAssemblyReference.cache
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Hosting\WebAPISelfHost\obj\x86\Debug\WebAPISelfHost.exe
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Hosting\WebAPISelfHost\obj\x86\Debug\WebAPISelfHost.pdb

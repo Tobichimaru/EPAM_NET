@@ -1,0 +1,45 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.dark{
+    background-color:black;
+    font-style: italic;
+    font-size: 20px;
+    color: red;
+}
+
+.light {
+    background-color:lightblue;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.logo.light {
+    background: url(img/lightside.jpg);
+}
+
+.logo.dark {
+    background: url(img/darkside.jpg);
+}

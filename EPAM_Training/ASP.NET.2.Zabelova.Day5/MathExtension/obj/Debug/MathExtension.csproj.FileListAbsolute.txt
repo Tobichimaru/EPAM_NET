@@ -1,0 +1,6 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day5\MathExtension\bin\Debug\MathExtension.XML
+D:\github\epam\ASP.NET.2.Zabelova.Day5\MathExtension\bin\Debug\MathExtension.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day5\MathExtension\bin\Debug\MathExtension.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day5\MathExtension\obj\Debug\MathExtension.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day5\MathExtension\obj\Debug\MathExtension.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day5\MathExtension\obj\Debug\MathExtension.pdb

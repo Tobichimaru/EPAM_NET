@@ -1,0 +1,275 @@
+15.04.2016 15:38:36 (TRACE): static Student() called. 
+15.04.2016 15:38:36 (TRACE): Student (ID = 1, name = "Bob") initialized. 
+15.04.2016 15:38:36 (TRACE): static Professor() called. 
+15.04.2016 15:38:36 (TRACE): Professor (ID = 1, name = "Mr.Black") initialized. 
+15.04.2016 15:38:36 (TRACE): static Course() called. 
+15.04.2016 15:38:36 (TRACE): Course (ID = 1, name = "Algebra") initialized. 
+15.04.2016 15:38:36 (TRACE): HomeTask (title = "first task") initialized. 
+15.04.2016 15:38:36 (TRACE): Course.AddObserver(IStudent student). 
+15.04.2016 15:38:36 (INFO): Course (ID = 1) adds observer (ID = 1). 
+15.04.2016 15:38:36 (DEBUG): Course (name = "Algebra") adds observer (name = "Bob"). 
+15.04.2016 15:38:36 (TRACE): Course.NotifyObservers(IWork info). 
+15.04.2016 15:38:36 (INFO): Course (ID = 1) notifies observers with task. 
+15.04.2016 15:38:36 (DEBUG): Course (name = "Algebra") notifies observers with task (name = "first task"). 
+15.04.2016 15:38:36 (TRACE): HomeTask (title = "first task") initialized. 
+15.04.2016 15:38:36 (TRACE): Student.Update(HomeTask task). 
+15.04.2016 15:38:36 (INFO): Hometask from Course (ID = 1) was recieved by Student (Id = 1). 
+15.04.2016 15:38:36 (DEBUG): Hometask (title = "first task")from Course (name = "Algebra")was recieved by Student (name = "Bob"). 
+15.04.2016 15:38:36 (TRACE): Student.DoHomeWork(HomeTask task). 
+15.04.2016 15:38:36 (TRACE): HomeWork (title = "first task done!") initialized. 
+15.04.2016 15:38:36 (INFO): Hometask from Course (ID = 1) was done by Student (Id = 1). 
+15.04.2016 15:38:36 (DEBUG): Hometask (title = "first task")from Course (name = "Algebra")was done by Student (name = "Bob").Homework (title = "first task done!"). 
+15.04.2016 15:38:36 (TRACE): Course.GetHomework(HomeWork homeWork, IWork task). 
+15.04.2016 15:38:37 (INFO): Homework on Task from Author (Id = 1) was recieved by Course (Id = 1). 
+15.04.2016 15:38:37 (DEBUG): Homework (title = "first task done!") on Task (title ="first task") from Author (name = "Bob") was recieved by Course (name = "Algebra"). 
+15.04.2016 15:38:37 (TRACE): Professor.SetMark(IWork homeWork). 
+15.04.2016 15:38:37 (INFO): Homework was recieved mark = 3. 
+15.04.2016 15:38:37 (DEBUG): Homework (title = "first task done!") was graded by Curator (ID = 1, name = "Mr.Black")mark = 3. 
+15.04.2016 15:38:37 (TRACE): Archive() initialized. 
+15.04.2016 15:38:37 (TRACE): static Archive() called. 
+15.04.2016 15:38:37 (TRACE): Archive.RecordMark(). 
+15.04.2016 15:38:37 (DEBUG): Student was added. 
+15.04.2016 15:38:37 (DEBUG): Course was added. 
+15.04.2016 15:38:37 (DEBUG): Task was added. 
+15.04.2016 15:38:37 (TRACE): Archive.GetMark(). 
+15.04.2016 15:38:37 (WARN): Archive doesn't contain Task (Title = first task). 
+15.04.2016 15:40:14 (TRACE): static Student() called. 
+15.04.2016 15:40:14 (TRACE): Student (ID = 1, name = "Bob") initialized. 
+15.04.2016 15:40:14 (TRACE): static Professor() called. 
+15.04.2016 15:40:14 (TRACE): Professor (ID = 1, name = "Mr.Black") initialized. 
+15.04.2016 15:40:14 (TRACE): static Course() called. 
+15.04.2016 15:40:14 (TRACE): Course (ID = 1, name = "Algebra") initialized. 
+15.04.2016 15:40:14 (TRACE): HomeTask (title = "first task") initialized. 
+15.04.2016 15:40:14 (TRACE): Course.AddObserver(IStudent student). 
+15.04.2016 15:40:14 (INFO): Course (ID = 1) adds observer (ID = 1). 
+15.04.2016 15:40:14 (DEBUG): Course (name = "Algebra") adds observer (name = "Bob"). 
+15.04.2016 15:40:14 (TRACE): Course.NotifyObservers(IWork info). 
+15.04.2016 15:40:14 (INFO): Course (ID = 1) notifies observers with task. 
+15.04.2016 15:40:14 (DEBUG): Course (name = "Algebra") notifies observers with task (name = "first task"). 
+15.04.2016 15:40:14 (TRACE): HomeTask (title = "first task") initialized. 
+15.04.2016 15:40:14 (TRACE): Student.Update(HomeTask task). 
+15.04.2016 15:40:14 (INFO): Hometask from Course (ID = 1) was recieved by Student (Id = 1). 
+15.04.2016 15:40:14 (DEBUG): Hometask (title = "first task")from Course (name = "Algebra")was recieved by Student (name = "Bob"). 
+15.04.2016 15:40:14 (TRACE): Student.DoHomeWork(HomeTask task). 
+15.04.2016 15:40:14 (TRACE): HomeWork (title = "first task done!") initialized. 
+15.04.2016 15:40:14 (INFO): Hometask from Course (ID = 1) was done by Student (Id = 1). 
+15.04.2016 15:40:14 (DEBUG): Hometask (title = "first task")from Course (name = "Algebra")was done by Student (name = "Bob").Homework (title = "first task done!"). 
+15.04.2016 15:40:14 (TRACE): Course.GetHomework(HomeWork homeWork, IWork task). 
+15.04.2016 15:40:14 (INFO): Homework on Task from Author (Id = 1) was recieved by Course (Id = 1). 
+15.04.2016 15:40:14 (DEBUG): Homework (title = "first task done!") on Task (title ="first task") from Author (name = "Bob") was recieved by Course (name = "Algebra"). 
+15.04.2016 15:40:14 (TRACE): Professor.SetMark(IWork homeWork). 
+15.04.2016 15:40:14 (INFO): Homework was recieved mark = 7. 
+15.04.2016 15:40:14 (DEBUG): Homework (title = "first task done!") was graded by Curator (ID = 1, name = "Mr.Black")mark = 7. 
+15.04.2016 15:40:14 (TRACE): Archive() initialized. 
+15.04.2016 15:40:14 (TRACE): static Archive() called. 
+15.04.2016 15:40:14 (TRACE): Archive.RecordMark(). 
+15.04.2016 15:40:14 (DEBUG): Student was added. 
+15.04.2016 15:40:14 (DEBUG): Course was added. 
+15.04.2016 15:40:14 (DEBUG): Task was added. 
+15.04.2016 15:40:14 (TRACE): Archive.GetMark(). 
+15.04.2016 15:40:23 (TRACE): static Student() called. 
+15.04.2016 15:40:23 (TRACE): Student (ID = 1, name = "Bob") initialized. 
+15.04.2016 15:40:23 (TRACE): Student (ID = 2, name = "Alex") initialized. 
+15.04.2016 15:40:23 (TRACE): Student (ID = 3, name = "Steve") initialized. 
+15.04.2016 15:40:23 (TRACE): static Professor() called. 
+15.04.2016 15:40:23 (TRACE): Professor (ID = 1, name = "Mr.Black") initialized. 
+15.04.2016 15:40:23 (TRACE): Professor (ID = 2, name = "Mr.White") initialized. 
+15.04.2016 15:40:23 (TRACE): static Course() called. 
+15.04.2016 15:40:23 (TRACE): Course (ID = 1, name = "Algebra") initialized. 
+15.04.2016 15:40:23 (TRACE): Course (ID = 2, name = "Geometry") initialized. 
+15.04.2016 15:40:23 (TRACE): HomeTask (title = "first task") initialized. 
+15.04.2016 15:40:23 (TRACE): HomeTask (title = "second task") initialized. 
+15.04.2016 15:40:23 (TRACE): HomeTask (title = "first task") initialized. 
+15.04.2016 15:40:23 (TRACE): HomeTask (title = "second task") initialized. 
+15.04.2016 15:40:23 (TRACE): Course.AddObserver(IStudent student). 
+15.04.2016 15:40:23 (INFO): Course (ID = 1) adds observer (ID = 1). 
+15.04.2016 15:40:23 (DEBUG): Course (name = "Algebra") adds observer (name = "Bob"). 
+15.04.2016 15:40:23 (TRACE): Course.AddObserver(IStudent student). 
+15.04.2016 15:40:23 (INFO): Course (ID = 1) adds observer (ID = 2). 
+15.04.2016 15:40:23 (DEBUG): Course (name = "Algebra") adds observer (name = "Alex"). 
+15.04.2016 15:40:23 (TRACE): Course.AddObserver(IStudent student). 
+15.04.2016 15:40:23 (INFO): Course (ID = 2) adds observer (ID = 2). 
+15.04.2016 15:40:23 (DEBUG): Course (name = "Geometry") adds observer (name = "Alex"). 
+15.04.2016 15:40:23 (TRACE): Course.AddObserver(IStudent student). 
+15.04.2016 15:40:23 (INFO): Course (ID = 2) adds observer (ID = 3). 
+15.04.2016 15:40:23 (DEBUG): Course (name = "Geometry") adds observer (name = "Steve"). 
+15.04.2016 15:40:23 (TRACE): Course.NotifyObservers(IWork info). 
+15.04.2016 15:40:23 (INFO): Course (ID = 1) notifies observers with task. 
+15.04.2016 15:40:23 (DEBUG): Course (name = "Algebra") notifies observers with task (name = "first task"). 
+15.04.2016 15:40:23 (TRACE): HomeTask (title = "first task") initialized. 
+15.04.2016 15:40:23 (TRACE): Student.Update(HomeTask task). 
+15.04.2016 15:40:23 (INFO): Hometask from Course (ID = 1) was recieved by Student (Id = 1). 
+15.04.2016 15:40:23 (DEBUG): Hometask (title = "first task")from Course (name = "Algebra")was recieved by Student (name = "Bob"). 
+15.04.2016 15:40:23 (TRACE): Student.DoHomeWork(HomeTask task). 
+15.04.2016 15:40:23 (TRACE): HomeWork (title = "first task done!") initialized. 
+15.04.2016 15:40:23 (INFO): Hometask from Course (ID = 1) was done by Student (Id = 1). 
+15.04.2016 15:40:23 (DEBUG): Hometask (title = "first task")from Course (name = "Algebra")was done by Student (name = "Bob").Homework (title = "first task done!"). 
+15.04.2016 15:40:23 (TRACE): Course.GetHomework(HomeWork homeWork, IWork task). 
+15.04.2016 15:40:23 (INFO): Homework on Task from Author (Id = 1) was recieved by Course (Id = 1). 
+15.04.2016 15:40:23 (DEBUG): Homework (title = "first task done!") on Task (title ="first task") from Author (name = "Bob") was recieved by Course (name = "Algebra"). 
+15.04.2016 15:40:23 (TRACE): Professor.SetMark(IWork homeWork). 
+15.04.2016 15:40:23 (INFO): Homework was recieved mark = 4. 
+15.04.2016 15:40:23 (DEBUG): Homework (title = "first task done!") was graded by Curator (ID = 1, name = "Mr.Black")mark = 4. 
+15.04.2016 15:40:23 (TRACE): Archive() initialized. 
+15.04.2016 15:40:23 (TRACE): static Archive() called. 
+15.04.2016 15:40:23 (TRACE): Archive.RecordMark(). 
+15.04.2016 15:40:23 (DEBUG): Student was added. 
+15.04.2016 15:40:23 (DEBUG): Course was added. 
+15.04.2016 15:40:23 (DEBUG): Task was added. 
+15.04.2016 15:40:23 (TRACE): HomeTask (title = "first task") initialized. 
+15.04.2016 15:40:23 (TRACE): Student.Update(HomeTask task). 
+15.04.2016 15:40:23 (INFO): Hometask from Course (ID = 1) was recieved by Student (Id = 2). 
+15.04.2016 15:40:23 (DEBUG): Hometask (title = "first task")from Course (name = "Algebra")was recieved by Student (name = "Alex"). 
+15.04.2016 15:40:23 (TRACE): Student.DoHomeWork(HomeTask task). 
+15.04.2016 15:40:23 (TRACE): HomeWork (title = "first task done!") initialized. 
+15.04.2016 15:40:23 (INFO): Hometask from Course (ID = 1) was done by Student (Id = 2). 
+15.04.2016 15:40:23 (DEBUG): Hometask (title = "first task")from Course (name = "Algebra")was done by Student (name = "Alex").Homework (title = "first task done!"). 
+15.04.2016 15:40:23 (TRACE): Course.GetHomework(HomeWork homeWork, IWork task). 
+15.04.2016 15:40:23 (INFO): Homework on Task from Author (Id = 2) was recieved by Course (Id = 1). 
+15.04.2016 15:40:23 (DEBUG): Homework (title = "first task done!") on Task (title ="first task") from Author (name = "Alex") was recieved by Course (name = "Algebra"). 
+15.04.2016 15:40:23 (TRACE): Professor.SetMark(IWork homeWork). 
+15.04.2016 15:40:23 (INFO): Homework was recieved mark = 6. 
+15.04.2016 15:40:23 (DEBUG): Homework (title = "first task done!") was graded by Curator (ID = 1, name = "Mr.Black")mark = 6. 
+15.04.2016 15:40:23 (TRACE): Archive.RecordMark(). 
+15.04.2016 15:40:23 (DEBUG): Student was added. 
+15.04.2016 15:40:23 (DEBUG): Course was added. 
+15.04.2016 15:40:23 (DEBUG): Task was added. 
+15.04.2016 15:40:23 (TRACE): Course.NotifyObservers(IWork info). 
+15.04.2016 15:40:23 (INFO): Course (ID = 1) notifies observers with task. 
+15.04.2016 15:40:23 (DEBUG): Course (name = "Algebra") notifies observers with task (name = "second task"). 
+15.04.2016 15:40:23 (TRACE): HomeTask (title = "second task") initialized. 
+15.04.2016 15:40:23 (TRACE): Student.Update(HomeTask task). 
+15.04.2016 15:40:23 (INFO): Hometask from Course (ID = 1) was recieved by Student (Id = 1). 
+15.04.2016 15:40:23 (DEBUG): Hometask (title = "second task")from Course (name = "Algebra")was recieved by Student (name = "Bob"). 
+15.04.2016 15:40:23 (TRACE): Student.DoHomeWork(HomeTask task). 
+15.04.2016 15:40:23 (TRACE): HomeWork (title = "second task done!") initialized. 
+15.04.2016 15:40:23 (INFO): Hometask from Course (ID = 1) was done by Student (Id = 1). 
+15.04.2016 15:40:23 (DEBUG): Hometask (title = "second task")from Course (name = "Algebra")was done by Student (name = "Bob").Homework (title = "second task done!"). 
+15.04.2016 15:40:23 (TRACE): Course.GetHomework(HomeWork homeWork, IWork task). 
+15.04.2016 15:40:23 (INFO): Homework on Task from Author (Id = 1) was recieved by Course (Id = 1). 
+15.04.2016 15:40:23 (DEBUG): Homework (title = "second task done!") on Task (title ="second task") from Author (name = "Bob") was recieved by Course (name = "Algebra"). 
+15.04.2016 15:40:23 (TRACE): Professor.SetMark(IWork homeWork). 
+15.04.2016 15:40:23 (INFO): Homework was recieved mark = 4. 
+15.04.2016 15:40:23 (DEBUG): Homework (title = "second task done!") was graded by Curator (ID = 1, name = "Mr.Black")mark = 4. 
+15.04.2016 15:40:23 (TRACE): Archive.RecordMark(). 
+15.04.2016 15:40:23 (DEBUG): Task was added. 
+15.04.2016 15:40:23 (TRACE): HomeTask (title = "second task") initialized. 
+15.04.2016 15:40:23 (TRACE): Student.Update(HomeTask task). 
+15.04.2016 15:40:23 (INFO): Hometask from Course (ID = 1) was recieved by Student (Id = 2). 
+15.04.2016 15:40:23 (DEBUG): Hometask (title = "second task")from Course (name = "Algebra")was recieved by Student (name = "Alex"). 
+15.04.2016 15:40:23 (TRACE): Student.DoHomeWork(HomeTask task). 
+15.04.2016 15:40:23 (TRACE): HomeWork (title = "second task done!") initialized. 
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 1) was done by Student (Id = 2). 
+15.04.2016 15:40:24 (DEBUG): Hometask (title = "second task")from Course (name = "Algebra")was done by Student (name = "Alex").Homework (title = "second task done!"). 
+15.04.2016 15:40:24 (TRACE): Course.GetHomework(HomeWork homeWork, IWork task). 
+15.04.2016 15:40:24 (INFO): Homework on Task from Author (Id = 2) was recieved by Course (Id = 1). 
+15.04.2016 15:40:24 (DEBUG): Homework (title = "second task done!") on Task (title ="second task") from Author (name = "Alex") was recieved by Course (name = "Algebra"). 
+15.04.2016 15:40:24 (TRACE): Professor.SetMark(IWork homeWork). 
+15.04.2016 15:40:24 (INFO): Homework was recieved mark = 8. 
+15.04.2016 15:40:24 (DEBUG): Homework (title = "second task done!") was graded by Curator (ID = 1, name = "Mr.Black")mark = 8. 
+15.04.2016 15:40:24 (TRACE): Archive.RecordMark(). 
+15.04.2016 15:40:24 (DEBUG): Task was added. 
+15.04.2016 15:40:24 (TRACE): Course.NotifyObservers(IWork info). 
+15.04.2016 15:40:24 (INFO): Course (ID = 2) notifies observers with task. 
+15.04.2016 15:40:24 (DEBUG): Course (name = "Geometry") notifies observers with task (name = "first task"). 
+15.04.2016 15:40:24 (TRACE): HomeTask (title = "first task") initialized. 
+15.04.2016 15:40:24 (TRACE): Student.Update(HomeTask task). 
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 2) was recieved by Student (Id = 2). 
+15.04.2016 15:40:24 (DEBUG): Hometask (title = "first task")from Course (name = "Geometry")was recieved by Student (name = "Alex"). 
+15.04.2016 15:40:24 (TRACE): Student.DoHomeWork(HomeTask task). 
+15.04.2016 15:40:24 (TRACE): HomeWork (title = "first task done!") initialized. 
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 2) was done by Student (Id = 2). 
+15.04.2016 15:40:24 (DEBUG): Hometask (title = "first task")from Course (name = "Geometry")was done by Student (name = "Alex").Homework (title = "first task done!"). 
+15.04.2016 15:40:24 (TRACE): Course.GetHomework(HomeWork homeWork, IWork task). 
+15.04.2016 15:40:24 (INFO): Homework on Task from Author (Id = 2) was recieved by Course (Id = 2). 
+15.04.2016 15:40:24 (DEBUG): Homework (title = "first task done!") on Task (title ="first task") from Author (name = "Alex") was recieved by Course (name = "Geometry"). 
+15.04.2016 15:40:24 (TRACE): Professor.SetMark(IWork homeWork). 
+15.04.2016 15:40:24 (INFO): Homework was recieved mark = 4. 
+15.04.2016 15:40:24 (DEBUG): Homework (title = "first task done!") was graded by Curator (ID = 2, name = "Mr.White")mark = 4. 
+15.04.2016 15:40:24 (TRACE): Archive.RecordMark(). 
+15.04.2016 15:40:24 (DEBUG): Course was added. 
+15.04.2016 15:40:24 (DEBUG): Task was added. 
+15.04.2016 15:40:24 (TRACE): HomeTask (title = "first task") initialized. 
+15.04.2016 15:40:24 (TRACE): Student.Update(HomeTask task). 
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 2) was recieved by Student (Id = 3). 
+15.04.2016 15:40:24 (DEBUG): Hometask (title = "first task")from Course (name = "Geometry")was recieved by Student (name = "Steve"). 
+15.04.2016 15:40:24 (TRACE): Student.DoHomeWork(HomeTask task). 
+15.04.2016 15:40:24 (TRACE): HomeWork (title = "first task done!") initialized. 
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 2) was done by Student (Id = 3). 
+15.04.2016 15:40:24 (DEBUG): Hometask (title = "first task")from Course (name = "Geometry")was done by Student (name = "Steve").Homework (title = "first task done!"). 
+15.04.2016 15:40:24 (TRACE): Course.GetHomework(HomeWork homeWork, IWork task). 
+15.04.2016 15:40:24 (INFO): Homework on Task from Author (Id = 3) was recieved by Course (Id = 2). 
+15.04.2016 15:40:24 (DEBUG): Homework (title = "first task done!") on Task (title ="first task") from Author (name = "Steve") was recieved by Course (name = "Geometry"). 
+15.04.2016 15:40:24 (TRACE): Professor.SetMark(IWork homeWork). 
+15.04.2016 15:40:24 (INFO): Homework was recieved mark = 4. 
+15.04.2016 15:40:24 (DEBUG): Homework (title = "first task done!") was graded by Curator (ID = 2, name = "Mr.White")mark = 4. 
+15.04.2016 15:40:24 (TRACE): Archive.RecordMark(). 
+15.04.2016 15:40:24 (DEBUG): Student was added. 
+15.04.2016 15:40:24 (DEBUG): Course was added. 
+15.04.2016 15:40:24 (DEBUG): Task was added. 
+15.04.2016 15:40:24 (TRACE): Course.NotifyObservers(IWork info). 
+15.04.2016 15:40:24 (INFO): Course (ID = 2) notifies observers with task. 
+15.04.2016 15:40:24 (DEBUG): Course (name = "Geometry") notifies observers with task (name = "second task"). 
+15.04.2016 15:40:24 (TRACE): HomeTask (title = "second task") initialized. 
+15.04.2016 15:40:24 (TRACE): Student.Update(HomeTask task). 
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 2) was recieved by Student (Id = 2). 
+15.04.2016 15:40:24 (DEBUG): Hometask (title = "second task")from Course (name = "Geometry")was recieved by Student (name = "Alex"). 
+15.04.2016 15:40:24 (TRACE): Student.DoHomeWork(HomeTask task). 
+15.04.2016 15:40:24 (TRACE): HomeWork (title = "second task done!") initialized. 
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 2) was done by Student (Id = 2). 
+15.04.2016 15:40:24 (DEBUG): Hometask (title = "second task")from Course (name = "Geometry")was done by Student (name = "Alex").Homework (title = "second task done!"). 
+15.04.2016 15:40:24 (TRACE): Course.GetHomework(HomeWork homeWork, IWork task). 
+15.04.2016 15:40:24 (INFO): Homework on Task from Author (Id = 2) was recieved by Course (Id = 2). 
+15.04.2016 15:40:24 (DEBUG): Homework (title = "second task done!") on Task (title ="second task") from Author (name = "Alex") was recieved by Course (name = "Geometry"). 
+15.04.2016 15:40:24 (TRACE): Professor.SetMark(IWork homeWork). 
+15.04.2016 15:40:24 (INFO): Homework was recieved mark = 4. 
+15.04.2016 15:40:24 (DEBUG): Homework (title = "second task done!") was graded by Curator (ID = 2, name = "Mr.White")mark = 4. 
+15.04.2016 15:40:24 (TRACE): Archive.RecordMark(). 
+15.04.2016 15:40:24 (DEBUG): Task was added. 
+15.04.2016 15:40:24 (TRACE): HomeTask (title = "second task") initialized. 
+15.04.2016 15:40:24 (TRACE): Student.Update(HomeTask task). 
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 2) was recieved by Student (Id = 3). 
+15.04.2016 15:40:24 (DEBUG): Hometask (title = "second task")from Course (name = "Geometry")was recieved by Student (name = "Steve"). 
+15.04.2016 15:40:24 (TRACE): Student.DoHomeWork(HomeTask task). 
+15.04.2016 15:40:24 (TRACE): HomeWork (title = "second task done!") initialized. 
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 2) was done by Student (Id = 3). 
+15.04.2016 15:40:24 (DEBUG): Hometask (title = "second task")from Course (name = "Geometry")was done by Student (name = "Steve").Homework (title = "second task done!"). 
+15.04.2016 15:40:24 (TRACE): Course.GetHomework(HomeWork homeWork, IWork task). 
+15.04.2016 15:40:24 (INFO): Homework on Task from Author (Id = 3) was recieved by Course (Id = 2). 
+15.04.2016 15:40:24 (DEBUG): Homework (title = "second task done!") on Task (title ="second task") from Author (name = "Steve") was recieved by Course (name = "Geometry"). 
+15.04.2016 15:40:24 (TRACE): Professor.SetMark(IWork homeWork). 
+15.04.2016 15:40:24 (INFO): Homework was recieved mark = 7. 
+15.04.2016 15:40:24 (DEBUG): Homework (title = "second task done!") was graded by Curator (ID = 2, name = "Mr.White")mark = 7. 
+15.04.2016 15:40:24 (TRACE): Archive.RecordMark(). 
+15.04.2016 15:40:24 (DEBUG): Task was added. 
+15.04.2016 15:40:24 (TRACE): Archive.GetMark(). 
+15.04.2016 15:40:24 (TRACE): Archive.GetMark(). 
+15.04.2016 15:40:24 (TRACE): Student (ID = 4, name = "Bob") initialized. 
+15.04.2016 15:40:24 (TRACE): Professor (ID = 3, name = "Mr.Black") initialized. 
+15.04.2016 15:40:24 (TRACE): Course (ID = 3, name = "Algebra") initialized. 
+15.04.2016 15:40:24 (TRACE): HomeTask (title = "first task") initialized. 
+15.04.2016 15:40:24 (TRACE): Course.AddObserver(IStudent student). 
+15.04.2016 15:40:24 (INFO): Course (ID = 3) adds observer (ID = 4). 
+15.04.2016 15:40:24 (DEBUG): Course (name = "Algebra") adds observer (name = "Bob"). 
+15.04.2016 15:40:24 (TRACE): Course.NotifyObservers(IWork info). 
+15.04.2016 15:40:24 (INFO): Course (ID = 3) notifies observers with task. 
+15.04.2016 15:40:24 (DEBUG): Course (name = "Algebra") notifies observers with task (name = "first task"). 
+15.04.2016 15:40:24 (TRACE): HomeTask (title = "first task") initialized. 
+15.04.2016 15:40:24 (TRACE): Student.Update(HomeTask task). 
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 3) was recieved by Student (Id = 4). 
+15.04.2016 15:40:24 (DEBUG): Hometask (title = "first task")from Course (name = "Algebra")was recieved by Student (name = "Bob"). 
+15.04.2016 15:40:24 (TRACE): Student.DoHomeWork(HomeTask task). 
+15.04.2016 15:40:24 (TRACE): HomeWork (title = "first task done!") initialized. 
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 3) was done by Student (Id = 4). 
+15.04.2016 15:40:24 (DEBUG): Hometask (title = "first task")from Course (name = "Algebra")was done by Student (name = "Bob").Homework (title = "first task done!"). 
+15.04.2016 15:40:24 (TRACE): Course.GetHomework(HomeWork homeWork, IWork task). 
+15.04.2016 15:40:24 (INFO): Homework on Task from Author (Id = 4) was recieved by Course (Id = 3). 
+15.04.2016 15:40:24 (DEBUG): Homework (title = "first task done!") on Task (title ="first task") from Author (name = "Bob") was recieved by Course (name = "Algebra"). 
+15.04.2016 15:40:24 (TRACE): Professor.SetMark(IWork homeWork). 
+15.04.2016 15:40:24 (INFO): Homework was recieved mark = 4. 
+15.04.2016 15:40:24 (DEBUG): Homework (title = "first task done!") was graded by Curator (ID = 3, name = "Mr.Black")mark = 4. 
+15.04.2016 15:40:24 (TRACE): Archive.RecordMark(). 
+15.04.2016 15:40:24 (DEBUG): Student was added. 
+15.04.2016 15:40:24 (DEBUG): Course was added. 
+15.04.2016 15:40:24 (DEBUG): Task was added. 
+15.04.2016 15:40:24 (TRACE): Archive.GetMark(). 

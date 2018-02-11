@@ -1,0 +1,3 @@
+08:16:33 (WARN) : Error occurs: Путь UNC должен иметь вид \\server\share.
+08:16:33 (WARN) : Incorrect path. The path was replaced by default path: "library"
+08:16:33 (INFO) : The library was cleared

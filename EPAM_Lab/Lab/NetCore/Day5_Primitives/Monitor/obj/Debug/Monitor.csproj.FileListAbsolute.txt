@@ -1,0 +1,12 @@
+D:\Katsiaryna_Zabelava\Day5_Primitives\Monitor\bin\Debug\Monitor.exe.config
+D:\Katsiaryna_Zabelava\Day5_Primitives\Monitor\bin\Debug\Monitor.exe
+D:\Katsiaryna_Zabelava\Day5_Primitives\Monitor\bin\Debug\Monitor.pdb
+D:\Katsiaryna_Zabelava\Day5_Primitives\Monitor\obj\Debug\Monitor.csprojResolveAssemblyReference.cache
+D:\Katsiaryna_Zabelava\Day5_Primitives\Monitor\obj\Debug\Monitor.exe
+D:\Katsiaryna_Zabelava\Day5_Primitives\Monitor\obj\Debug\Monitor.pdb
+D:\github\EPAM.RD.2016.S\Day5_Primitives\Monitor\bin\Debug\Monitor.exe.config
+D:\github\EPAM.RD.2016.S\Day5_Primitives\Monitor\obj\Debug\Monitor.exe
+D:\github\EPAM.RD.2016.S\Day5_Primitives\Monitor\obj\Debug\Monitor.pdb
+D:\github\EPAM.RD.2016.S\Day5_Primitives\Monitor\bin\Debug\Monitor.exe
+D:\github\EPAM.RD.2016.S\Day5_Primitives\Monitor\bin\Debug\Monitor.pdb
+D:\github\EPAM.RD.2016.S\Day5_Primitives\Monitor\obj\Debug\Monitor.csprojResolveAssemblyReference.cache

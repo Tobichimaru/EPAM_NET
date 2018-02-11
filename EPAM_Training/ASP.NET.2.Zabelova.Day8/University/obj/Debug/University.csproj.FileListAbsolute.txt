@@ -1,0 +1,9 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day8\University\obj\Debug\University.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day8\University\bin\Debug\University.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day8\University\bin\Debug\University.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day8\University\obj\Debug\University.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day8\University\obj\Debug\University.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day8\University\bin\Debug\NLog.config
+D:\github\epam\ASP.NET.2.Zabelova.Day8\University\bin\Debug\NLog.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day8\University\bin\Debug\NLog.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day8\University\bin\Debug\University.XML

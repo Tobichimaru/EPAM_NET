@@ -1,0 +1,10 @@
+D:\study\WCF\2_Contracts\WCFContracts\ConsoleHost\obj\Debug\ConsoleHost.csprojResolveAssemblyReference.cache
+D:\study\WCF\2_Contracts\WCFContracts\ConsoleHost\bin\Debug\ConsoleHost.exe.config
+D:\study\WCF\2_Contracts\WCFContracts\ConsoleHost\bin\Debug\ConsoleHost.exe
+D:\study\WCF\2_Contracts\WCFContracts\ConsoleHost\bin\Debug\ConsoleHost.pdb
+D:\study\WCF\2_Contracts\WCFContracts\ConsoleHost\bin\Debug\ContractService.dll
+D:\study\WCF\2_Contracts\WCFContracts\ConsoleHost\bin\Debug\AutoMapper.dll
+D:\study\WCF\2_Contracts\WCFContracts\ConsoleHost\bin\Debug\ContractService.pdb
+D:\study\WCF\2_Contracts\WCFContracts\ConsoleHost\bin\Debug\AutoMapper.xml
+D:\study\WCF\2_Contracts\WCFContracts\ConsoleHost\obj\Debug\ConsoleHost.exe
+D:\study\WCF\2_Contracts\WCFContracts\ConsoleHost\obj\Debug\ConsoleHost.pdb

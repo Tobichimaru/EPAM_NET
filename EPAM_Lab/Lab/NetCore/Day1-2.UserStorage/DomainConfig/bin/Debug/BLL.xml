@@ -1,0 +1,590 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BLL</name>
+    </assembly>
+    <members>
+        <member name="T:BLL.Interface.IBllCriterion`1">
+            <summary>
+                The Interface for search criteria
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:BLL.Interface.IBllCriterion`1.ApplyCriterion(`0)">
+            <summary>
+                Applies criterion to entity
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BLL.Interface.IUserServiceContract">
+            <summary>
+                Contract for WCF service
+            </summary>
+        </member>
+        <member name="M:BLL.Interface.IUserServiceContract.Add(BLL.Models.BllUser)">
+            <summary>
+                Adds user
+            </summary>
+            <param name="user">user to add</param>
+            <returns>id of the user</returns>
+        </member>
+        <member name="M:BLL.Interface.IUserServiceContract.Delete(BLL.Models.BllUser)">
+            <summary>
+                Deletes user
+            </summary>
+            <param name="user">user to delete</param>
+        </member>
+        <member name="M:BLL.Interface.IUserServiceContract.SearchForUsers(BLL.Interface.IBllCriterion{BLL.Models.BllUser}[])">
+            <summary>
+                Search the user according to criteria
+            </summary>
+            <param name="criteria">criteria for search</param>
+            <returns>id of the user</returns>
+        </member>
+        <member name="M:BLL.Interface.IUserServiceContract.Save">
+            <summary>
+                Saves users to xml
+            </summary>
+        </member>
+        <member name="M:BLL.Interface.IUserServiceContract.Load">
+            <summary>
+                Load users from xml
+            </summary>
+        </member>
+        <member name="T:BLL.Mappers.CriteriaMappers">
+            <summary>
+                Class for mapping IBllCriterion to IDalCriterion and vice versa
+            </summary>
+        </member>
+        <member name="M:BLL.Mappers.CriteriaMappers.ToDalCriteria(BLL.Interface.IBllCriterion{BLL.Models.BllUser})">
+            <summary>
+                Maps IBllCriterion to IDalCriterion
+            </summary>
+            <param name="criteria">Criteria to map</param>
+            <returns>IDalCriterion criterion</returns>
+        </member>
+        <member name="T:BLL.Mappers.UserMappers">
+            <summary>
+                Class for mapping BllUser to DalUser and vice versa
+            </summary>
+        </member>
+        <member name="M:BLL.Mappers.UserMappers.ToBllUser(DAL.DTO.DalUser)">
+            <summary>
+                Maps DalUser to BllUser
+            </summary>
+            <param name="user">DalUser object</param>
+            <returns>BllUser object</returns>
+        </member>
+        <member name="M:BLL.Mappers.UserMappers.ToDalUser(BLL.Models.BllUser)">
+            <summary>
+                Maps BllUser to DalUser
+            </summary>
+            <param name="user">DalUser object</param>
+            <returns>BllUser object</returns>
+        </member>
+        <member name="T:BLL.Models.BllGender">
+            <summary>
+                The gender of the user
+            </summary>
+        </member>
+        <member name="F:BLL.Models.BllGender.None">
+            <summary>
+                Not assigned
+            </summary>
+        </member>
+        <member name="F:BLL.Models.BllGender.Male">
+            <summary>
+                Male
+            </summary>
+        </member>
+        <member name="F:BLL.Models.BllGender.Female">
+            <summary>
+                Female
+            </summary>
+        </member>
+        <member name="T:BLL.Models.BllUser">
+            <summary>
+                User class in BLL
+            </summary>
+        </member>
+        <member name="M:BLL.Models.BllUser.#ctor">
+            <summary>
+                Default constructor
+            </summary>
+        </member>
+        <member name="P:BLL.Models.BllUser.Id">
+            <summary>
+                Gets of sets a Unique identifier
+            </summary>
+        </member>
+        <member name="P:BLL.Models.BllUser.FirstName">
+            <summary>
+                Gets of sets a First Name
+            </summary>
+        </member>
+        <member name="P:BLL.Models.BllUser.LastName">
+            <summary>
+                Gets of sets a Last Name
+            </summary>
+        </member>
+        <member name="P:BLL.Models.BllUser.BirthDate">
+            <summary>
+                Gets of sets a Birth Date
+            </summary>
+        </member>
+        <member name="P:BLL.Models.BllUser.Gender">
+            <summary>
+            Gender
+            </summary>
+        </member>
+        <member name="P:BLL.Models.BllUser.Cards">
+            <summary>
+                Gets of sets a User's Visa cards
+            </summary>
+        </member>
+        <member name="M:BLL.Models.BllUser.Equals(BLL.Models.BllUser,BLL.Models.BllUser)">
+            <summary>
+                Static Equals
+            </summary>
+            <param name="lhs">first user</param>
+            <param name="rhs">second user</param>
+            <returns>true, if objects are equal, otherwise false</returns>
+        </member>
+        <member name="M:BLL.Models.BllUser.Equals(BLL.Models.BllUser)">
+            <summary>
+                Instance Equals
+            </summary>
+            <param name="other">other user</param>
+            <returns>true, if objects are equal, otherwise false</returns>
+        </member>
+        <member name="M:BLL.Models.BllUser.Equals(System.Object)">
+            <summary>
+                Overriden Equals
+            </summary>
+            <param name="obj">other user</param>
+            <returns>true, if objects are equal, otherwise false</returns>
+        </member>
+        <member name="M:BLL.Models.BllUser.GetHashCode">
+            <summary>
+                Overriden GetHashCode
+            </summary>
+            <returns>hash code of the user</returns>
+        </member>
+        <member name="M:BLL.Models.BllUser.ToString">
+            <summary>
+                Overriden ToString
+            </summary>
+            <returns>string representation of the user</returns>
+        </member>
+        <member name="T:BLL.Models.BllVisaRecord">
+            <summary>
+                Class for Visa card description
+            </summary>
+        </member>
+        <member name="P:BLL.Models.BllVisaRecord.Country">
+            <summary>
+                Gets or sets the country
+            </summary>
+        </member>
+        <member name="P:BLL.Models.BllVisaRecord.StartDate">
+            <summary>
+                 Gets or sets the start date of visa operation
+            </summary>
+        </member>
+        <member name="P:BLL.Models.BllVisaRecord.ExpiryDate">
+            <summary>
+                Gets or sets the end date of visa operation
+            </summary>
+        </member>
+        <member name="T:BLL.SearchCriteria.FirstNameCriterion">
+            <summary>
+                Search criterion (comparing first name)
+            </summary>
+        </member>
+        <member name="M:BLL.SearchCriteria.FirstNameCriterion.#ctor(System.String)">
+            <summary>
+                Parametrized constructor
+            </summary>
+            <param name="firstName"></param>
+        </member>
+        <member name="M:BLL.SearchCriteria.FirstNameCriterion.ApplyCriterion(BLL.Models.BllUser)">
+            <summary>
+                Method to apply criterion
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BLL.SearchCriteria.IdCriterion">
+            <summary>
+            Search criterion (comparing Id)
+            </summary>
+        </member>
+        <member name="M:BLL.SearchCriteria.IdCriterion.#ctor(System.Int32,System.Int32)">
+            <summary>
+                Parametrized constructor
+            </summary>
+            <param name="minId"></param>
+            <param name="maxId"></param>
+        </member>
+        <member name="M:BLL.SearchCriteria.IdCriterion.ApplyCriterion(BLL.Models.BllUser)">
+            <summary>
+                Method to apply criterion
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BLL.SearchCriteria.LastNameCriterion">
+            <summary>
+            Search criterion (comparing last name)
+            </summary>
+        </member>
+        <member name="M:BLL.SearchCriteria.LastNameCriterion.#ctor(System.String)">
+            <summary>
+                Parametrized constructor
+            </summary>
+            <param name="lastName"></param>
+        </member>
+        <member name="M:BLL.SearchCriteria.LastNameCriterion.ApplyCriterion(BLL.Models.BllUser)">
+            <summary>
+                Method to apply criterion
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BLL.Service.MasterUserService">
+            <summary>
+            Master user service: allows add- and delete operations
+            </summary>
+        </member>
+        <member name="M:BLL.Service.MasterUserService.#ctor(DAL.Interface.IUserRepository)">
+            <summary>
+            Parametrized constructor
+            </summary>
+            <param name="repository"></param>
+        </member>
+        <member name="M:BLL.Service.MasterUserService.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:BLL.Service.MasterUserService.Save">
+            <summary>
+            Saves users to repository
+            </summary>
+        </member>
+        <member name="M:BLL.Service.MasterUserService.Load">
+            <summary>
+            Loads users from repository
+            </summary>
+        </member>
+        <member name="M:BLL.Service.MasterUserService.OnUserDeleted(System.Object,BLL.UserEventArgs)">
+            <summary>
+            Sends notifiication about deleting operation
+            </summary>
+            <param name="sender"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:BLL.Service.MasterUserService.OnUserAdded(System.Object,BLL.UserEventArgs)">
+            <summary>
+            Sends notifiication about adding operation
+            </summary>
+            <param name="sender"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:BLL.Service.MasterUserService.NotifyAdd(BLL.Models.BllUser)">
+            <summary>
+            Adds with notification
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BLL.Service.MasterUserService.NotifyDelete(BLL.Models.BllUser)">
+            <summary>
+            Deletes with notification
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="T:BLL.Service.SlaveUserService">
+            <summary>
+            Master user service: add- and delete operations are not allowed
+            </summary>
+        </member>
+        <member name="M:BLL.Service.SlaveUserService.#ctor(DAL.Interface.IUserRepository)">
+            <summary>
+            Parametrized constructor
+            </summary>
+            <param name="repository"></param>
+        </member>
+        <member name="M:BLL.Service.SlaveUserService.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="P:BLL.Service.SlaveUserService.Communicator">
+            <summary>
+            Overriden communicator property
+            </summary>
+        </member>
+        <member name="M:BLL.Service.SlaveUserService.Save">
+            <summary>
+            Not allowed
+            </summary>
+        </member>
+        <member name="M:BLL.Service.SlaveUserService.Load">
+            <summary>
+            Loads users from repository
+            </summary>
+        </member>
+        <member name="M:BLL.Service.SlaveUserService.NotifyAdd(BLL.Models.BllUser)">
+            <summary>
+            Not allowed
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BLL.Service.SlaveUserService.NotifyDelete(BLL.Models.BllUser)">
+            <summary>
+            Not allowed
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="M:BLL.Service.SlaveUserService.OnAdded(System.Object,BLL.UserEventArgs)">
+            <summary>
+            Adds user to repository if message from communicator recieved
+            </summary>
+            <param name="sender"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:BLL.Service.SlaveUserService.OnDeleted(System.Object,BLL.UserEventArgs)">
+            <summary>
+            Deletes user from repository if message from communicator recieved
+            </summary>
+            <param name="sender"></param>
+            <param name="args"></param>
+        </member>
+        <member name="T:BLL.Service.BaseUserService">
+            <summary>
+                Abstract class for user service
+            </summary>
+        </member>
+        <member name="F:BLL.Service.BaseUserService.Logger">
+            <summary>
+                NLog logger field
+            </summary>
+        </member>
+        <member name="F:BLL.Service.BaseUserService.LoggerSwitch">
+            <summary>
+                Activates NLog if true
+            </summary>
+        </member>
+        <member name="F:BLL.Service.BaseUserService.communicator">
+            <summary>
+                Provides network communication between services
+            </summary>
+        </member>
+        <member name="M:BLL.Service.BaseUserService.#cctor">
+            <summary>
+                Static constructor
+            </summary>
+        </member>
+        <member name="M:BLL.Service.BaseUserService.#ctor">
+            <summary>
+                Default constructor
+            </summary>
+        </member>
+        <member name="M:BLL.Service.BaseUserService.#ctor(DAL.Interface.IUserRepository)">
+            <summary>
+                Parametrized constructor
+            </summary>
+            <param name="repository"></param>
+        </member>
+        <member name="P:BLL.Service.BaseUserService.Communicator">
+            <summary>
+                Property to get/set communicator field
+            </summary>
+        </member>
+        <member name="P:BLL.Service.BaseUserService.Name">
+            <summary>
+                Gets or sets a Name of service according to its AppDomain
+            </summary>
+        </member>
+        <member name="P:BLL.Service.BaseUserService.Repository">
+            <summary>
+                Gets or sets a Serice's Repository
+            </summary>
+        </member>
+        <member name="P:BLL.Service.BaseUserService.StorageLock">
+            <summary>
+                Gets or sets a Used for syncronization 
+            </summary>
+        </member>
+        <member name="M:BLL.Service.BaseUserService.Add(BLL.Models.BllUser)">
+            <summary>
+                Thread-safe add
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BLL.Service.BaseUserService.Delete(BLL.Models.BllUser)">
+            <summary>
+            Thread-safe delete
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="M:BLL.Service.BaseUserService.SearchForUsers(BLL.Interface.IBllCriterion{BLL.Models.BllUser}[])">
+            <summary>
+            Thread-safe search
+            </summary>
+            <param name="criteria"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BLL.Service.BaseUserService.SearchForUsers(System.Func{BLL.Models.BllUser,System.Boolean}[])">
+            <summary>
+            Thread-safe search
+            </summary>
+            <param name="criteria"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BLL.Service.BaseUserService.Save">
+            <summary>
+                Abstract save method
+            </summary>
+        </member>
+        <member name="M:BLL.Service.BaseUserService.Load">
+            <summary>
+                Abstract load method
+            </summary>
+        </member>
+        <member name="M:BLL.Service.BaseUserService.NotifyAdd(BLL.Models.BllUser)">
+            <summary>
+                Add with notification
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BLL.Service.BaseUserService.NotifyDelete(BLL.Models.BllUser)">
+            <summary>
+                Delete with notification
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="T:BLL.UserEventArgs">
+            <summary>
+                Class for user service add/delete events
+            </summary>
+        </member>
+        <member name="M:BLL.UserEventArgs.#ctor(BLL.Models.BllUser)">
+            <summary>
+                Parametrized constructor
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="P:BLL.UserEventArgs.User">
+            <summary>
+                Gets the user
+            </summary>
+        </member>
+        <member name="T:BLL.UserServiceCommunicator">
+            <summary>
+                Class for network communication through sockets
+            </summary>
+        </member>
+        <member name="F:BLL.UserServiceCommunicator.receiver">
+            <summary>
+                Receiver of the messages
+            </summary>
+        </member>
+        <member name="F:BLL.UserServiceCommunicator.sender">
+            <summary>
+                Sender of the messages
+            </summary>
+        </member>
+        <member name="F:BLL.UserServiceCommunicator.recieverTask">
+            <summary>
+                Task for the receiver
+            </summary>
+        </member>
+        <member name="F:BLL.UserServiceCommunicator.tokenSource">
+            <summary>
+                Cancellation Token Source
+            </summary>
+        </member>
+        <member name="M:BLL.UserServiceCommunicator.#ctor(NetworkConfig.Sender{BLL.Models.BllUser},NetworkConfig.Receiver{BLL.Models.BllUser})">
+            <summary> 
+                 Initializes a new instance of the <see cref="T:BLL.UserServiceCommunicator" /> with sender and reciever objects
+            </summary>
+            <param name="sender">sender of the messages</param>
+            <param name="receiver">receiver of the messages</param>
+        </member>
+        <member name="M:BLL.UserServiceCommunicator.#ctor(NetworkConfig.Sender{BLL.Models.BllUser})">
+            <summary>
+                Initializes a new instance of the <see cref="T:BLL.UserServiceCommunicator" /> with sender
+            </summary>
+            <param name="sender">sender of the messages</param>
+        </member>
+        <member name="M:BLL.UserServiceCommunicator.#ctor(NetworkConfig.Receiver{BLL.Models.BllUser})">
+            <summary>
+                Initializes a new instance of the <see cref="T:BLL.UserServiceCommunicator" /> with sender
+            </summary>
+            <param name="receiver">receiver of the messages</param>
+        </member>
+        <member name="E:BLL.UserServiceCommunicator.UserAdded">
+            <summary>
+                Event for user adding
+            </summary>
+        </member>
+        <member name="E:BLL.UserServiceCommunicator.UserDeleted">
+            <summary>
+                Event for user deleting
+            </summary>
+        </member>
+        <member name="M:BLL.UserServiceCommunicator.Dispose">
+            <summary>
+                Realease sockets
+            </summary>
+        </member>
+        <member name="M:BLL.UserServiceCommunicator.RunReceiver">
+            <summary>
+                Asynchronously starts message recieving
+            </summary>
+        </member>
+        <member name="M:BLL.UserServiceCommunicator.Connect(System.Collections.Generic.IEnumerable{System.Net.IPEndPoint})">
+            <summary>
+                Connects to group of listeners
+            </summary>
+            <param name="endPoints">end points</param>
+        </member>
+        <member name="M:BLL.UserServiceCommunicator.StopReceiver">
+            <summary>
+                Stops recieving
+            </summary>
+        </member>
+        <member name="M:BLL.UserServiceCommunicator.SendAdd(BLL.UserEventArgs)">
+            <summary>
+                Sends add notification
+            </summary>
+            <param name="args">user event arguments</param>
+        </member>
+        <member name="M:BLL.UserServiceCommunicator.SendDelete(BLL.UserEventArgs)">
+            <summary>
+                Sends delete notification
+            </summary>
+            <param name="args">user event arguments</param>
+        </member>
+        <member name="M:BLL.UserServiceCommunicator.OnUserDeleted(System.Object,BLL.UserEventArgs)">
+            <summary>
+                Invokes UserDeleted event
+            </summary>
+            <param name="sender">sender of the message</param>
+            <param name="args">user event arguments</param>
+        </member>
+        <member name="M:BLL.UserServiceCommunicator.OnUserAdded(System.Object,BLL.UserEventArgs)">
+            <summary>
+                Invokes UserAdded event
+            </summary>
+            <param name="sender">sender of the message</param>
+            <param name="args">user event arguments</param>
+        </member>
+    </members>
+</doc>

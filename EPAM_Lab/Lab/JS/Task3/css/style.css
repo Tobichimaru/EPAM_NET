@@ -1,0 +1,39 @@
+#main-container {
+	border: 3px solid black;
+	width: 750px;
+}
+
+#control-panel {
+	width: 144px;
+}
+
+.button {
+	width: 90%;
+	height: 3vw;
+	margin: 0 0 5% 5%;
+	background-color: white;
+	cursor: pointer; 
+	border: 1px solid grey;
+	text-align: center;
+	line-height: 200%;
+}
+
+.button.disabled {
+	color : grey;
+	cursor: default;
+}
+
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.block {
+	width: 48px;
+	height: 48px;
+	border: 1px solid grey;
+	float: left;
+	text-align: center;
+	line-height: 3em;
+}

@@ -1,0 +1,12 @@
+﻿@model ViewsTask.Models.User
+@{
+    ViewBag.Title = "Info";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@Html.Partial("_Header", Model)
+
+@using (Html.BeginForm("ChangeFraction", "Home", new { userId = Model.Id }))
+{
+    <input type="submit" value="Join side" name="value" class="btn btn-default" id="btnChangeSide" />
+}
+

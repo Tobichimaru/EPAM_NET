@@ -1,0 +1,6 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day3\CustomerInfo\obj\Debug\CustomerInfo.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day3\CustomerInfo\bin\Debug\CustomerInfo.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day3\CustomerInfo\bin\Debug\CustomerInfo.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day3\CustomerInfo\obj\Debug\CustomerInfo.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day3\CustomerInfo\obj\Debug\CustomerInfo.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day3\CustomerInfo\bin\Debug\CustomerInfo.XML

@@ -1,0 +1,61 @@
+//-----------------Fonts--------------------
+@font-face {
+    font-family: MyriadBold;
+    src: url(fonts/MyriadPro-Bold.otf);
+}
+@font-face {
+    font-family: MyriadRegular;
+    src: url(fonts/MyriadPro-Regular.otf);
+}
+@font-face {
+    font-family: MyriadCond;
+    src: url(fonts/MyriadPro-Cond.otf);
+}
+@font-face {
+    font-family: MyriadLight;
+    src: url(fonts/MyriadPro-Light.otf);
+}
+
+//-------------------Color-Variables--------------------
+@main-color: #601C6A;
+@main-light-color: @main-color + #87C17F; 
+@main-dark-color: @main-color + #354B33;
+@main-semi-light-color: @main-color + #7EB476;
+@main-semi-dark-color: @main-color + #18051B;
+
+
+//------------------LESS-styles---------------------------
+.gradient (@height: 3vw) {
+    height: @height;
+    background: linear-gradient(to right, @main-dark-color, @main-semi-light-color, white, @main-semi-light-color, @main-dark-color);
+}
+.top-gradient {
+    background: linear-gradient(to top, @main-dark-color, @main-semi-light-color, white, @main-semi-light-color, @main-dark-color);
+}
+.dark-gradient {
+    background: linear-gradient(to right, @main-dark-color, @main-semi-dark-color, @main-dark-color);
+}
+.dark-top-gradient {
+    background: linear-gradient(to top, @main-dark-color, @main-semi-dark-color, @main-dark-color);
+}
+.font(@font-size, @font-family:MyriadBold, @line-height:inherit, @display:inline, @font-weight:normal) {
+    font-family: @font-family;
+    font-size: @font-size;
+    line-height: @line-height;
+    display: @display;
+    font-weight: @font-weight;
+}
+.wh(@width, @height:auto) {
+    width: @width;
+    height: @height;
+}
+.float {
+    float:left;
+}
+.middle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

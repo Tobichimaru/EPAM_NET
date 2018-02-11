@@ -1,0 +1,6 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day13\Matrix\obj\Debug\Matrix.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day13\Matrix\bin\Debug\Matrix.XML
+D:\github\epam\ASP.NET.2.Zabelova.Day13\Matrix\bin\Debug\Matrix.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day13\Matrix\bin\Debug\Matrix.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day13\Matrix\obj\Debug\Matrix.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day13\Matrix\obj\Debug\Matrix.pdb

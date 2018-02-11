@@ -1,0 +1,6 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day1\Sorting\bin\Debug\Sorting.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day1\Sorting\bin\Debug\Sorting.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day1\Sorting\obj\Debug\Sorting.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day1\Sorting\obj\Debug\Sorting.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day1\Sorting\bin\Debug\Sorting.XML
+D:\github\epam\ASP.NET.2.Zabelova.Day1\Sorting\obj\Debug\Sorting.csprojResolveAssemblyReference.cache

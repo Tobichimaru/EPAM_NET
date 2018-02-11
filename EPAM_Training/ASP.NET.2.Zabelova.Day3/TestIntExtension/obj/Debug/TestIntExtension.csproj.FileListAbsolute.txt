@@ -1,0 +1,11 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestIntExtension\bin\Debug\TestIntExtension.XML
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestIntExtension\bin\Debug\TestIntExtension.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestIntExtension\bin\Debug\TestIntExtension.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestIntExtension\bin\Debug\IntExtension.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestIntExtension\bin\Debug\nunit.framework.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestIntExtension\bin\Debug\IntExtension.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestIntExtension\bin\Debug\IntExtension.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestIntExtension\bin\Debug\nunit.framework.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestIntExtension\obj\Debug\TestIntExtension.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestIntExtension\obj\Debug\TestIntExtension.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day3\TestIntExtension\obj\Debug\TestIntExtension.pdb

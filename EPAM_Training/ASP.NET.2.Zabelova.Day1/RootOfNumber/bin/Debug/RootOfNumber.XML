@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RootOfNumber</name>
+    </assembly>
+    <members>
+        <member name="T:RootOfNumber.Root">
+            <summary>
+            Class for calculating n-th root of a real number
+            </summary>
+        </member>
+        <member name="M:RootOfNumber.Root.NRoot(System.Double,System.Int32,System.Double)">
+            <summary>
+            Method for calculating n-th root of a real number with given precision
+            </summary>
+            <param name="a">number from which the root is removed</param>
+            <param name="n">degree of the root</param>
+            <param name="eps">precision</param>
+            <returns>n-th root of the real number</returns>
+        </member>
+        <member name="M:RootOfNumber.Root.BinPower(System.Double,System.Int32)">
+            <summary>
+            Method for calculating n-th degree of a real number
+            </summary>
+            <param name="a">number raised to the power</param>
+            <param name="n">degree of the number</param>
+            <returns>n-th degree of the number a</returns>
+        </member>
+    </members>
+</doc>

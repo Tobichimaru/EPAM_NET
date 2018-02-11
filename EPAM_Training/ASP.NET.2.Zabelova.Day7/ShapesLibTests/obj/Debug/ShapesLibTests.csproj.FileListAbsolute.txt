@@ -1,0 +1,10 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day7\ShapesLibTests\obj\Debug\ShapesLibTests.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day7\ShapesLibTests\bin\Debug\ShapesLibTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day7\ShapesLibTests\bin\Debug\ShapesLibTests.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day7\ShapesLibTests\bin\Debug\nunit.framework.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day7\ShapesLibTests\bin\Debug\ShapesLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day7\ShapesLibTests\bin\Debug\ShapesLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day7\ShapesLibTests\bin\Debug\nunit.framework.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day7\ShapesLibTests\obj\Debug\ShapesLibTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day7\ShapesLibTests\obj\Debug\ShapesLibTests.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day7\ShapesLibTests\bin\Debug\ShapesLib.xml

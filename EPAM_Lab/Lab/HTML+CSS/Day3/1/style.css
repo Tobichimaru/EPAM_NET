@@ -1,0 +1,16 @@
+.parent {
+	width: 25em;
+	height: 10em;
+	margin: 2em auto;
+	background-color: deepskyblue;
+}
+
+.middle {
+	width: 100%;
+}
+
+.child {
+	background-color: tomato;
+	padding: 1em;
+	border: .5em solid;
+}

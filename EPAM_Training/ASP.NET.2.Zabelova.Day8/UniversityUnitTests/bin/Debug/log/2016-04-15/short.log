@@ -1,0 +1,59 @@
+15.04.2016 15:38:36 (INFO): Course (ID = 1) adds observer (ID = 1)
+15.04.2016 15:38:36 (INFO): Course (ID = 1) notifies observers with task
+15.04.2016 15:38:36 (INFO): Hometask from Course (ID = 1) was recieved by Student (Id = 1)
+15.04.2016 15:38:36 (INFO): Hometask from Course (ID = 1) was done by Student (Id = 1)
+15.04.2016 15:38:37 (INFO): Homework on Task from Author (Id = 1) was recieved by Course (Id = 1)
+15.04.2016 15:38:37 (INFO): Homework was recieved mark = 3
+15.04.2016 15:38:37 (WARN): Archive doesn't contain Task (Title = first task)
+15.04.2016 15:40:14 (INFO): Course (ID = 1) adds observer (ID = 1)
+15.04.2016 15:40:14 (INFO): Course (ID = 1) notifies observers with task
+15.04.2016 15:40:14 (INFO): Hometask from Course (ID = 1) was recieved by Student (Id = 1)
+15.04.2016 15:40:14 (INFO): Hometask from Course (ID = 1) was done by Student (Id = 1)
+15.04.2016 15:40:14 (INFO): Homework on Task from Author (Id = 1) was recieved by Course (Id = 1)
+15.04.2016 15:40:14 (INFO): Homework was recieved mark = 7
+15.04.2016 15:40:23 (INFO): Course (ID = 1) adds observer (ID = 1)
+15.04.2016 15:40:23 (INFO): Course (ID = 1) adds observer (ID = 2)
+15.04.2016 15:40:23 (INFO): Course (ID = 2) adds observer (ID = 2)
+15.04.2016 15:40:23 (INFO): Course (ID = 2) adds observer (ID = 3)
+15.04.2016 15:40:23 (INFO): Course (ID = 1) notifies observers with task
+15.04.2016 15:40:23 (INFO): Hometask from Course (ID = 1) was recieved by Student (Id = 1)
+15.04.2016 15:40:23 (INFO): Hometask from Course (ID = 1) was done by Student (Id = 1)
+15.04.2016 15:40:23 (INFO): Homework on Task from Author (Id = 1) was recieved by Course (Id = 1)
+15.04.2016 15:40:23 (INFO): Homework was recieved mark = 4
+15.04.2016 15:40:23 (INFO): Hometask from Course (ID = 1) was recieved by Student (Id = 2)
+15.04.2016 15:40:23 (INFO): Hometask from Course (ID = 1) was done by Student (Id = 2)
+15.04.2016 15:40:23 (INFO): Homework on Task from Author (Id = 2) was recieved by Course (Id = 1)
+15.04.2016 15:40:23 (INFO): Homework was recieved mark = 6
+15.04.2016 15:40:23 (INFO): Course (ID = 1) notifies observers with task
+15.04.2016 15:40:23 (INFO): Hometask from Course (ID = 1) was recieved by Student (Id = 1)
+15.04.2016 15:40:23 (INFO): Hometask from Course (ID = 1) was done by Student (Id = 1)
+15.04.2016 15:40:23 (INFO): Homework on Task from Author (Id = 1) was recieved by Course (Id = 1)
+15.04.2016 15:40:23 (INFO): Homework was recieved mark = 4
+15.04.2016 15:40:23 (INFO): Hometask from Course (ID = 1) was recieved by Student (Id = 2)
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 1) was done by Student (Id = 2)
+15.04.2016 15:40:24 (INFO): Homework on Task from Author (Id = 2) was recieved by Course (Id = 1)
+15.04.2016 15:40:24 (INFO): Homework was recieved mark = 8
+15.04.2016 15:40:24 (INFO): Course (ID = 2) notifies observers with task
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 2) was recieved by Student (Id = 2)
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 2) was done by Student (Id = 2)
+15.04.2016 15:40:24 (INFO): Homework on Task from Author (Id = 2) was recieved by Course (Id = 2)
+15.04.2016 15:40:24 (INFO): Homework was recieved mark = 4
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 2) was recieved by Student (Id = 3)
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 2) was done by Student (Id = 3)
+15.04.2016 15:40:24 (INFO): Homework on Task from Author (Id = 3) was recieved by Course (Id = 2)
+15.04.2016 15:40:24 (INFO): Homework was recieved mark = 4
+15.04.2016 15:40:24 (INFO): Course (ID = 2) notifies observers with task
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 2) was recieved by Student (Id = 2)
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 2) was done by Student (Id = 2)
+15.04.2016 15:40:24 (INFO): Homework on Task from Author (Id = 2) was recieved by Course (Id = 2)
+15.04.2016 15:40:24 (INFO): Homework was recieved mark = 4
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 2) was recieved by Student (Id = 3)
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 2) was done by Student (Id = 3)
+15.04.2016 15:40:24 (INFO): Homework on Task from Author (Id = 3) was recieved by Course (Id = 2)
+15.04.2016 15:40:24 (INFO): Homework was recieved mark = 7
+15.04.2016 15:40:24 (INFO): Course (ID = 3) adds observer (ID = 4)
+15.04.2016 15:40:24 (INFO): Course (ID = 3) notifies observers with task
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 3) was recieved by Student (Id = 4)
+15.04.2016 15:40:24 (INFO): Hometask from Course (ID = 3) was done by Student (Id = 4)
+15.04.2016 15:40:24 (INFO): Homework on Task from Author (Id = 4) was recieved by Course (Id = 3)
+15.04.2016 15:40:24 (INFO): Homework was recieved mark = 4

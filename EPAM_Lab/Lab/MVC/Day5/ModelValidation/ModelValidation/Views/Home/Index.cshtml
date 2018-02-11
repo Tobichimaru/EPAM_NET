@@ -1,0 +1,71 @@
+﻿@model ModelValidation.Models.Voucher
+
+@{
+    ViewBag.Title = "Voucher";
+}
+
+<div class="panel panel-primary">
+    <div class="panel-heading"><h4>Add Form</h4></div>
+@using (@Html.BeginForm("Index", "Home", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    <div class="panel-body">
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-10">
+                @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+            </div>
+
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Prefix, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-4">
+                @Html.TextBoxFor(model => model.Prefix, new { @class = "form-control" })
+            </div>
+            @Html.LabelFor(model => model.Postfix, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-4">
+                @Html.TextBoxFor(model => model.Postfix, new { @class = "form-control" })
+            </div>
+        </div>
+        <hr />
+        <div class="form-group">
+            @Html.LabelFor(model => model.MinimalAmount, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-4">
+                @Html.TextBoxFor(model => model.MinimalAmount, new { @class = "form-control" })
+            </div>
+            @Html.LabelFor(model => model.Percentage, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-4">
+                @Html.TextBoxFor(model => model.Percentage, new { @class = "form-control" })
+            </div>
+        </div>
+        <hr />
+        <div class="form-group">
+            @Html.LabelFor(model => model.StartDate, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-4">
+                @Html.TextBoxFor(model => model.StartDate, new { @class = "form-control" })
+            </div>
+            @Html.LabelFor(model => model.EndDate, new { @class = "control-label col-sm-2" })
+            <div class="col-sm-4">
+                @Html.TextBoxFor(model => model.EndDate, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="checkbox-inline col-sm-offset-2">
+            @Html.CheckBoxFor(model => model.SingleUse)
+            <b>@Html.LabelFor(model => model.SingleUse)</b>
+        </div>
+    </div>
+
+    <div class="panel-footer">
+        <input type="submit" value="Add Voucher" class="btn btn-primary" />
+        @Html.ActionLink("Clear", "Index", null, new { @class = "btn btn-warning" })
+    </div>
+        
+    }
+</div>
+
+
+@section scripts
+{
+@*<script src="~/Scripts/jquery-1.9.1.js"></script>
+<script src="~/Scripts/bootstrap.js"></script>*@
+}

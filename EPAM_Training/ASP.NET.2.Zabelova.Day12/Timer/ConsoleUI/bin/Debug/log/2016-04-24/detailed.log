@@ -1,0 +1,88 @@
+24.04.2016 22:13:02 (TRACE) TimerLib.Listeners.OtherClass.Register :: OtherClass.Register called
+24.04.2016 22:13:02 (DEBUG) TimerLib.Listeners.OtherClass.Register :: OtherClass was registered to TimerManager
+24.04.2016 22:13:02 (TRACE) TimerLib.Listeners.OtherClass.GenerateMessage :: OtherClass.GenerateMessage called. EventArgs.Message: 1-st timer simulation
+24.04.2016 22:13:02 (TRACE) TimerLib.Listeners.OtherClass.Unregister :: OtherClass.Register called
+24.04.2016 22:13:02 (DEBUG) TimerLib.Listeners.OtherClass.Unregister :: OtherClass was registered to TimerManager
+24.04.2016 22:13:02 (TRACE) TimerLib.Listeners.OtherClass.Unregister :: OtherClass.Register called
+24.04.2016 22:13:02 (DEBUG) TimerLib.Listeners.OtherClass.Unregister :: OtherClass was registered to TimerManager
+24.04.2016 22:13:02 (TRACE) TimerLib.Listeners.OtherClass.Register :: OtherClass.Register called
+24.04.2016 22:13:02 (DEBUG) TimerLib.Listeners.OtherClass.Register :: OtherClass was registered to TimerManager
+24.04.2016 22:25:26 (TRACE) TimerLib.Listeners.SomeClass..ctor :: SomeClass ctor called
+24.04.2016 22:25:26 (DEBUG) TimerLib.Listeners.SomeClass..ctor :: SomeClass was registered to TimerManager
+24.04.2016 22:25:26 (TRACE) TimerLib.Listeners.OtherClass.Register :: OtherClass.Register called
+24.04.2016 22:25:26 (DEBUG) TimerLib.Listeners.OtherClass.Register :: OtherClass was registered to TimerManager
+24.04.2016 22:25:26 (TRACE) TimerLib.Manager.TimerManager.SimulateNewTimer :: Start(1-st timer simulation, 1000) called
+24.04.2016 22:25:26 (TRACE) TimerLib.Manager.TimerMessageEventArgs..ctor :: TimerMessageEventArgs(1-st timer simulation, 1000) ctor called
+24.04.2016 22:25:26 (TRACE) TimerLib.Manager.TimerManager.OnTimerEvent :: TimerManager.OnTimerEvent called. Args: 1-st timer simulation, 1000
+24.04.2016 22:25:26 (TRACE) TimerLib.Listeners.SomeClass.GenerateMessage :: SomeClass.GenerateMessage called, eventArgs.Message: 1-st timer simulation
+24.04.2016 22:25:26 (TRACE) TimerLib.Listeners.OtherClass.GenerateMessage :: OtherClass.GenerateMessage called, eventArgs.Message: 1-st timer simulation
+24.04.2016 22:25:26 (TRACE) TimerLib.Listeners.OtherClass.Unregister :: OtherClass.Unregister called
+24.04.2016 22:25:26 (DEBUG) TimerLib.Listeners.OtherClass.Unregister :: OtherClass was unregistered to TimerManager
+24.04.2016 22:25:26 (TRACE) TimerLib.Manager.TimerManager.SimulateNewTimer :: Start(2-nd timer simulation, 1000) called
+24.04.2016 22:25:26 (TRACE) TimerLib.Manager.TimerMessageEventArgs..ctor :: TimerMessageEventArgs(2-nd timer simulation, 1000) ctor called
+24.04.2016 22:25:26 (TRACE) TimerLib.Manager.TimerManager.OnTimerEvent :: TimerManager.OnTimerEvent called. Args: 2-nd timer simulation, 1000
+24.04.2016 22:25:26 (TRACE) TimerLib.Listeners.SomeClass.GenerateMessage :: SomeClass.GenerateMessage called, eventArgs.Message: 2-nd timer simulation
+24.04.2016 22:25:26 (TRACE) TimerLib.Listeners.OtherClass.Unregister :: OtherClass.Unregister called
+24.04.2016 22:25:26 (DEBUG) TimerLib.Listeners.OtherClass.Unregister :: OtherClass was unregistered to TimerManager
+24.04.2016 22:25:26 (TRACE) TimerLib.Manager.TimerManager.SimulateNewTimer :: Start(3-nd timer simulation, 1000) called
+24.04.2016 22:25:26 (TRACE) TimerLib.Manager.TimerMessageEventArgs..ctor :: TimerMessageEventArgs(3-nd timer simulation, 1000) ctor called
+24.04.2016 22:25:26 (TRACE) TimerLib.Manager.TimerManager.OnTimerEvent :: TimerManager.OnTimerEvent called. Args: 3-nd timer simulation, 1000
+24.04.2016 22:25:26 (TRACE) TimerLib.Listeners.SomeClass.GenerateMessage :: SomeClass.GenerateMessage called, eventArgs.Message: 3-nd timer simulation
+24.04.2016 22:25:26 (TRACE) TimerLib.Listeners.OtherClass.Register :: OtherClass.Register called
+24.04.2016 22:25:26 (ERROR) TimerLib.Listeners.OtherClass.Register :: TimerManager is null
+24.04.2016 22:25:46 (TRACE) TimerLib.Listeners.SomeClass..ctor :: SomeClass ctor called
+24.04.2016 22:25:46 (DEBUG) TimerLib.Listeners.SomeClass..ctor :: SomeClass was registered to TimerManager
+24.04.2016 22:25:46 (TRACE) TimerLib.Listeners.OtherClass.Register :: OtherClass.Register called
+24.04.2016 22:25:46 (DEBUG) TimerLib.Listeners.OtherClass.Register :: OtherClass was registered to TimerManager
+24.04.2016 22:25:46 (TRACE) TimerLib.Manager.TimerManager.SimulateNewTimer :: Start(1-st timer simulation, 1000) called
+24.04.2016 22:25:46 (TRACE) TimerLib.Manager.TimerMessageEventArgs..ctor :: TimerMessageEventArgs(1-st timer simulation, 1000) ctor called
+24.04.2016 22:25:46 (TRACE) TimerLib.Manager.TimerManager.OnTimerEvent :: TimerManager.OnTimerEvent called. Args: 1-st timer simulation, 1000
+24.04.2016 22:25:46 (TRACE) TimerLib.Listeners.SomeClass.GenerateMessage :: SomeClass.GenerateMessage called, eventArgs.Message: 1-st timer simulation
+24.04.2016 22:25:46 (TRACE) TimerLib.Listeners.OtherClass.GenerateMessage :: OtherClass.GenerateMessage called, eventArgs.Message: 1-st timer simulation
+24.04.2016 22:25:46 (TRACE) TimerLib.Listeners.OtherClass.Unregister :: OtherClass.Unregister called
+24.04.2016 22:25:47 (DEBUG) TimerLib.Listeners.OtherClass.Unregister :: OtherClass was unregistered to TimerManager
+24.04.2016 22:25:47 (TRACE) TimerLib.Manager.TimerManager.SimulateNewTimer :: Start(2-nd timer simulation, 1000) called
+24.04.2016 22:25:47 (TRACE) TimerLib.Manager.TimerMessageEventArgs..ctor :: TimerMessageEventArgs(2-nd timer simulation, 1000) ctor called
+24.04.2016 22:25:47 (TRACE) TimerLib.Manager.TimerManager.OnTimerEvent :: TimerManager.OnTimerEvent called. Args: 2-nd timer simulation, 1000
+24.04.2016 22:25:47 (TRACE) TimerLib.Listeners.SomeClass.GenerateMessage :: SomeClass.GenerateMessage called, eventArgs.Message: 2-nd timer simulation
+24.04.2016 22:25:47 (TRACE) TimerLib.Listeners.OtherClass.Unregister :: OtherClass.Unregister called
+24.04.2016 22:25:47 (DEBUG) TimerLib.Listeners.OtherClass.Unregister :: OtherClass was unregistered to TimerManager
+24.04.2016 22:25:47 (TRACE) TimerLib.Manager.TimerManager.SimulateNewTimer :: Start(3-nd timer simulation, 1000) called
+24.04.2016 22:25:47 (TRACE) TimerLib.Manager.TimerMessageEventArgs..ctor :: TimerMessageEventArgs(3-nd timer simulation, 1000) ctor called
+24.04.2016 22:25:47 (TRACE) TimerLib.Manager.TimerManager.OnTimerEvent :: TimerManager.OnTimerEvent called. Args: 3-nd timer simulation, 1000
+24.04.2016 22:25:47 (TRACE) TimerLib.Listeners.SomeClass.GenerateMessage :: SomeClass.GenerateMessage called, eventArgs.Message: 3-nd timer simulation
+24.04.2016 22:25:47 (TRACE) TimerLib.Listeners.OtherClass.Register :: OtherClass.Register called
+24.04.2016 22:25:47 (DEBUG) TimerLib.Listeners.OtherClass.Register :: OtherClass was registered to TimerManager
+24.04.2016 22:25:47 (TRACE) TimerLib.Manager.TimerManager.Start :: Start(300) called
+24.04.2016 22:25:47 (TRACE) TimerLib.Manager.TimerMessageEventArgs..ctor :: TimerMessageEventArgs(Time is over!, 300) ctor called
+24.04.2016 22:25:47 (TRACE) TimerLib.Manager.TimerManager.OnTimerEvent :: TimerManager.OnTimerEvent called. Args: Time is over!, 300
+24.04.2016 22:25:47 (TRACE) TimerLib.Listeners.SomeClass.GenerateMessage :: SomeClass.GenerateMessage called, eventArgs.Message: Time is over!
+24.04.2016 22:25:47 (TRACE) TimerLib.Listeners.OtherClass.GenerateMessage :: OtherClass.GenerateMessage called, eventArgs.Message: Time is over!
+24.04.2016 22:29:07 (TRACE) TimerLib.Listeners.SomeClass..ctor :: SomeClass ctor called
+24.04.2016 22:29:07 (DEBUG) TimerLib.Listeners.SomeClass..ctor :: SomeClass was registered to TimerManager
+24.04.2016 22:29:07 (TRACE) TimerLib.Listeners.OtherClass.Register :: OtherClass.Register called
+24.04.2016 22:29:07 (DEBUG) TimerLib.Listeners.OtherClass.Register :: OtherClass was registered to TimerManager
+24.04.2016 22:29:07 (TRACE) TimerLib.Manager.TimerManager.SimulateNewTimer :: Start(1-st timer simulation, 1000) called
+24.04.2016 22:29:07 (TRACE) TimerLib.Manager.TimerMessageEventArgs..ctor :: TimerMessageEventArgs(1-st timer simulation, 1000) ctor called
+24.04.2016 22:29:07 (TRACE) TimerLib.Manager.TimerManager.OnTimerEvent :: TimerManager.OnTimerEvent called. Args: 1-st timer simulation, 1000
+24.04.2016 22:29:07 (TRACE) TimerLib.Listeners.SomeClass.GenerateMessage :: SomeClass.GenerateMessage called, eventArgs.Message: 1-st timer simulation
+24.04.2016 22:29:07 (TRACE) TimerLib.Listeners.OtherClass.GenerateMessage :: OtherClass.GenerateMessage called, eventArgs.Message: 1-st timer simulation
+24.04.2016 22:29:07 (TRACE) TimerLib.Listeners.OtherClass.Unregister :: OtherClass.Unregister called
+24.04.2016 22:29:07 (DEBUG) TimerLib.Listeners.OtherClass.Unregister :: OtherClass was unregistered to TimerManager
+24.04.2016 22:29:07 (TRACE) TimerLib.Manager.TimerManager.SimulateNewTimer :: Start(2-nd timer simulation, 1000) called
+24.04.2016 22:29:07 (TRACE) TimerLib.Manager.TimerMessageEventArgs..ctor :: TimerMessageEventArgs(2-nd timer simulation, 1000) ctor called
+24.04.2016 22:29:07 (TRACE) TimerLib.Manager.TimerManager.OnTimerEvent :: TimerManager.OnTimerEvent called. Args: 2-nd timer simulation, 1000
+24.04.2016 22:29:07 (TRACE) TimerLib.Listeners.SomeClass.GenerateMessage :: SomeClass.GenerateMessage called, eventArgs.Message: 2-nd timer simulation
+24.04.2016 22:29:07 (TRACE) TimerLib.Listeners.OtherClass.Unregister :: OtherClass.Unregister called
+24.04.2016 22:29:07 (DEBUG) TimerLib.Listeners.OtherClass.Unregister :: OtherClass was unregistered to TimerManager
+24.04.2016 22:29:07 (TRACE) TimerLib.Manager.TimerManager.SimulateNewTimer :: Start(3-nd timer simulation, 1000) called
+24.04.2016 22:29:07 (TRACE) TimerLib.Manager.TimerMessageEventArgs..ctor :: TimerMessageEventArgs(3-nd timer simulation, 1000) ctor called
+24.04.2016 22:29:07 (TRACE) TimerLib.Manager.TimerManager.OnTimerEvent :: TimerManager.OnTimerEvent called. Args: 3-nd timer simulation, 1000
+24.04.2016 22:29:07 (TRACE) TimerLib.Listeners.SomeClass.GenerateMessage :: SomeClass.GenerateMessage called, eventArgs.Message: 3-nd timer simulation
+24.04.2016 22:29:07 (TRACE) TimerLib.Listeners.OtherClass.Register :: OtherClass.Register called
+24.04.2016 22:29:07 (DEBUG) TimerLib.Listeners.OtherClass.Register :: OtherClass was registered to TimerManager
+24.04.2016 22:29:07 (TRACE) TimerLib.Manager.TimerManager.Start :: Start(300) called
+24.04.2016 22:29:07 (TRACE) TimerLib.Manager.TimerMessageEventArgs..ctor :: TimerMessageEventArgs(Time is over!, 300) ctor called
+24.04.2016 22:29:07 (TRACE) TimerLib.Manager.TimerManager.OnTimerEvent :: TimerManager.OnTimerEvent called. Args: Time is over!, 300
+24.04.2016 22:29:07 (TRACE) TimerLib.Listeners.SomeClass.GenerateMessage :: SomeClass.GenerateMessage called, eventArgs.Message: Time is over!
+24.04.2016 22:29:07 (TRACE) TimerLib.Listeners.OtherClass.GenerateMessage :: OtherClass.GenerateMessage called, eventArgs.Message: Time is over!

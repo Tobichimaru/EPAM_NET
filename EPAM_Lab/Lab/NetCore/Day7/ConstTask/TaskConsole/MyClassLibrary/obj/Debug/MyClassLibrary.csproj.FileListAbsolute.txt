@@ -1,0 +1,4 @@
+D:\Katsiaryna_Zabelava\Day7\ConstTask\TaskConsole\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+D:\Katsiaryna_Zabelava\Day7\ConstTask\TaskConsole\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+D:\Katsiaryna_Zabelava\Day7\ConstTask\TaskConsole\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+D:\Katsiaryna_Zabelava\Day7\ConstTask\TaskConsole\MyClassLibrary\obj\Debug\MyClassLibrary.pdb

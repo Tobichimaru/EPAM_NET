@@ -1,0 +1,9 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day13\BinarySearchConsoleUI\bin\Debug\BinarySearchConsoleUI.exe.config
+D:\github\epam\ASP.NET.2.Zabelova.Day13\BinarySearchConsoleUI\bin\Debug\BinarySearchConsoleUI.exe
+D:\github\epam\ASP.NET.2.Zabelova.Day13\BinarySearchConsoleUI\bin\Debug\BinarySearchConsoleUI.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day13\BinarySearchConsoleUI\bin\Debug\BinarySearchTreeLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day13\BinarySearchConsoleUI\bin\Debug\BinarySearchTreeLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day13\BinarySearchConsoleUI\bin\Debug\BinarySearchTreeLib.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day13\BinarySearchConsoleUI\obj\Debug\BinarySearchConsoleUI.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day13\BinarySearchConsoleUI\obj\Debug\BinarySearchConsoleUI.exe
+D:\github\epam\ASP.NET.2.Zabelova.Day13\BinarySearchConsoleUI\obj\Debug\BinarySearchConsoleUI.pdb

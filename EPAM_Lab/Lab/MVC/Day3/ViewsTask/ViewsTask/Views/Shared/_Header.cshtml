@@ -1,0 +1,13 @@
+﻿@using ViewsTask.Models
+@model ViewsTask.Models.User
+
+@if (Model.UserFraction == Fraction.Light)
+{
+    <div class="logo light"></div>
+}
+else
+{
+    <div class="logo dark"></div>
+}
+
+<p id="p">@Html.DisplayFor(model => model.UserFraction)</p>

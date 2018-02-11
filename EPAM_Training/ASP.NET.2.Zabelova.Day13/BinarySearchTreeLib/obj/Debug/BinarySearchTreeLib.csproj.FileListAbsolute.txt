@@ -1,0 +1,6 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day13\BinarySearchTreeLib\bin\Debug\BinarySearchTreeLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day13\BinarySearchTreeLib\bin\Debug\BinarySearchTreeLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day13\BinarySearchTreeLib\obj\Debug\BinarySearchTreeLib.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day13\BinarySearchTreeLib\obj\Debug\BinarySearchTreeLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day13\BinarySearchTreeLib\obj\Debug\BinarySearchTreeLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day13\BinarySearchTreeLib\bin\Debug\BinarySearchTreeLib.XML

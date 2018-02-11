@@ -1,0 +1,10 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day2\MathExtensionNUnitTests\bin\Debug\MathExtensionNUnitTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day2\MathExtensionNUnitTests\bin\Debug\MathExtensionNUnitTests.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day2\MathExtensionNUnitTests\bin\Debug\MathExtension.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day2\MathExtensionNUnitTests\bin\Debug\nunit.framework.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day2\MathExtensionNUnitTests\bin\Debug\MathExtension.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day2\MathExtensionNUnitTests\bin\Debug\MathExtension.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day2\MathExtensionNUnitTests\bin\Debug\nunit.framework.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day2\MathExtensionNUnitTests\obj\Debug\MathExtensionNUnitTests.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day2\MathExtensionNUnitTests\obj\Debug\MathExtensionNUnitTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day2\MathExtensionNUnitTests\obj\Debug\MathExtensionNUnitTests.pdb

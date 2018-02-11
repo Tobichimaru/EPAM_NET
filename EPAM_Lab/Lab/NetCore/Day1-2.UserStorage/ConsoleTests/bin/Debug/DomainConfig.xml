@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DomainConfig</name>
+    </assembly>
+    <members>
+        <member name="T:DomainConfig.CustomSections.ServiceConfig.ServiceConfigSection">
+            <summary>
+                Class for user service config section
+            </summary>
+        </member>
+        <member name="P:DomainConfig.CustomSections.ServiceConfig.ServiceConfigSection.MasterServices">
+            <summary>
+                Returns collection of MasterService
+            </summary>
+        </member>
+        <member name="M:DomainConfig.CustomSections.ServiceConfig.ServiceConfigSection.GetSection">
+            <summary>
+                Gets ServiceConfigSection
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DomainConfig.CustomSections.ServiceConfig.SlaveServiceElement">
+            <summary>
+                Class for slave user service config section
+            </summary>
+        </member>
+        <member name="P:DomainConfig.CustomSections.ServiceConfig.SlaveServiceElement.ServiceType">
+            <summary>
+                Property for slave service type
+            </summary>
+        </member>
+        <member name="P:DomainConfig.CustomSections.ServiceConfig.SlaveServiceElement.ServiceName">
+            <summary>
+            P   roperty for slave service name
+            </summary>
+        </member>
+        <member name="P:DomainConfig.CustomSections.ServiceConfig.SlaveServiceElement.IpAddress">
+            <summary>
+                Property for slave service ip address
+            </summary>
+        </member>
+        <member name="P:DomainConfig.CustomSections.ServiceConfig.SlaveServiceElement.Port">
+            <summary>
+                Property for slave service port
+            </summary>
+        </member>
+        <member name="P:DomainConfig.CustomSections.ServiceConfig.SlaveServiceElement.IsCreated">
+            <summary>
+                Property for slave service creation flag: if flag is true, service is already created
+            </summary>
+        </member>
+        <member name="T:DomainConfig.CustomSections.ServiceConfig.MasterServiceCollection">
+            <summary>
+                Custom section for master user service management
+            </summary>
+        </member>
+        <member name="P:DomainConfig.CustomSections.ServiceConfig.MasterServiceCollection.MasterServiceName">
+            <summary>
+                Property for master user service name
+            </summary>
+        </member>
+        <member name="P:DomainConfig.CustomSections.ServiceConfig.MasterServiceCollection.MasterServiceType">
+            <summary>
+                Property for master user service type
+            </summary>
+        </member>
+        <member name="P:DomainConfig.CustomSections.ServiceConfig.MasterServiceCollection.Item(System.Int32)">
+            <summary>
+                Indexer for slave user services
+            </summary>
+            <param name="idx"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DomainConfig.CustomSections.ServiceConfig.MasterServiceCollection.CreateNewElement">
+            <summary>
+                Creates new SlaveServiceElement
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DomainConfig.CustomSections.ServiceConfig.MasterServiceCollection.GetElementKey(System.Configuration.ConfigurationElement)">
+            <summary>
+                Gets SlaveServiceElement name
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DomainConfig.Models.DependencyConfigInfo">
+            <summary>
+                Helper class for user service config information
+            </summary>
+        </member>
+        <member name="P:DomainConfig.Models.DependencyConfigInfo.MasterConfiguration">
+            <summary>
+                Property for Master config
+            </summary>
+        </member>
+        <member name="P:DomainConfig.Models.DependencyConfigInfo.SlaveConfigurations">
+            <summary>
+                Property for slaves config
+            </summary>
+        </member>
+        <member name="T:DomainConfig.Models.ServiceType">
+            <summary>
+            Helper enumeration for ServiceType
+            </summary>
+        </member>
+        <member name="F:DomainConfig.Models.ServiceType.Master">
+            <summary>
+            Master
+            </summary>
+        </member>
+        <member name="F:DomainConfig.Models.ServiceType.Slave">
+            <summary>
+            Slave
+            </summary>
+        </member>
+        <member name="T:DomainConfig.Models.ServiceConfigInfo">
+            <summary>
+            Helper class for service config information
+            </summary>
+        </member>
+        <member name="P:DomainConfig.Models.ServiceConfigInfo.Type">
+            <summary>
+            Service type
+            </summary>
+        </member>
+        <member name="P:DomainConfig.Models.ServiceConfigInfo.Name">
+            <summary>
+            Service name
+            </summary>
+        </member>
+        <member name="P:DomainConfig.Models.ServiceConfigInfo.IpEndPoint">
+            <summary>
+            Service IpEndPoint
+            </summary>
+        </member>
+        <member name="P:DomainConfig.Models.ServiceConfigInfo.IsCreated">
+            <summary>
+            Flag for notifying if service is already created or not
+            </summary>
+        </member>
+        <member name="T:DomainConfig.DomainServiceLoader">
+            <summary>
+            Helper class for creating services
+            </summary>
+        </member>
+        <member name="M:DomainConfig.DomainServiceLoader.LoadService(DomainConfig.Models.ServiceConfigInfo)">
+            <summary>
+            Creates service according to config info
+            </summary>
+            <param name="configInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DomainConfig.UserServiceInitializer">
+            <summary>
+                Helper class for creating user services in AppDomains
+            </summary>
+        </member>
+        <member name="M:DomainConfig.UserServiceInitializer.InitializeServices">
+            <summary>
+                Initializes services in different app domains
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

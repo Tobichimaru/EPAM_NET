@@ -1,0 +1,6 @@
+24.04.2016 22:30:12 (TRACE) FibonacciLib.FibonacciNumbers+<Fibonacci>d__0.MoveNext :: IEnumerable<int> Fibonacci(int -1) called
+24.04.2016 22:30:12 (ERROR) FibonacciLib.FibonacciNumbers+<Fibonacci>d__0.MoveNext :: Parameter -1 should be non-negative.
+24.04.2016 22:30:12 (TRACE) FibonacciLib.FibonacciNumbers+<Fibonacci>d__0.MoveNext :: IEnumerable<int> Fibonacci(int 4) called
+24.04.2016 22:30:12 (TRACE) FibonacciLib.FibonacciNumbers+<Fibonacci>d__0.MoveNext :: IEnumerable<int> Fibonacci(int 1) called
+24.04.2016 22:30:12 (TRACE) FibonacciLib.FibonacciNumbers+<Fibonacci>d__0.MoveNext :: IEnumerable<int> Fibonacci(int 7) called
+24.04.2016 22:30:12 (TRACE) FibonacciLib.FibonacciNumbers+<Fibonacci>d__0.MoveNext :: IEnumerable<int> Fibonacci(int 11) called

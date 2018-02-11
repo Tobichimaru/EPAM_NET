@@ -1,0 +1,164 @@
+21.04.2016 16:57:36 (TRACE) BookLibrary.Classes.Book..ctor :: public Book("1", "sam", text) constructor was called
+21.04.2016 16:57:36 (TRACE) BookLibrary.Classes.Book..ctor :: public Book("2", "sir", text) constructor was called
+21.04.2016 16:57:36 (TRACE) BookLibrary.Classes.Book..ctor :: public Book("3", "weasley", text) constructor was called
+21.04.2016 16:57:36 (TRACE) BookLibrary.Classes.Book..ctor :: public Book("4", "harry", text) constructor was called
+21.04.2016 16:57:36 (TRACE) BookLibrary.Classes.Book..ctor :: public Book("5", "me", text) constructor was called
+21.04.2016 16:57:36 (TRACE) BookLibrary.Classes.Library`1..ctor :: Library(IEnumerable<T> collection) called
+21.04.2016 16:57:36 (TRACE) BookLibrary.Classes.Library`1.SaveLibrary :: Library.SaveLibrary(string path) called
+21.04.2016 16:57:36 (WARN) BookLibrary.Classes.Library`1.SaveLibrary :: Error occurs: Путь UNC должен иметь вид \\server\share.
+21.04.2016 16:57:36 (WARN) BookLibrary.Classes.Library`1.SaveLibrary :: Incorrect path. The path was replaced by default path: "library"
+21.04.2016 16:57:37 (TRACE) BookLibrary.Classes.Library`1..ctor :: Library() called
+21.04.2016 16:57:37 (TRACE) BookLibrary.Classes.Library`1.LoadLibrary :: Library.LoadLibrary(string path) called
+21.04.2016 16:57:37 (INFO) BookLibrary.Classes.Library`1.LoadLibrary :: The library was cleared
+21.04.2016 16:57:37 (TRACE) BookLibrary.Classes.Library`1.GetEnumerator :: Library.IEnumerator<T> GetEnumerator() called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Book..ctor :: Book("1", "Rowling", text) called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Book..ctor :: Book("2", "sir", text) called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Book..ctor :: Book("3", "weasley", text) called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Book..ctor :: Book("4", "harry", text) called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Book..ctor :: Book("5", "me", text) called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Library`1..ctor :: Library(IEnumerable<T>) called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Library`1.SaveLibrary :: SaveLibrary("///") called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.BinaryFileWriter..ctor :: BinaryFileWriter("///") called
+21.04.2016 17:18:33 (WARN) BookLibrary.Classes.Library`1.SaveLibrary :: Error occurs: Путь UNC должен иметь вид \\server\share.
+21.04.2016 17:18:33 (WARN) BookLibrary.Classes.Library`1.SaveLibrary :: Incorrect path. The path was replaced by default path: "library"
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.BinaryFileWriter..ctor :: BinaryFileWriter("library") called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Library`1.ConvertToString :: Library.ConvertToString() called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.BinaryFileWriter.Write :: BinaryFileWriter.Write(string) called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Library`1..ctor :: Library() called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Library`1.LoadLibrary :: LoadLibrary("library") called
+21.04.2016 17:18:33 (INFO) BookLibrary.Classes.Library`1.LoadLibrary :: The library was cleared
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.BinaryFileReader..ctor :: BinaryFileReader("library") called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.BinaryFileReader.Read :: BinaryFileReader.Read() called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Library`1.ParseFromString :: Library.ParseFromString(string) called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Library`1.GetEnumerator :: GetEnumerator() called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Library`1.SortItemsByTag :: SortItemsByTag(Comparison<T>) called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Library`1.GetEnumerator :: GetEnumerator() called
+21.04.2016 17:18:33 (TRACE) BookLibrary.Classes.Library`1.FindByTag :: FindByTag(Predicate<T>) called
+21.04.2016 17:18:53 (TRACE) BookLibrary.Classes.Book..ctor :: Book("1", "Rowling", text) called
+21.04.2016 17:18:53 (TRACE) BookLibrary.Classes.Book..ctor :: Book("2", "sir", text) called
+21.04.2016 17:18:53 (TRACE) BookLibrary.Classes.Book..ctor :: Book("3", "weasley", text) called
+21.04.2016 17:18:53 (TRACE) BookLibrary.Classes.Book..ctor :: Book("4", "harry", text) called
+21.04.2016 17:18:53 (TRACE) BookLibrary.Classes.Book..ctor :: Book("5", "me", text) called
+21.04.2016 17:18:53 (TRACE) BookLibrary.Classes.Library`1..ctor :: Library(IEnumerable<T>) called
+21.04.2016 17:18:53 (TRACE) BookLibrary.Classes.Library`1.SaveLibrary :: SaveLibrary("///") called
+21.04.2016 17:18:53 (TRACE) BookLibrary.Classes.BinaryFileWriter..ctor :: BinaryFileWriter("///") called
+21.04.2016 17:18:53 (WARN) BookLibrary.Classes.Library`1.SaveLibrary :: Error occurs: Путь UNC должен иметь вид \\server\share.
+21.04.2016 17:18:53 (WARN) BookLibrary.Classes.Library`1.SaveLibrary :: Incorrect path. The path was replaced by default path: "library"
+21.04.2016 17:18:53 (TRACE) BookLibrary.Classes.BinaryFileWriter..ctor :: BinaryFileWriter("library") called
+21.04.2016 17:18:53 (TRACE) BookLibrary.Classes.Library`1.ConvertToString :: Library.ConvertToString() called
+21.04.2016 17:18:54 (TRACE) BookLibrary.Classes.BinaryFileWriter.Write :: BinaryFileWriter.Write(string) called
+21.04.2016 17:18:54 (TRACE) BookLibrary.Classes.Library`1..ctor :: Library() called
+21.04.2016 17:18:54 (TRACE) BookLibrary.Classes.Library`1.LoadLibrary :: LoadLibrary("library") called
+21.04.2016 17:18:54 (INFO) BookLibrary.Classes.Library`1.LoadLibrary :: The library was cleared
+21.04.2016 17:18:54 (TRACE) BookLibrary.Classes.BinaryFileReader..ctor :: BinaryFileReader("library") called
+21.04.2016 17:18:54 (TRACE) BookLibrary.Classes.BinaryFileReader.Read :: BinaryFileReader.Read() called
+21.04.2016 17:18:54 (TRACE) BookLibrary.Classes.Library`1.ParseFromString :: Library.ParseFromString(string) called
+21.04.2016 17:18:54 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:18:54 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:18:54 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:18:54 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:18:54 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:18:54 (TRACE) BookLibrary.Classes.Library`1.GetEnumerator :: GetEnumerator() called
+21.04.2016 17:18:54 (TRACE) BookLibrary.Classes.Library`1.SortItemsByTag :: SortItemsByTag(Comparison<T>) called
+21.04.2016 17:18:54 (TRACE) BookLibrary.Classes.Library`1.GetEnumerator :: GetEnumerator() called
+21.04.2016 17:18:54 (TRACE) BookLibrary.Classes.Library`1.FindByTag :: FindByTag(Predicate<T>) called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Book..ctor :: Book("1", "Rowling", text) called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Book..ctor :: Book("2", "sir", text) called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Book..ctor :: Book("3", "weasley", text) called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Book..ctor :: Book("4", "harry", text) called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Book..ctor :: Book("5", "me", text) called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Library`1..ctor :: Library(IEnumerable<T>) called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Library`1.SaveLibrary :: SaveLibrary("///") called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.BinaryFileWriter..ctor :: BinaryFileWriter("///") called
+21.04.2016 17:19:31 (WARN) BookLibrary.Classes.Library`1.SaveLibrary :: Error occurs: Путь UNC должен иметь вид \\server\share.
+21.04.2016 17:19:31 (WARN) BookLibrary.Classes.Library`1.SaveLibrary :: Incorrect path. The path was replaced by default path: "library"
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.BinaryFileWriter..ctor :: BinaryFileWriter("library") called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Library`1.ConvertToString :: Library.ConvertToString() called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.BinaryFileWriter.Write :: BinaryFileWriter.Write(string) called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Library`1..ctor :: Library() called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Library`1.LoadLibrary :: LoadLibrary("library") called
+21.04.2016 17:19:31 (INFO) BookLibrary.Classes.Library`1.LoadLibrary :: The library was cleared
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.BinaryFileReader..ctor :: BinaryFileReader("library") called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.BinaryFileReader.Read :: BinaryFileReader.Read() called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Library`1.ParseFromString :: Library.ParseFromString(string) called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Library`1.GetEnumerator :: GetEnumerator() called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Library`1.SortItemsByTag :: SortItemsByTag(Comparison<T>) called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Library`1.GetEnumerator :: GetEnumerator() called
+21.04.2016 17:19:31 (TRACE) BookLibrary.Classes.Library`1.FindByTag :: FindByTag(Predicate<T>) called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Book..ctor :: Book("1", "Rowling", text) called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Book..ctor :: Book("2", "sir", text) called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Book..ctor :: Book("3", "weasley", text) called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Book..ctor :: Book("4", "harry", text) called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Book..ctor :: Book("5", "me", text) called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Library`1..ctor :: Library(IEnumerable<T>) called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Library`1.SaveLibrary :: SaveLibrary("///") called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.BinaryFileWriter..ctor :: BinaryFileWriter("///") called
+21.04.2016 17:19:51 (WARN) BookLibrary.Classes.Library`1.SaveLibrary :: Error occurs: Путь UNC должен иметь вид \\server\share.
+21.04.2016 17:19:51 (WARN) BookLibrary.Classes.Library`1.SaveLibrary :: Incorrect path. The path was replaced by default path: "library"
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.BinaryFileWriter..ctor :: BinaryFileWriter("library") called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Library`1.ConvertToString :: Library.ConvertToString() called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.BinaryFileWriter.Write :: BinaryFileWriter.Write(string) called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Library`1..ctor :: Library() called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Library`1.LoadLibrary :: LoadLibrary("library") called
+21.04.2016 17:19:51 (INFO) BookLibrary.Classes.Library`1.LoadLibrary :: The library was cleared
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.BinaryFileReader..ctor :: BinaryFileReader("library") called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.BinaryFileReader.Read :: BinaryFileReader.Read() called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Library`1.ParseFromString :: Library.ParseFromString(string) called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Library`1.GetEnumerator :: GetEnumerator() called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Library`1.SortItemsByTag :: SortItemsByTag(Comparison<T>) called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Library`1.GetEnumerator :: GetEnumerator() called
+21.04.2016 17:19:51 (TRACE) BookLibrary.Classes.Library`1.FindByTag :: FindByTag(Predicate<T>) called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Book..ctor :: Book("1", "Rowling", text) called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Book..ctor :: Book("2", "sir", text) called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Book..ctor :: Book("3", "weasley", text) called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Book..ctor :: Book("4", "harry", text) called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Book..ctor :: Book("5", "me", text) called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Library`1..ctor :: Library(IEnumerable<T>) called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Library`1.SaveLibrary :: SaveLibrary("///") called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.BinaryFileWriter..ctor :: BinaryFileWriter("///") called
+21.04.2016 17:20:35 (WARN) BookLibrary.Classes.Library`1.SaveLibrary :: Error occurs: Путь UNC должен иметь вид \\server\share.
+21.04.2016 17:20:35 (WARN) BookLibrary.Classes.Library`1.SaveLibrary :: Incorrect path. The path was replaced by default path: "library"
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.BinaryFileWriter..ctor :: BinaryFileWriter("library") called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Library`1.ConvertToString :: Library.ConvertToString() called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.BinaryFileWriter.Write :: BinaryFileWriter.Write(string) called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Library`1..ctor :: Library() called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Library`1.LoadLibrary :: LoadLibrary("library") called
+21.04.2016 17:20:35 (INFO) BookLibrary.Classes.Library`1.LoadLibrary :: The library was cleared
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.BinaryFileReader..ctor :: BinaryFileReader("library") called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.BinaryFileReader.Read :: BinaryFileReader.Read() called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Library`1.ParseFromString :: Library.ParseFromString(string) called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Book..ctor :: Book() called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Library`1.GetEnumerator :: GetEnumerator() called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Book.ToString :: Book.ToString() called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Book.ToString :: Book.ToString() called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Book.ToString :: Book.ToString() called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Book.ToString :: Book.ToString() called
+21.04.2016 17:20:35 (TRACE) BookLibrary.Classes.Book.ToString :: Book.ToString() called
+21.04.2016 17:20:36 (TRACE) BookLibrary.Classes.Library`1.SortItemsByTag :: SortItemsByTag(Comparison<T>) called
+21.04.2016 17:20:36 (TRACE) BookLibrary.Classes.Library`1.GetEnumerator :: GetEnumerator() called
+21.04.2016 17:20:36 (TRACE) BookLibrary.Classes.Book.ToString :: Book.ToString() called
+21.04.2016 17:20:36 (TRACE) BookLibrary.Classes.Book.ToString :: Book.ToString() called
+21.04.2016 17:20:36 (TRACE) BookLibrary.Classes.Book.ToString :: Book.ToString() called
+21.04.2016 17:20:36 (TRACE) BookLibrary.Classes.Book.ToString :: Book.ToString() called
+21.04.2016 17:20:36 (TRACE) BookLibrary.Classes.Book.ToString :: Book.ToString() called
+21.04.2016 17:20:36 (TRACE) BookLibrary.Classes.Library`1.FindByTag :: FindByTag(Predicate<T>) called
+21.04.2016 17:20:36 (TRACE) BookLibrary.Classes.Book.ToString :: Book.ToString() called

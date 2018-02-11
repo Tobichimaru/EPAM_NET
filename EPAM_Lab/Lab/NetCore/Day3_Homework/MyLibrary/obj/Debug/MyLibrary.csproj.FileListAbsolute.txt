@@ -1,0 +1,7 @@
+D:\Katsiaryna_Zabelava\Day3.Homework\MyLibrary\bin\Debug\MyLibrary.dll
+D:\Katsiaryna_Zabelava\Day3.Homework\MyLibrary\bin\Debug\MyLibrary.pdb
+D:\Katsiaryna_Zabelava\Day3.Homework\MyLibrary\bin\Debug\MyInterfaces.dll
+D:\Katsiaryna_Zabelava\Day3.Homework\MyLibrary\bin\Debug\MyInterfaces.pdb
+D:\Katsiaryna_Zabelava\Day3.Homework\MyLibrary\obj\Debug\MyLibrary.csprojResolveAssemblyReference.cache
+D:\Katsiaryna_Zabelava\Day3.Homework\MyLibrary\obj\Debug\MyLibrary.dll
+D:\Katsiaryna_Zabelava\Day3.Homework\MyLibrary\obj\Debug\MyLibrary.pdb

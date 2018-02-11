@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tests</name>
+    </assembly>
+    <members>
+        <member name="T:Tests.IteratorTests">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.IteratorTests.Iterator_CountThree_ReturnsFour">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.IteratorTests.Iterator_Reset_ReturnsTwo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.IteratorTests.Iterator_FromSix_ReturnsEight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Tests.DalUserTests">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.DalUserTests.UserEqualityForEqualUsers_ReturnsTrue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.DalUserTests.UserEqualityForNonEqualUsers_ReturnsFalse">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.DalUserTests.UserHashCode_ReturnsSameValuesForSameUsers">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.DalUserTests.UserHashCode_ReturnsDifferentValuesForDifferentUsers">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Tests.UserRepositoryTests">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.UserRepositoryTests.AddValidUser_ReturnsUserId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.UserRepositoryTests.AddNullUser_ThrowsException">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.UserRepositoryTests.AddInValidUser_ThrowsException">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.UserRepositoryTests.DeleteUser_">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.UserRepositoryTests.DeleteNullUser_ThrowsException">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.UserRepositoryTests.GetAllUsers_ReturnsAllUsers">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.UserRepositoryTests.SearchForUsers_ReturnsSingleUserId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.UserRepositoryTests.SearchForUsers_ReturnsMultipleUserId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Tests.ValidationTests">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.ValidationTests.UserSimpleValidation_ReturnsTrueForValidUser">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.ValidationTests.UserSimpleValidation_ReturnsFalseForInvalidUser">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Tests.XMLSerializationTests">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.XMLSerializationTests.WriteToXml_">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tests.XMLSerializationTests.ReadFromXml_">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

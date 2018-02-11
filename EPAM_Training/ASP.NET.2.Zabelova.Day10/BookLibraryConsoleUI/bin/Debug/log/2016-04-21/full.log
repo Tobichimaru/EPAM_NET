@@ -1,0 +1,164 @@
+21.04.2016 16:57:36 (TRACE) : public Book("1", "sam", text) constructor was called
+21.04.2016 16:57:36 (TRACE) : public Book("2", "sir", text) constructor was called
+21.04.2016 16:57:36 (TRACE) : public Book("3", "weasley", text) constructor was called
+21.04.2016 16:57:36 (TRACE) : public Book("4", "harry", text) constructor was called
+21.04.2016 16:57:36 (TRACE) : public Book("5", "me", text) constructor was called
+21.04.2016 16:57:36 (TRACE) : Library(IEnumerable<T> collection) called
+21.04.2016 16:57:36 (TRACE) : Library.SaveLibrary(string path) called
+21.04.2016 16:57:36 (WARN) : Error occurs: Путь UNC должен иметь вид \\server\share.
+21.04.2016 16:57:36 (WARN) : Incorrect path. The path was replaced by default path: "library"
+21.04.2016 16:57:37 (TRACE) : Library() called
+21.04.2016 16:57:37 (TRACE) : Library.LoadLibrary(string path) called
+21.04.2016 16:57:37 (INFO) : The library was cleared
+21.04.2016 16:57:37 (TRACE) : Library.IEnumerator<T> GetEnumerator() called
+21.04.2016 17:18:33 (TRACE) : Book("1", "Rowling", text) called
+21.04.2016 17:18:33 (TRACE) : Book("2", "sir", text) called
+21.04.2016 17:18:33 (TRACE) : Book("3", "weasley", text) called
+21.04.2016 17:18:33 (TRACE) : Book("4", "harry", text) called
+21.04.2016 17:18:33 (TRACE) : Book("5", "me", text) called
+21.04.2016 17:18:33 (TRACE) : Library(IEnumerable<T>) called
+21.04.2016 17:18:33 (TRACE) : SaveLibrary("///") called
+21.04.2016 17:18:33 (TRACE) : BinaryFileWriter("///") called
+21.04.2016 17:18:33 (WARN) : Error occurs: Путь UNC должен иметь вид \\server\share.
+21.04.2016 17:18:33 (WARN) : Incorrect path. The path was replaced by default path: "library"
+21.04.2016 17:18:33 (TRACE) : BinaryFileWriter("library") called
+21.04.2016 17:18:33 (TRACE) : Library.ConvertToString() called
+21.04.2016 17:18:33 (TRACE) : BinaryFileWriter.Write(string) called
+21.04.2016 17:18:33 (TRACE) : Library() called
+21.04.2016 17:18:33 (TRACE) : LoadLibrary("library") called
+21.04.2016 17:18:33 (INFO) : The library was cleared
+21.04.2016 17:18:33 (TRACE) : BinaryFileReader("library") called
+21.04.2016 17:18:33 (TRACE) : BinaryFileReader.Read() called
+21.04.2016 17:18:33 (TRACE) : Library.ParseFromString(string) called
+21.04.2016 17:18:33 (TRACE) : Book() called
+21.04.2016 17:18:33 (TRACE) : Book() called
+21.04.2016 17:18:33 (TRACE) : Book() called
+21.04.2016 17:18:33 (TRACE) : Book() called
+21.04.2016 17:18:33 (TRACE) : Book() called
+21.04.2016 17:18:33 (TRACE) : GetEnumerator() called
+21.04.2016 17:18:33 (TRACE) : SortItemsByTag(Comparison<T>) called
+21.04.2016 17:18:33 (TRACE) : GetEnumerator() called
+21.04.2016 17:18:33 (TRACE) : FindByTag(Predicate<T>) called
+21.04.2016 17:18:53 (TRACE) : Book("1", "Rowling", text) called
+21.04.2016 17:18:53 (TRACE) : Book("2", "sir", text) called
+21.04.2016 17:18:53 (TRACE) : Book("3", "weasley", text) called
+21.04.2016 17:18:53 (TRACE) : Book("4", "harry", text) called
+21.04.2016 17:18:53 (TRACE) : Book("5", "me", text) called
+21.04.2016 17:18:53 (TRACE) : Library(IEnumerable<T>) called
+21.04.2016 17:18:53 (TRACE) : SaveLibrary("///") called
+21.04.2016 17:18:53 (TRACE) : BinaryFileWriter("///") called
+21.04.2016 17:18:53 (WARN) : Error occurs: Путь UNC должен иметь вид \\server\share.
+21.04.2016 17:18:53 (WARN) : Incorrect path. The path was replaced by default path: "library"
+21.04.2016 17:18:53 (TRACE) : BinaryFileWriter("library") called
+21.04.2016 17:18:53 (TRACE) : Library.ConvertToString() called
+21.04.2016 17:18:54 (TRACE) : BinaryFileWriter.Write(string) called
+21.04.2016 17:18:54 (TRACE) : Library() called
+21.04.2016 17:18:54 (TRACE) : LoadLibrary("library") called
+21.04.2016 17:18:54 (INFO) : The library was cleared
+21.04.2016 17:18:54 (TRACE) : BinaryFileReader("library") called
+21.04.2016 17:18:54 (TRACE) : BinaryFileReader.Read() called
+21.04.2016 17:18:54 (TRACE) : Library.ParseFromString(string) called
+21.04.2016 17:18:54 (TRACE) : Book() called
+21.04.2016 17:18:54 (TRACE) : Book() called
+21.04.2016 17:18:54 (TRACE) : Book() called
+21.04.2016 17:18:54 (TRACE) : Book() called
+21.04.2016 17:18:54 (TRACE) : Book() called
+21.04.2016 17:18:54 (TRACE) : GetEnumerator() called
+21.04.2016 17:18:54 (TRACE) : SortItemsByTag(Comparison<T>) called
+21.04.2016 17:18:54 (TRACE) : GetEnumerator() called
+21.04.2016 17:18:54 (TRACE) : FindByTag(Predicate<T>) called
+21.04.2016 17:19:31 (TRACE) : Book("1", "Rowling", text) called
+21.04.2016 17:19:31 (TRACE) : Book("2", "sir", text) called
+21.04.2016 17:19:31 (TRACE) : Book("3", "weasley", text) called
+21.04.2016 17:19:31 (TRACE) : Book("4", "harry", text) called
+21.04.2016 17:19:31 (TRACE) : Book("5", "me", text) called
+21.04.2016 17:19:31 (TRACE) : Library(IEnumerable<T>) called
+21.04.2016 17:19:31 (TRACE) : SaveLibrary("///") called
+21.04.2016 17:19:31 (TRACE) : BinaryFileWriter("///") called
+21.04.2016 17:19:31 (WARN) : Error occurs: Путь UNC должен иметь вид \\server\share.
+21.04.2016 17:19:31 (WARN) : Incorrect path. The path was replaced by default path: "library"
+21.04.2016 17:19:31 (TRACE) : BinaryFileWriter("library") called
+21.04.2016 17:19:31 (TRACE) : Library.ConvertToString() called
+21.04.2016 17:19:31 (TRACE) : BinaryFileWriter.Write(string) called
+21.04.2016 17:19:31 (TRACE) : Library() called
+21.04.2016 17:19:31 (TRACE) : LoadLibrary("library") called
+21.04.2016 17:19:31 (INFO) : The library was cleared
+21.04.2016 17:19:31 (TRACE) : BinaryFileReader("library") called
+21.04.2016 17:19:31 (TRACE) : BinaryFileReader.Read() called
+21.04.2016 17:19:31 (TRACE) : Library.ParseFromString(string) called
+21.04.2016 17:19:31 (TRACE) : Book() called
+21.04.2016 17:19:31 (TRACE) : Book() called
+21.04.2016 17:19:31 (TRACE) : Book() called
+21.04.2016 17:19:31 (TRACE) : Book() called
+21.04.2016 17:19:31 (TRACE) : Book() called
+21.04.2016 17:19:31 (TRACE) : GetEnumerator() called
+21.04.2016 17:19:31 (TRACE) : SortItemsByTag(Comparison<T>) called
+21.04.2016 17:19:31 (TRACE) : GetEnumerator() called
+21.04.2016 17:19:31 (TRACE) : FindByTag(Predicate<T>) called
+21.04.2016 17:19:51 (TRACE) : Book("1", "Rowling", text) called
+21.04.2016 17:19:51 (TRACE) : Book("2", "sir", text) called
+21.04.2016 17:19:51 (TRACE) : Book("3", "weasley", text) called
+21.04.2016 17:19:51 (TRACE) : Book("4", "harry", text) called
+21.04.2016 17:19:51 (TRACE) : Book("5", "me", text) called
+21.04.2016 17:19:51 (TRACE) : Library(IEnumerable<T>) called
+21.04.2016 17:19:51 (TRACE) : SaveLibrary("///") called
+21.04.2016 17:19:51 (TRACE) : BinaryFileWriter("///") called
+21.04.2016 17:19:51 (WARN) : Error occurs: Путь UNC должен иметь вид \\server\share.
+21.04.2016 17:19:51 (WARN) : Incorrect path. The path was replaced by default path: "library"
+21.04.2016 17:19:51 (TRACE) : BinaryFileWriter("library") called
+21.04.2016 17:19:51 (TRACE) : Library.ConvertToString() called
+21.04.2016 17:19:51 (TRACE) : BinaryFileWriter.Write(string) called
+21.04.2016 17:19:51 (TRACE) : Library() called
+21.04.2016 17:19:51 (TRACE) : LoadLibrary("library") called
+21.04.2016 17:19:51 (INFO) : The library was cleared
+21.04.2016 17:19:51 (TRACE) : BinaryFileReader("library") called
+21.04.2016 17:19:51 (TRACE) : BinaryFileReader.Read() called
+21.04.2016 17:19:51 (TRACE) : Library.ParseFromString(string) called
+21.04.2016 17:19:51 (TRACE) : Book() called
+21.04.2016 17:19:51 (TRACE) : Book() called
+21.04.2016 17:19:51 (TRACE) : Book() called
+21.04.2016 17:19:51 (TRACE) : Book() called
+21.04.2016 17:19:51 (TRACE) : Book() called
+21.04.2016 17:19:51 (TRACE) : GetEnumerator() called
+21.04.2016 17:19:51 (TRACE) : SortItemsByTag(Comparison<T>) called
+21.04.2016 17:19:51 (TRACE) : GetEnumerator() called
+21.04.2016 17:19:51 (TRACE) : FindByTag(Predicate<T>) called
+21.04.2016 17:20:35 (TRACE) : Book("1", "Rowling", text) called
+21.04.2016 17:20:35 (TRACE) : Book("2", "sir", text) called
+21.04.2016 17:20:35 (TRACE) : Book("3", "weasley", text) called
+21.04.2016 17:20:35 (TRACE) : Book("4", "harry", text) called
+21.04.2016 17:20:35 (TRACE) : Book("5", "me", text) called
+21.04.2016 17:20:35 (TRACE) : Library(IEnumerable<T>) called
+21.04.2016 17:20:35 (TRACE) : SaveLibrary("///") called
+21.04.2016 17:20:35 (TRACE) : BinaryFileWriter("///") called
+21.04.2016 17:20:35 (WARN) : Error occurs: Путь UNC должен иметь вид \\server\share.
+21.04.2016 17:20:35 (WARN) : Incorrect path. The path was replaced by default path: "library"
+21.04.2016 17:20:35 (TRACE) : BinaryFileWriter("library") called
+21.04.2016 17:20:35 (TRACE) : Library.ConvertToString() called
+21.04.2016 17:20:35 (TRACE) : BinaryFileWriter.Write(string) called
+21.04.2016 17:20:35 (TRACE) : Library() called
+21.04.2016 17:20:35 (TRACE) : LoadLibrary("library") called
+21.04.2016 17:20:35 (INFO) : The library was cleared
+21.04.2016 17:20:35 (TRACE) : BinaryFileReader("library") called
+21.04.2016 17:20:35 (TRACE) : BinaryFileReader.Read() called
+21.04.2016 17:20:35 (TRACE) : Library.ParseFromString(string) called
+21.04.2016 17:20:35 (TRACE) : Book() called
+21.04.2016 17:20:35 (TRACE) : Book() called
+21.04.2016 17:20:35 (TRACE) : Book() called
+21.04.2016 17:20:35 (TRACE) : Book() called
+21.04.2016 17:20:35 (TRACE) : Book() called
+21.04.2016 17:20:35 (TRACE) : GetEnumerator() called
+21.04.2016 17:20:35 (TRACE) : Book.ToString() called
+21.04.2016 17:20:35 (TRACE) : Book.ToString() called
+21.04.2016 17:20:35 (TRACE) : Book.ToString() called
+21.04.2016 17:20:35 (TRACE) : Book.ToString() called
+21.04.2016 17:20:35 (TRACE) : Book.ToString() called
+21.04.2016 17:20:36 (TRACE) : SortItemsByTag(Comparison<T>) called
+21.04.2016 17:20:36 (TRACE) : GetEnumerator() called
+21.04.2016 17:20:36 (TRACE) : Book.ToString() called
+21.04.2016 17:20:36 (TRACE) : Book.ToString() called
+21.04.2016 17:20:36 (TRACE) : Book.ToString() called
+21.04.2016 17:20:36 (TRACE) : Book.ToString() called
+21.04.2016 17:20:36 (TRACE) : Book.ToString() called
+21.04.2016 17:20:36 (TRACE) : FindByTag(Predicate<T>) called
+21.04.2016 17:20:36 (TRACE) : Book.ToString() called

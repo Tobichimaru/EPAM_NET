@@ -1,0 +1,14 @@
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Demo\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Demo\Demo\bin\Demo.dll.config
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Demo\Demo\bin\Demo.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Demo\Demo\bin\Demo.pdb
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Demo\Demo\bin\Newtonsoft.Json.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Demo\Demo\bin\System.Net.Http.Formatting.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Demo\Demo\bin\System.Web.Http.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Demo\Demo\bin\System.Web.Http.WebHost.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Demo\Demo\bin\Newtonsoft.Json.xml
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Demo\Demo\bin\System.Net.Http.Formatting.xml
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Demo\Demo\bin\System.Web.Http.xml
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Demo\Demo\bin\System.Web.Http.WebHost.xml
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Demo\Demo\obj\Debug\Demo.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\Demo\Demo\obj\Debug\Demo.pdb

@@ -1,0 +1,469 @@
+@import "definitions.less";
+
+//--------------General-Styles-----------------------
+* {
+    font-family: MyriadRegular, Tahoma, Arial, sans-serif;
+    
+}
+
+body {
+    .wh(100%);
+    margin: 0;
+    font-size: 1vw;
+}
+
+footer {
+    .gradient
+}
+
+header {
+    .gradient;
+    margin: 3% 0;
+}
+
+.col-md-6 {
+    .wh(47%);
+}
+
+.container {
+    .wh(100%);
+    margin: 0;
+}
+
+.left {
+    padding-left: 4%;
+}
+
+.main-color {
+    color: @main-color;
+}
+
+//----------------Headers-Styles--------------
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+h1,h3,h4,h5,h6 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+	white-space: nowrap;
+    text-transform: uppercase;
+}
+
+h1{
+    .font(930%, MyriadBold, 72%);
+    margin: 0 auto;
+
+    span {
+        .font(60%, MyriadBold, inherit, block, bold);
+    }
+}
+
+h2 {
+    .font(390%, MyriadLight, 140%);
+    margin: 5% auto;  
+
+    span {
+        .font(160%, inherit, inherit, block, lighter);
+    }
+}
+
+h4 {
+    .font(227%);
+    border-left: 0.6vw solid @main-color;
+    padding-left: 2%;
+    margin: 0;
+
+    span {
+        .font(100%);
+    }
+}
+
+h5 {
+    .font(230%);
+    margin: -1% 0 0 0;
+}
+
+h6 {
+    .font(275%, MyriadLight);
+    margin: -2% 0 0 0;
+
+    span {
+        .font(100%, MyriadLight);
+    }
+}
+
+h7, h8 {
+    .font(188%, MyriadBold, 110%, block);
+    margin: 0 auto;
+}
+
+h7 {
+	color: @main-color;
+}
+
+//--------------Headers-Blocks-------------------
+.title-block {
+    margin: auto auto 10% 5%;
+}
+
+article {
+    margin: auto auto 16% 1.5%;
+}
+
+.subtitle-block {
+    padding: 1% 0;
+    margin: -1.5% auto 0.5% auto;
+}
+
+//--------------Quote-Styles------------------
+blockquote {
+    .wh(100%);
+    margin: 0 auto auto 7%;
+    font-weight: bold;
+
+    p {
+        .font(110%, inherit, 1.35vw, 100);
+        padding-right: 20%;
+    }
+
+    :before,
+    :after {
+        .font(500%, Georgia, inherit, block);
+        content: "\"";
+        color: @main-color;
+    }
+
+    :before {
+        .wh(auto, 3vw);
+        margin: 3vw auto -1vw -4%;
+    }
+
+    :after {
+        .wh(auto, 0.9vw);
+        margin: 5% auto auto 90%;
+    }
+}
+
+//-------------------------Education-Section--------------------------
+.education {
+	margin-left: 2%;
+}
+
+.triangle {
+	.wh(0, 0);
+    border-top: 0.7vw solid transparent;
+    border-bottom: 0.7vw solid transparent;
+    border-left: 1.4vw solid @main-color;
+    position: absolute;
+    left: 11.7%;
+}
+
+.tall-left-border {
+	border-left: 0.3vw solid @main-color;
+    display: flex;
+}
+
+.years {
+    .wh(30%);
+    .font(153%);
+    .float;
+    padding: 0 2% 8% 0;
+    margin: 0 0 0 3%;
+}
+
+.description {
+    .font(113%, MyriadBold, inherit, block);
+    margin: 0 auto;
+}
+
+
+//-----------------------Reasons-Section----------------------------
+.reasons {
+    margin: -1% auto auto 6%;
+    p {
+        .font(150%, MyriadRegular, 1.5vw);
+    }
+}
+
+//-------------------------Contacts-Section------------------=---
+.contacts {
+    padding-left: 4%;
+    form {
+        margin-top: -2%;
+    }
+    .contact{
+        &:before {
+            .wh(3vw, 3vw);
+            .float;
+            content: "";
+            background-color: @main-color;
+            border-radius: 100%;
+            margin-right: 2.5%;
+        }
+    }
+}
+
+.contact {
+    margin-bottom: 4.5%;
+    width: 100%;
+    .main-color {
+        .font(150%);
+        margin:0 0 1vw 0;
+    }
+    p {
+        .font(150%, MyriadBold, 25%, block);
+        margin: 0;
+    }
+}
+
+//-------------------------Balance-Section----------------------------
+
+.panel-small {
+    .float;
+    width: 32%;
+}
+
+.panel-middle {
+    .float;
+    padding-top: 3%;
+    width: 23%;
+    position: relative;
+}
+
+.panel-right {
+    .float;
+    width: 33%;
+    margin-bottom: 5%;
+    p {
+        text-align: right;
+    }
+}
+
+.balance-article {
+    margin-bottom: 5%;
+}
+
+.balance-block {
+    padding-left: 2%;
+    display: flex;
+}
+
+.balance-img {
+    padding-top: 38%;
+    margin-left: -45%;
+    width: 250%;
+}
+
+.transperant-circle {
+    .wh(11vw, 11vw);
+    .float;
+    position: relative;
+    background-color: @main-color;
+    border-radius: 100%;
+    margin-right: 2%;
+    opacity: 0.2;
+
+    &.right {
+        margin-left: -17%;
+    }
+}
+
+.balance-dots {
+	height: 84%;
+	border-right: 0.2vw dotted black;
+	position: absolute;
+	margin-left: 50%;
+}
+
+.circle-icon {
+    .middle;
+    width: 30%;
+    margin: auto; 
+}
+
+.balance-header {
+    .font(230%, MyriadRegular, inherit, block);
+    margin-top: 3%;
+}
+
+.balance {
+    &.m1 {
+        margin-top: 35%;
+    }
+
+    &.m2 {
+        margin-top: 29%;
+    }
+
+    &.m3 {
+        margin-top: 21%;
+        p {
+            line-height: 40%;
+        }
+    }
+
+    &.m4 {
+        margin-top: 23%;
+    }
+
+    .main-color {
+        .font(155%, MyriadBold, inherit, block);
+        margin-top: 0;
+    }
+
+    .main-color.middle {
+        margin-top: 5% auto auto -5%;
+        font-size: 200%;
+    }
+
+    p {
+        .font(150%, MyriadRegular, 30%, block);
+    }
+}
+
+//----------------------Personal-Skills-Section--------------
+.skill {
+    margin-left: 3%;
+    margin-bottom: 1.3vw;
+
+    label {
+        font-size: 150%;
+        margin: 0;
+    }
+
+    .progress {
+        height: 1.3vw;
+        border-radius: 0;
+        width: 47%;
+        margin: 0;
+    }
+}
+
+.s1,.s2,.s3,.s4,.s5 {
+    .gradient
+}
+.label-wrap {
+    .float;
+    width: 40%; 
+}
+.s1 {
+    width: 91%;
+}
+.s2 {
+    width: 59%;
+}
+.s3 {
+    width: 75%;
+}
+.s4 {
+    width: 82%;
+}
+.s5 {
+    width: 97%;
+}
+
+//-------------------Software-Skiils-Section-----------------------
+
+.software-article {
+    margin: -5% auto 3% auto;
+}
+
+.flex {
+    display: flex;
+
+    label {
+        .float;
+        font-size: 145%;
+        margin: 5% -3% 0 3%;
+    }
+}
+
+.software {
+    border-left: 0.3vw solid black;
+    border-top: 0.3vw solid black;
+    margin: -6% auto auto 13%;
+    width: 60%;
+
+    li .progress {
+        border-radius: 0;
+        margin: 1vw auto 1vw 1vw;
+        height: 3.4vw;
+        box-shadow: none;
+        background-color: transparent;
+
+        .progress-bar {
+            .top-gradient;
+            padding-left: 2%;
+            font-size: 150%;
+            color: black;
+            text-align: left;
+            padding-top: 2%; 
+        }
+
+        .deep-main-color-block {
+            .dark-top-gradient;
+            color: white;
+        }
+    }
+}
+.vertical {
+    display: inline-block;
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+
+.v1 {
+    width: 75%;
+}
+.v2 {
+    width: 80%;
+}
+.v3 {
+    width: 90%;
+}
+.v4 {
+    width: 50%;
+}
+.v5 {
+    width: 80%;
+}
+.v6 {
+    width: 72%;
+}
+.v7 {
+    width: 45%;
+}
+
+//----------------------------Info-Section-----------------------
+
+.print-design,
+.web-design {
+    .wh(5.5%, 2vw);
+    .float;
+    margin-left: 7%;
+}
+
+.print-design {
+    .gradient(2vw)
+}
+
+.web-design {
+    .dark-gradient
+}
+
+.info-design-block {
+    margin: -5% auto auto 9%;
+
+    p {
+        .float;
+        font-size: 160%;
+        margin: 1% auto auto 1%;
+    }
+}
+
+.footer-logo-wrapper {
+    .wh(100%, 100%);
+    position: relative;
+}

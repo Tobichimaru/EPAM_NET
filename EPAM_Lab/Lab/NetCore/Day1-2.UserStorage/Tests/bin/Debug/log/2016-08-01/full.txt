@@ -1,0 +1,2 @@
+01.08.2016 14:19:19 (ERROR): Value cannot be null.. 
+01.08.2016 14:19:19 (ERROR): user is null!. 

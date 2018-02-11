@@ -1,0 +1,12 @@
+D:\Katsiaryna_Zabelava\Day5_Primitives\ReadWrite\bin\Debug\ReadWrite.exe.config
+D:\Katsiaryna_Zabelava\Day5_Primitives\ReadWrite\bin\Debug\ReadWrite.exe
+D:\Katsiaryna_Zabelava\Day5_Primitives\ReadWrite\bin\Debug\ReadWrite.pdb
+D:\Katsiaryna_Zabelava\Day5_Primitives\ReadWrite\obj\Debug\ReadWrite.csprojResolveAssemblyReference.cache
+D:\Katsiaryna_Zabelava\Day5_Primitives\ReadWrite\obj\Debug\ReadWrite.exe
+D:\Katsiaryna_Zabelava\Day5_Primitives\ReadWrite\obj\Debug\ReadWrite.pdb
+D:\github\EPAM.RD.2016.S\Day5_Primitives\ReadWrite\bin\Debug\ReadWrite.exe.config
+D:\github\EPAM.RD.2016.S\Day5_Primitives\ReadWrite\bin\Debug\ReadWrite.exe
+D:\github\EPAM.RD.2016.S\Day5_Primitives\ReadWrite\bin\Debug\ReadWrite.pdb
+D:\github\EPAM.RD.2016.S\Day5_Primitives\ReadWrite\obj\Debug\ReadWrite.csprojResolveAssemblyReference.cache
+D:\github\EPAM.RD.2016.S\Day5_Primitives\ReadWrite\obj\Debug\ReadWrite.exe
+D:\github\EPAM.RD.2016.S\Day5_Primitives\ReadWrite\obj\Debug\ReadWrite.pdb

@@ -1,0 +1,16 @@
+20:26:03 (INFO): User Mike Jones Added!
+20:26:03 (ERROR): Значение не может быть неопределенным.
+20:26:03 (INFO): User Mike Jones Added!
+20:26:03 (INFO): User Mike Jones Removed!
+20:26:03 (ERROR): user is null!
+20:26:03 (INFO): User Mike Jones Added!
+20:26:03 (INFO): User Mike Jones Added!
+20:26:03 (INFO): User Mike Jones Added!
+20:26:03 (INFO): User Mike Smith Added!
+20:26:03 (INFO): User Mike Jones Added!
+20:26:03 (INFO): User Mike Smith Added!
+20:26:04 (INFO): User storage saved to XML!
+20:26:04 (INFO): User Mike Jones Added!
+20:26:04 (INFO): User Mike Smith Added!
+20:26:04 (INFO): User storage saved to XML!
+20:26:04 (INFO): User storage loaded from XML!

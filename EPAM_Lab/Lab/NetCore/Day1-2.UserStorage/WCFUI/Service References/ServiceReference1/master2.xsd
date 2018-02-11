@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/BLL.SearchCriteria" elementFormDefault="qualified"
+           targetNamespace="http://schemas.datacontract.org/2004/07/BLL.SearchCriteria"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="FirstNameCriterion">
+    <xs:sequence>
+      <xs:element name="firstName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FirstNameCriterion" nillable="true" type="tns:FirstNameCriterion" />
+  <xs:complexType name="LastNameCriterion">
+    <xs:sequence>
+      <xs:element name="lastName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LastNameCriterion" nillable="true" type="tns:LastNameCriterion" />
+  <xs:complexType name="IdCriterion">
+    <xs:sequence>
+      <xs:element name="maxId" type="xs:int" />
+      <xs:element name="minId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IdCriterion" nillable="true" type="tns:IdCriterion" />
+</xs:schema>

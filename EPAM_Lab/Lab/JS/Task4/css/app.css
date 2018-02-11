@@ -1,0 +1,52 @@
+body { font-family: Calibri; font-size: 15px; margin: 30px; }
+
+.content { position: relative; }
+.game-over { display: none; margin: 0 auto; width: 900px; text-align: center; color: #f44336; font-size: 21px; font-weight: bold; }
+
+#field { width: 900px; margin: 0 auto; }
+.field-line { height: 78px; background-color: #4caf50; position: relative; }
+
+.buttons { width: 900px; margin: 0 auto; margin-top: 5px; }
+.button { display: inline-block; border: 1px solid #eee; padding: 5px 10px; margin-bottom: 5px; cursor: pointer; text-align: center; }
+.button#btnGenerate { background-color: #ff9800; }
+.button#btnGeneratePlant { background-color: green; }
+
+
+.zombie { position: absolute; top: 0; right: 0; }
+.zombie .michael { width: 46px; height: 69px; background-image: url(../img/michael.gif); background-size: cover; }
+.zombie .strong { width: 60px; height: 73px; background-image: url(../img/strong.gif); background-size: cover; }
+
+.health-bar-wrapper {
+	width: 100%;
+	text-align: center;
+}
+
+.health-bar-wrapper div {
+	height: 5px;
+}
+
+.health-bar {
+	background-color: #B21400;
+}
+
+.health-bar-current {
+	background-color: #FF1B16;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.health-bar-wrapper p {
+	color: white;
+	font: 5px bold;
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	margin: 0 0 0 40%;
+}
+
+.plant { position: absolute; top: 0; left: 0; }
+.weapon {position: absolute; top: 15px; left: 50px; }
+.plant.green { width: 70px; height: 69px; background-image: url(../img/green.gif); background-size: cover; } 
+.weapon.peanut { width: 15px; height: 15px; background-image: url(../img/peanut.png); background-size: cover; } 

@@ -1,0 +1,8 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibTests\bin\Debug\QueueLibTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibTests\bin\Debug\QueueLibTests.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibTests\obj\Debug\QueueLibTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibTests\obj\Debug\QueueLibTests.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibTests\bin\Debug\QueueLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibTests\bin\Debug\QueueLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibTests\bin\Debug\QueueLib.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibTests\obj\Debug\QueueLibTests.csprojResolveAssemblyReference.cache

@@ -1,0 +1,12 @@
+D:\study\WCF\2_Contracts\WCFContracts\ContractService\obj\Debug\ContractService.csprojResolveAssemblyReference.cache
+D:\study\WCF\2_Contracts\WCFContracts\ContractService\bin\Debug\ContractService.dll.config
+D:\study\WCF\2_Contracts\WCFContracts\ContractService\bin\Debug\ContractService.dll
+D:\study\WCF\2_Contracts\WCFContracts\ContractService\bin\Debug\ContractService.pdb
+D:\study\WCF\2_Contracts\WCFContracts\ContractService\bin\Debug\AutoMapper.dll
+D:\study\WCF\2_Contracts\WCFContracts\ContractService\bin\Debug\EntityFramework.dll
+D:\study\WCF\2_Contracts\WCFContracts\ContractService\bin\Debug\EntityFramework.SqlServer.dll
+D:\study\WCF\2_Contracts\WCFContracts\ContractService\bin\Debug\AutoMapper.xml
+D:\study\WCF\2_Contracts\WCFContracts\ContractService\bin\Debug\EntityFramework.xml
+D:\study\WCF\2_Contracts\WCFContracts\ContractService\bin\Debug\EntityFramework.SqlServer.xml
+D:\study\WCF\2_Contracts\WCFContracts\ContractService\obj\Debug\ContractService.dll
+D:\study\WCF\2_Contracts\WCFContracts\ContractService\obj\Debug\ContractService.pdb

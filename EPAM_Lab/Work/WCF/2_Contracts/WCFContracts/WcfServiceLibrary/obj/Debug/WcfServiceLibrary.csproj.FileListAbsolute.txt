@@ -1,0 +1,12 @@
+D:\study\WCF\2_Contracts\WCFContracts\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.csprojResolveAssemblyReference.cache
+D:\study\WCF\2_Contracts\WCFContracts\WcfServiceLibrary\bin\Debug\WcfServiceLibrary.dll
+D:\study\WCF\2_Contracts\WCFContracts\WcfServiceLibrary\bin\Debug\WcfServiceLibrary.pdb
+D:\study\WCF\2_Contracts\WCFContracts\WcfServiceLibrary\bin\Debug\EntityFramework.dll
+D:\study\WCF\2_Contracts\WCFContracts\WcfServiceLibrary\bin\Debug\EntityFramework.SqlServer.dll
+D:\study\WCF\2_Contracts\WCFContracts\WcfServiceLibrary\bin\Debug\EntityFramework.xml
+D:\study\WCF\2_Contracts\WCFContracts\WcfServiceLibrary\bin\Debug\EntityFramework.SqlServer.xml
+D:\study\WCF\2_Contracts\WCFContracts\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.dll
+D:\study\WCF\2_Contracts\WCFContracts\WcfServiceLibrary\obj\Debug\WcfServiceLibrary.pdb
+D:\study\WCF\2_Contracts\WCFContracts\WcfServiceLibrary\bin\Debug\AutoMapper.dll
+D:\study\WCF\2_Contracts\WCFContracts\WcfServiceLibrary\bin\Debug\AutoMapper.xml
+D:\study\WCF\2_Contracts\WCFContracts\WcfServiceLibrary\bin\Debug\WcfServiceLibrary.dll.config

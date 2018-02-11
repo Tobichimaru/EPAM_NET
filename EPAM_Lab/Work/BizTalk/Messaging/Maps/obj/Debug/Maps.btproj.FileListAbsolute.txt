@@ -1,0 +1,4 @@
+D:\study\Messaging\Maps\bin\Debug\Maps.dll
+D:\study\Messaging\Maps\bin\Debug\Maps.pdb
+D:\study\Messaging\Maps\obj\Debug\Maps.dll
+D:\study\Messaging\Maps\obj\Debug\Maps.pdb

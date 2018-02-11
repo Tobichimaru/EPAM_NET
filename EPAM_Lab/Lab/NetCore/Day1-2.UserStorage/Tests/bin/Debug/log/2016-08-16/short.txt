@@ -1,0 +1,144 @@
+12:08:54 (INFO): User Mike Jones Added!
+12:08:54 (ERROR): Value cannot be null.
+12:08:54 (INFO): User Mike Jones Added!
+12:08:54 (INFO): User Mike Jones Removed!
+12:08:55 (ERROR): user is null!
+12:08:55 (INFO): User Mike Jones Added!
+12:08:55 (INFO): User Mike Jones Added!
+12:08:55 (INFO): User Mike Jones Added!
+12:08:55 (INFO): User Mike Smith Added!
+12:08:55 (INFO): User Mike Jones Added!
+12:08:55 (INFO): User Mike Smith Added!
+12:08:55 (INFO): User storage saved to XML!
+12:08:55 (INFO): User Mike Jones Added!
+12:08:55 (INFO): User Mike Smith Added!
+12:08:55 (INFO): User storage saved to XML!
+12:08:55 (INFO): User storage loaded from XML!
+16:07:18 (INFO): User Mike Jones Added!
+16:07:18 (ERROR): Value cannot be null.
+16:07:18 (INFO): User Mike Jones Added!
+16:07:18 (INFO): User Mike Jones Removed!
+16:07:18 (ERROR): user is null!
+16:07:18 (INFO): User Mike Jones Added!
+16:07:18 (INFO): User Mike Jones Added!
+16:07:18 (INFO): User Mike Jones Added!
+16:07:18 (INFO): User Mike Smith Added!
+16:07:18 (INFO): User Mike Jones Added!
+16:07:18 (INFO): User Mike Smith Added!
+16:07:19 (INFO): User storage saved to XML!
+16:07:19 (INFO): User Mike Jones Added!
+16:07:19 (INFO): User Mike Smith Added!
+16:07:19 (INFO): User storage saved to XML!
+16:07:19 (INFO): User storage loaded from XML!
+16:08:21 (INFO): User Mike Jones Added!
+16:08:21 (INFO): User Mike Smith Added!
+16:08:21 (INFO): User Mike Jones Added!
+16:08:21 (INFO): User Mike Jones Added!
+16:08:21 (ERROR): user is null!
+16:08:21 (INFO): User Mike Jones Added!
+16:08:21 (INFO): User Mike Jones Removed!
+16:08:21 (ERROR): Value cannot be null.
+16:08:21 (INFO): User Mike Jones Added!
+16:08:21 (INFO): User Mike Jones Added!
+16:08:21 (INFO): User Mike Smith Added!
+16:08:21 (INFO): User storage saved to XML!
+16:08:21 (INFO): User storage loaded from XML!
+16:08:21 (INFO): User Mike Jones Added!
+16:08:21 (INFO): User Mike Smith Added!
+16:08:21 (INFO): User storage saved to XML!
+16:09:24 (INFO): User Mike Jones Added!
+16:09:24 (INFO): User Mike Smith Added!
+16:09:24 (INFO): User Mike Jones Added!
+16:09:24 (INFO): User Mike Jones Added!
+16:09:24 (ERROR): user is null!
+16:09:24 (INFO): User Mike Jones Added!
+16:09:24 (INFO): User Mike Jones Removed!
+16:09:24 (ERROR): Value cannot be null.
+16:09:24 (INFO): User Mike Jones Added!
+16:09:24 (INFO): User Mike Jones Added!
+16:09:24 (INFO): User Mike Smith Added!
+16:09:24 (INFO): User storage saved to XML!
+16:09:24 (INFO): User storage loaded from XML!
+16:09:24 (INFO): User Mike Jones Added!
+16:09:24 (INFO): User Mike Smith Added!
+16:09:24 (INFO): User storage saved to XML!
+16:10:33 (INFO): User Mike Jones Added!
+16:10:33 (INFO): User Mike Smith Added!
+16:10:33 (INFO): User Mike Jones Added!
+16:10:33 (INFO): User Mike Jones Added!
+16:10:33 (ERROR): user is null!
+16:10:33 (INFO): User Mike Jones Added!
+16:10:33 (INFO): User Mike Jones Removed!
+16:10:33 (ERROR): Value cannot be null.
+16:10:33 (INFO): User Mike Jones Added!
+16:10:33 (INFO): User Mike Jones Added!
+16:10:33 (INFO): User Mike Smith Added!
+16:10:33 (INFO): User storage saved to XML!
+16:10:33 (INFO): User storage loaded from XML!
+16:10:33 (INFO): User Mike Jones Added!
+16:10:33 (INFO): User Mike Smith Added!
+16:10:33 (INFO): User storage saved to XML!
+16:10:40 (INFO): User Mike Jones Added!
+16:10:40 (INFO): User Mike Smith Added!
+16:10:40 (INFO): User Mike Jones Added!
+16:10:40 (INFO): User Mike Jones Added!
+16:10:40 (ERROR): user is null!
+16:10:40 (INFO): User Mike Jones Added!
+16:10:40 (INFO): User Mike Jones Removed!
+16:10:40 (ERROR): Value cannot be null.
+16:10:40 (INFO): User Mike Jones Added!
+16:10:40 (INFO): User Mike Jones Added!
+16:10:40 (INFO): User Mike Smith Added!
+16:10:40 (INFO): User storage saved to XML!
+16:10:40 (INFO): User storage loaded from XML!
+16:10:40 (INFO): User Mike Jones Added!
+16:10:40 (INFO): User Mike Smith Added!
+16:10:40 (INFO): User storage saved to XML!
+16:10:48 (INFO): User Mike Jones Added!
+16:10:48 (INFO): User Mike Smith Added!
+16:10:48 (INFO): User Mike Jones Added!
+16:10:48 (INFO): User Mike Jones Added!
+16:10:48 (ERROR): user is null!
+16:10:48 (INFO): User Mike Jones Added!
+16:10:48 (INFO): User Mike Jones Removed!
+16:10:48 (ERROR): Value cannot be null.
+16:10:48 (INFO): User Mike Jones Added!
+16:10:48 (INFO): User Mike Jones Added!
+16:10:48 (INFO): User Mike Smith Added!
+16:10:48 (INFO): User storage saved to XML!
+16:10:48 (INFO): User storage loaded from XML!
+16:10:48 (INFO): User Mike Jones Added!
+16:10:48 (INFO): User Mike Smith Added!
+16:10:48 (INFO): User storage saved to XML!
+16:10:58 (INFO): User Mike Jones Added!
+16:10:58 (INFO): User Mike Smith Added!
+16:10:58 (INFO): User Mike Jones Added!
+16:10:58 (INFO): User Mike Jones Added!
+16:10:58 (ERROR): user is null!
+16:10:58 (INFO): User Mike Jones Added!
+16:10:58 (INFO): User Mike Jones Removed!
+16:10:58 (ERROR): Value cannot be null.
+16:10:58 (INFO): User Mike Jones Added!
+16:10:58 (INFO): User Mike Jones Added!
+16:10:58 (INFO): User Mike Smith Added!
+16:10:58 (INFO): User storage saved to XML!
+16:10:58 (INFO): User storage loaded from XML!
+16:10:58 (INFO): User Mike Jones Added!
+16:10:58 (INFO): User Mike Smith Added!
+16:10:58 (INFO): User storage saved to XML!
+16:12:10 (INFO): User Mike Jones Added!
+16:12:10 (ERROR): Value cannot be null.
+16:12:10 (INFO): User Mike Jones Added!
+16:12:10 (INFO): User Mike Jones Removed!
+16:12:10 (ERROR): user is null!
+16:12:10 (INFO): User Mike Jones Added!
+16:12:10 (INFO): User Mike Jones Added!
+16:12:10 (INFO): User Mike Jones Added!
+16:12:10 (INFO): User Mike Smith Added!
+16:12:10 (INFO): User Mike Jones Added!
+16:12:10 (INFO): User Mike Smith Added!
+16:12:10 (INFO): User storage saved to XML!
+16:12:10 (INFO): User Mike Jones Added!
+16:12:10 (INFO): User Mike Smith Added!
+16:12:10 (INFO): User storage saved to XML!
+16:12:10 (INFO): User storage loaded from XML!

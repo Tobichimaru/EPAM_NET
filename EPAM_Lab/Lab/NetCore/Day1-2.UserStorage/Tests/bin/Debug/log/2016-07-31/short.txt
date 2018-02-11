@@ -1,0 +1,36 @@
+23:23:19 (INFO): User Mike Jones Added!
+23:23:19 (ERROR): Значение не может быть неопределенным.
+23:23:19 (INFO): User Mike Jones Added!
+23:23:19 (INFO): User Mike Jones Removed!
+23:23:19 (ERROR): user is null!
+23:23:19 (INFO): User Mike Jones Added!
+23:23:19 (INFO): User Mike Jones Added!
+23:23:19 (INFO): User Mike Jones Added!
+23:23:19 (INFO): User Mike Smith Added!
+23:23:19 (INFO): User Mike Jones Added!
+23:23:19 (INFO): User Mike Smith Added!
+23:23:19 (INFO): User storage saved to XML!
+23:23:19 (INFO): User Mike Jones Added!
+23:23:19 (INFO): User Mike Smith Added!
+23:23:19 (INFO): User storage saved to XML!
+23:23:19 (INFO): User storage loaded from XML!
+23:23:19 (INFO): User Mike Jones Added!
+23:23:19 (INFO): User Mike Smith Added!
+23:25:51 (INFO): User Mike Jones Added!
+23:25:51 (ERROR): Значение не может быть неопределенным.
+23:25:51 (INFO): User Mike Jones Added!
+23:25:51 (INFO): User Mike Jones Removed!
+23:25:51 (ERROR): user is null!
+23:25:51 (INFO): User Mike Jones Added!
+23:25:51 (INFO): User Mike Jones Added!
+23:25:51 (INFO): User Mike Jones Added!
+23:25:51 (INFO): User Mike Smith Added!
+23:25:51 (INFO): User Mike Jones Added!
+23:25:51 (INFO): User Mike Smith Added!
+23:25:52 (INFO): User storage saved to XML!
+23:25:52 (INFO): User Mike Jones Added!
+23:25:52 (INFO): User Mike Smith Added!
+23:25:52 (INFO): User storage saved to XML!
+23:25:52 (INFO): User storage loaded from XML!
+23:25:52 (INFO): User Mike Jones Added!
+23:25:52 (INFO): User Mike Smith Added!

@@ -1,0 +1,6 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day4\MergeSortLib\bin\Debug\MergeSortLib.XML
+D:\github\epam\ASP.NET.2.Zabelova.Day4\MergeSortLib\bin\Debug\MergeSortLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day4\MergeSortLib\bin\Debug\MergeSortLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day4\MergeSortLib\obj\Debug\MergeSortLib.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day4\MergeSortLib\obj\Debug\MergeSortLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day4\MergeSortLib\obj\Debug\MergeSortLib.pdb

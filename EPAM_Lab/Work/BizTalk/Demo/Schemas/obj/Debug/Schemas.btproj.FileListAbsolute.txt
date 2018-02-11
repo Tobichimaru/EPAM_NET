@@ -1,0 +1,4 @@
+D:\study\Demo\Schemas\bin\Debug\Schemas.dll
+D:\study\Demo\Schemas\bin\Debug\Schemas.pdb
+D:\study\Demo\Schemas\obj\Debug\Schemas.dll
+D:\study\Demo\Schemas\obj\Debug\Schemas.pdb

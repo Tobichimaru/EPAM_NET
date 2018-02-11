@@ -1,0 +1,10 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day13\MatrixUnitTests\bin\Debug\MatrixUnitTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day13\MatrixUnitTests\bin\Debug\MatrixUnitTests.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day13\MatrixUnitTests\bin\Debug\Matrix.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day13\MatrixUnitTests\bin\Debug\nunit.framework.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day13\MatrixUnitTests\bin\Debug\Matrix.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day13\MatrixUnitTests\bin\Debug\Matrix.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day13\MatrixUnitTests\bin\Debug\nunit.framework.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day13\MatrixUnitTests\obj\Debug\MatrixUnitTests.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day13\MatrixUnitTests\obj\Debug\MatrixUnitTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day13\MatrixUnitTests\obj\Debug\MatrixUnitTests.pdb

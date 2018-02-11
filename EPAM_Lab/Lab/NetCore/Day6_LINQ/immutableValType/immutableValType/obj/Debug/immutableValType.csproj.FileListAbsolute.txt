@@ -1,0 +1,6 @@
+D:\Katsiaryna_Zabelava\Day6_LINQ\immutableValType\immutableValType\bin\Debug\immutableValType.exe.config
+D:\Katsiaryna_Zabelava\Day6_LINQ\immutableValType\immutableValType\bin\Debug\immutableValType.exe
+D:\Katsiaryna_Zabelava\Day6_LINQ\immutableValType\immutableValType\bin\Debug\immutableValType.pdb
+D:\Katsiaryna_Zabelava\Day6_LINQ\immutableValType\immutableValType\obj\Debug\immutableValType.csprojResolveAssemblyReference.cache
+D:\Katsiaryna_Zabelava\Day6_LINQ\immutableValType\immutableValType\obj\Debug\immutableValType.exe
+D:\Katsiaryna_Zabelava\Day6_LINQ\immutableValType\immutableValType\obj\Debug\immutableValType.pdb

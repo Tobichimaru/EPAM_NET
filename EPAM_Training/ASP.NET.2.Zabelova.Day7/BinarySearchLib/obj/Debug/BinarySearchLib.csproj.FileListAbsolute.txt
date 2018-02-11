@@ -1,0 +1,6 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day7\BinarySearchLib\bin\Debug\BinarySearchLib.XML
+D:\github\epam\ASP.NET.2.Zabelova.Day7\BinarySearchLib\bin\Debug\BinarySearchLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day7\BinarySearchLib\bin\Debug\BinarySearchLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day7\BinarySearchLib\obj\Debug\BinarySearchLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day7\BinarySearchLib\obj\Debug\BinarySearchLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day7\BinarySearchLib\obj\Debug\BinarySearchLib.csprojResolveAssemblyReference.cache

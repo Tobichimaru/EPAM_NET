@@ -1,0 +1,10 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day4\MergeSortLibNUnitTests\bin\Debug\MergeSortLibNUnitTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day4\MergeSortLibNUnitTests\bin\Debug\MergeSortLibNUnitTests.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day4\MergeSortLibNUnitTests\bin\Debug\MergeSortLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day4\MergeSortLibNUnitTests\bin\Debug\nunit.framework.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day4\MergeSortLibNUnitTests\bin\Debug\MergeSortLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day4\MergeSortLibNUnitTests\bin\Debug\MergeSortLib.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day4\MergeSortLibNUnitTests\bin\Debug\nunit.framework.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day4\MergeSortLibNUnitTests\obj\Debug\MergeSortLibNUnitTests.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day4\MergeSortLibNUnitTests\obj\Debug\MergeSortLibNUnitTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day4\MergeSortLibNUnitTests\obj\Debug\MergeSortLibNUnitTests.pdb

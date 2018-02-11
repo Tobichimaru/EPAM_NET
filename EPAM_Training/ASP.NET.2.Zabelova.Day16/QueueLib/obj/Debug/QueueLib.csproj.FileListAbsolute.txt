@@ -1,0 +1,12 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLib\bin\Debug\QueueLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLib\bin\Debug\QueueLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLib\obj\Debug\QueueLib.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLib\obj\Debug\QueueLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLib\obj\Debug\QueueLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLib\bin\Debug\QueueLib.XML
+D:\github\epam\ASP.NET.2.Zabelova.Day16\QueueLib\bin\Debug\QueueLib.XML
+D:\github\epam\ASP.NET.2.Zabelova.Day16\QueueLib\bin\Debug\QueueLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day16\QueueLib\bin\Debug\QueueLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day16\QueueLib\obj\Debug\QueueLib.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day16\QueueLib\obj\Debug\QueueLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day16\QueueLib\obj\Debug\QueueLib.pdb

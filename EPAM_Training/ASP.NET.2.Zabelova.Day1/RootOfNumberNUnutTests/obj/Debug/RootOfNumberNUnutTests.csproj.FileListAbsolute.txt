@@ -1,0 +1,10 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day1\RootOfNumberNUnutTests\bin\Debug\RootOfNumberNUnutTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day1\RootOfNumberNUnutTests\bin\Debug\RootOfNumberNUnutTests.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day1\RootOfNumberNUnutTests\bin\Debug\nunit.framework.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day1\RootOfNumberNUnutTests\bin\Debug\RootOfNumber.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day1\RootOfNumberNUnutTests\bin\Debug\RootOfNumber.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day1\RootOfNumberNUnutTests\bin\Debug\RootOfNumber.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day1\RootOfNumberNUnutTests\bin\Debug\nunit.framework.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day1\RootOfNumberNUnutTests\obj\Debug\RootOfNumberNUnutTests.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day1\RootOfNumberNUnutTests\obj\Debug\RootOfNumberNUnutTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day1\RootOfNumberNUnutTests\obj\Debug\RootOfNumberNUnutTests.pdb

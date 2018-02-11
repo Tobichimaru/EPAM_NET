@@ -1,0 +1,28 @@
+Á<?xml version="1.0"?>
+<ArrayOfBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Book>
+    <Title>1</Title>
+    <Author>Rowling</Author>
+    <NumberOfPages>461</NumberOfPages>
+  </Book>
+  <Book>
+    <Title>2</Title>
+    <Author>sir</Author>
+    <NumberOfPages>230</NumberOfPages>
+  </Book>
+  <Book>
+    <Title>3</Title>
+    <Author>weasley</Author>
+    <NumberOfPages>604</NumberOfPages>
+  </Book>
+  <Book>
+    <Title>4</Title>
+    <Author>harry</Author>
+    <NumberOfPages>380</NumberOfPages>
+  </Book>
+  <Book>
+    <Title>5</Title>
+    <Author>me</Author>
+    <NumberOfPages>815</NumberOfPages>
+  </Book>
+</ArrayOfBook>

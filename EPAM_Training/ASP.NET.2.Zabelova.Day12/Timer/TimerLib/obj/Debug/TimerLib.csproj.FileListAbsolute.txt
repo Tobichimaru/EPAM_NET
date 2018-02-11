@@ -1,0 +1,17 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day12\TimerLib\bin\Debug\TimerLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day12\TimerLib\bin\Debug\TimerLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day12\TimerLib\obj\Debug\TimerLib.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day12\TimerLib\obj\Debug\TimerLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day12\TimerLib\obj\Debug\TimerLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day12\TimerLib\bin\Debug\TimerLib.XML
+D:\github\epam\ASP.NET.2.Zabelova.Day12\TimerLib\bin\Debug\NLog.config
+D:\github\epam\ASP.NET.2.Zabelova.Day12\TimerLib\bin\Debug\NLog.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day12\TimerLib\bin\Debug\NLog.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day12\Timer\TimerLib\bin\Debug\NLog.config
+D:\github\epam\ASP.NET.2.Zabelova.Day12\Timer\TimerLib\bin\Debug\TimerLib.XML
+D:\github\epam\ASP.NET.2.Zabelova.Day12\Timer\TimerLib\bin\Debug\TimerLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day12\Timer\TimerLib\bin\Debug\TimerLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day12\Timer\TimerLib\bin\Debug\NLog.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day12\Timer\TimerLib\obj\Debug\TimerLib.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day12\Timer\TimerLib\obj\Debug\TimerLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day12\Timer\TimerLib\obj\Debug\TimerLib.pdb

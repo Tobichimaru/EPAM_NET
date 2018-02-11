@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSortLib", "MergeSortLib\MergeSortLib.csproj", "{0F432DDE-B728-449F-8C00-93A297001D2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MergeSort", "MergeSort", "{BDF0D348-F4DF-4663-BA79-B74B1A78525F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queue", "Queue", "{D49F0D41-5D4A-4B73-B19B-AE13C6AB72D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueLib", "QueueLib\QueueLib.csproj", "{BFDDE057-77E3-48DF-AB2E-F4D886E559DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSortLibNUnitTests", "MergeSortLibNUnitTests\MergeSortLibNUnitTests.csproj", "{39F4F194-DEDE-4F68-9B91-D56DD37FCDD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueLibTests", "QueueLibTests\QueueLibTests.csproj", "{52D7D32D-E500-45E0-80BC-7C3D6F97FE60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueLibNUnitTests", "QueueLibNUnitTests\QueueLibNUnitTests.csproj", "{9D6944C5-82B2-4C2C-B040-954FEABDCB5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F432DDE-B728-449F-8C00-93A297001D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F432DDE-B728-449F-8C00-93A297001D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F432DDE-B728-449F-8C00-93A297001D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F432DDE-B728-449F-8C00-93A297001D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDDE057-77E3-48DF-AB2E-F4D886E559DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDDE057-77E3-48DF-AB2E-F4D886E559DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDDE057-77E3-48DF-AB2E-F4D886E559DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDDE057-77E3-48DF-AB2E-F4D886E559DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F4F194-DEDE-4F68-9B91-D56DD37FCDD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F4F194-DEDE-4F68-9B91-D56DD37FCDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F4F194-DEDE-4F68-9B91-D56DD37FCDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F4F194-DEDE-4F68-9B91-D56DD37FCDD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D7D32D-E500-45E0-80BC-7C3D6F97FE60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D7D32D-E500-45E0-80BC-7C3D6F97FE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D7D32D-E500-45E0-80BC-7C3D6F97FE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D7D32D-E500-45E0-80BC-7C3D6F97FE60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D6944C5-82B2-4C2C-B040-954FEABDCB5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D6944C5-82B2-4C2C-B040-954FEABDCB5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D6944C5-82B2-4C2C-B040-954FEABDCB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D6944C5-82B2-4C2C-B040-954FEABDCB5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F432DDE-B728-449F-8C00-93A297001D2A} = {BDF0D348-F4DF-4663-BA79-B74B1A78525F}
+		{BFDDE057-77E3-48DF-AB2E-F4D886E559DA} = {D49F0D41-5D4A-4B73-B19B-AE13C6AB72D1}
+		{39F4F194-DEDE-4F68-9B91-D56DD37FCDD2} = {BDF0D348-F4DF-4663-BA79-B74B1A78525F}
+		{52D7D32D-E500-45E0-80BC-7C3D6F97FE60} = {D49F0D41-5D4A-4B73-B19B-AE13C6AB72D1}
+		{9D6944C5-82B2-4C2C-B040-954FEABDCB5D} = {D49F0D41-5D4A-4B73-B19B-AE13C6AB72D1}
+	EndGlobalSection
+EndGlobal

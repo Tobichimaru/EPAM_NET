@@ -1,0 +1,12 @@
+D:\github\ASP.NET.2.Zabelova.Day1\RootOfNumber\bin\Debug\RootOfNumber.dll
+D:\github\ASP.NET.2.Zabelova.Day1\RootOfNumber\bin\Debug\RootOfNumber.pdb
+D:\github\ASP.NET.2.Zabelova.Day1\RootOfNumber\obj\Debug\RootOfNumber.csprojResolveAssemblyReference.cache
+D:\github\ASP.NET.2.Zabelova.Day1\RootOfNumber\obj\Debug\RootOfNumber.dll
+D:\github\ASP.NET.2.Zabelova.Day1\RootOfNumber\obj\Debug\RootOfNumber.pdb
+D:\github\ASP.NET.2.Zabelova.Day1\RootOfNumber\bin\Debug\RootOfNumber.XML
+D:\github\epam\ASP.NET.2.Zabelova.Day1\RootOfNumber\bin\Debug\RootOfNumber.XML
+D:\github\epam\ASP.NET.2.Zabelova.Day1\RootOfNumber\bin\Debug\RootOfNumber.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day1\RootOfNumber\bin\Debug\RootOfNumber.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day1\RootOfNumber\obj\Debug\RootOfNumber.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day1\RootOfNumber\obj\Debug\RootOfNumber.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day1\RootOfNumber\obj\Debug\RootOfNumber.pdb

@@ -1,0 +1,10 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibNUnitTests\bin\Debug\QueueLibNUnitTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibNUnitTests\bin\Debug\QueueLibNUnitTests.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibNUnitTests\bin\Debug\nunit.framework.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibNUnitTests\bin\Debug\QueueLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibNUnitTests\bin\Debug\QueueLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibNUnitTests\bin\Debug\QueueLib.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibNUnitTests\bin\Debug\nunit.framework.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibNUnitTests\obj\Debug\QueueLibNUnitTests.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibNUnitTests\obj\Debug\QueueLibNUnitTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day4\QueueLibNUnitTests\obj\Debug\QueueLibNUnitTests.pdb

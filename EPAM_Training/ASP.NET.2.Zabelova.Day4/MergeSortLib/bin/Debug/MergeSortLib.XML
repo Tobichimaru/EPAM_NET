@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MergeSortLib</name>
+    </assembly>
+    <members>
+        <member name="T:MergeSortLib.MergeSort">
+            <summary>
+            Class contains methods for sorting generic array by Merge Sort algorithm
+            </summary>
+        </member>
+        <member name="M:MergeSortLib.MergeSort.Sort``1(``0[],System.Comparison{``0})">
+            <summary>
+            This method sorts generic array by merge sort algorithm
+            </summary>
+            <typeparam name="T">type of items in the array</typeparam>
+            <param name="a">array for sorting</param>
+            <param name="comparisonDelegate">delegate for comparing elemets in the array</param>
+        </member>
+        <member name="M:MergeSortLib.MergeSort.Sort``1(``0[],System.Int32,System.Int32,System.Comparison{``0})">
+            <summary>
+            This method sorts generic array by merge sort algorithm
+            </summary>
+            <typeparam name="T">type of items in the array</typeparam>
+            <param name="a">array for sorting</param>
+            <param name="left">start position of sorting</param>
+            <param name="right">end position of sorting</param>
+            <param name="comparisonDelegate">delegate for comparing elemets in the array</param>
+        </member>
+        <member name="M:MergeSortLib.MergeSort.Sort``1(``0[],System.Collections.Generic.IComparer{``0})">
+            <summary>
+            This method sorts generic array by merge sort algorithm
+            </summary>
+            <typeparam name="T">type of items in the array</typeparam>
+            <param name="a">array for sorting</param>
+            <param name="comparer">interface object for comparing elemets in the array</param>
+        </member>
+        <member name="M:MergeSortLib.MergeSort.Sort``1(``0[],System.Int32,System.Int32,System.Collections.Generic.IComparer{``0})">
+            <summary>
+            This method sorts generic array by merge sort algorithm
+            </summary>
+            <typeparam name="T">type of items in the array</typeparam>
+            <param name="a">array for sorting</param>
+            <param name="left">start position of sorting</param>
+            <param name="right">end position of sorting</param>
+            <param name="comparer">interface object for comparing elemets in the array</param>
+        </member>
+    </members>
+</doc>

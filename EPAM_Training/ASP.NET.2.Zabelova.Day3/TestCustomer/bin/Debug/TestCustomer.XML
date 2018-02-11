@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestCustomer</name>
+    </assembly>
+    <members>
+        <member name="T:TestCustomer.OtherFormatProvider">
+            <summary>
+            Providing other formating for Customer class
+            </summary>
+        </member>
+        <member name="M:TestCustomer.OtherFormatProvider.Format(System.String,System.Object,System.IFormatProvider)">
+            <summary>
+            Creates string representation of inputed object due provided format
+            </summary>
+            <param name="format">format for string representation</param>
+            <param name="arg">object for formating</param>
+            <param name="formatProvider">format for string representation</param>
+            <returns>string representation of an object</returns>
+        </member>
+        <member name="T:TestCustomer.TestCustomerInfo">
+            <summary>
+            Class for testing Customer class
+            </summary>
+        </member>
+        <member name="M:TestCustomer.TestCustomerInfo.Main(System.String[])">
+            <summary>
+            SetUp method
+            </summary>
+            <param name="args">arguments of command prompt</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sorting</name>
+    </assembly>
+    <members>
+        <member name="T:Sorting.SortArray">
+            <summary>
+            Class for sorting arrays
+            </summary>
+        </member>
+        <member name="M:Sorting.SortArray.Sort``1(``0[],System.Comparison{``0})">
+            <summary>
+            Method for sorting array
+            </summary>
+            <param name="a">array for sorting</param>
+            <param name="comparisonDelegate">delegate for sorting</param>
+        </member>
+        <member name="M:Sorting.SortArray.Sort``1(``0[],System.Collections.Generic.IComparer{``0})">
+            <summary>
+            Method for sorting array
+            </summary>
+            <param name="a">array for sorting</param>
+            <param name="comparer">interface for sorting</param>
+        </member>
+        <member name="M:Sorting.SortArray.Swap``1(``0@,``0@)">
+            <summary>
+            Method for swaping two items
+            </summary>
+            <param name="a">first item</param>
+            <param name="b">second item</param>
+        </member>
+    </members>
+</doc>

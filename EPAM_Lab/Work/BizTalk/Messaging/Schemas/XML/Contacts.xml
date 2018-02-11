@@ -1,0 +1,16 @@
+<ns0:Contacts xmlns:ns0="http://www.kate.com/schemas/contacts">
+  <Contact>
+    <Name>Kate</Name>
+    <Phone>123456</Phone>
+    <Email>mail@mail.com</Email>
+    <Money>1</Money>
+  </Contact>
+  <Addresses>
+    <Address>
+      <Street>Street</Street>
+      <City>Minsk</City>
+      <State>BY</State>
+      <ZipCode>12312-4354</ZipCode>
+    </Address>
+  </Addresses>
+</ns0:Contacts>

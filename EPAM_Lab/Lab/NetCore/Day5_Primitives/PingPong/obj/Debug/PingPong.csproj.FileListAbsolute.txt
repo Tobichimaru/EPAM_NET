@@ -1,0 +1,6 @@
+D:\Katsiaryna_Zabelava\Day5_Primitives\PingPong\bin\Debug\PingPong.exe.config
+D:\Katsiaryna_Zabelava\Day5_Primitives\PingPong\bin\Debug\PingPong.exe
+D:\Katsiaryna_Zabelava\Day5_Primitives\PingPong\bin\Debug\PingPong.pdb
+D:\Katsiaryna_Zabelava\Day5_Primitives\PingPong\obj\Debug\PingPong.csprojResolveAssemblyReference.cache
+D:\Katsiaryna_Zabelava\Day5_Primitives\PingPong\obj\Debug\PingPong.exe
+D:\Katsiaryna_Zabelava\Day5_Primitives\PingPong\obj\Debug\PingPong.pdb

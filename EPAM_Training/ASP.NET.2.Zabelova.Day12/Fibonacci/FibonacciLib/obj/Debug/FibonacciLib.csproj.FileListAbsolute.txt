@@ -1,0 +1,17 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day12\FibonacciLib\bin\Debug\FibonacciLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day12\FibonacciLib\bin\Debug\FibonacciLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day12\FibonacciLib\obj\Debug\FibonacciLib.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day12\FibonacciLib\obj\Debug\FibonacciLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day12\FibonacciLib\obj\Debug\FibonacciLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day12\FibonacciLib\bin\Debug\NLog.config
+D:\github\epam\ASP.NET.2.Zabelova.Day12\FibonacciLib\bin\Debug\FibonacciLib.XML
+D:\github\epam\ASP.NET.2.Zabelova.Day12\FibonacciLib\bin\Debug\NLog.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day12\FibonacciLib\bin\Debug\NLog.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day12\Fibonacci\FibonacciLib\bin\Debug\NLog.config
+D:\github\epam\ASP.NET.2.Zabelova.Day12\Fibonacci\FibonacciLib\bin\Debug\FibonacciLib.XML
+D:\github\epam\ASP.NET.2.Zabelova.Day12\Fibonacci\FibonacciLib\bin\Debug\FibonacciLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day12\Fibonacci\FibonacciLib\bin\Debug\FibonacciLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day12\Fibonacci\FibonacciLib\bin\Debug\NLog.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day12\Fibonacci\FibonacciLib\obj\Debug\FibonacciLib.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day12\Fibonacci\FibonacciLib\obj\Debug\FibonacciLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day12\Fibonacci\FibonacciLib\obj\Debug\FibonacciLib.pdb

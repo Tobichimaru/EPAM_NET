@@ -1,0 +1,17 @@
+C:\Users\kzabe\OneDrive\Документы\EPAM.RD.2016.S\MVC\Day1\Routing\RemoteLib\bin\Debug\RemoteLib.dll
+C:\Users\kzabe\OneDrive\Документы\EPAM.RD.2016.S\MVC\Day1\Routing\RemoteLib\bin\Debug\RemoteLib.pdb
+C:\Users\kzabe\OneDrive\Документы\EPAM.RD.2016.S\MVC\Day1\Routing\RemoteLib\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\kzabe\OneDrive\Документы\EPAM.RD.2016.S\MVC\Day1\Routing\RemoteLib\bin\Debug\System.Web.Helpers.dll
+C:\Users\kzabe\OneDrive\Документы\EPAM.RD.2016.S\MVC\Day1\Routing\RemoteLib\bin\Debug\System.Web.Mvc.dll
+C:\Users\kzabe\OneDrive\Документы\EPAM.RD.2016.S\MVC\Day1\Routing\RemoteLib\bin\Debug\System.Web.Razor.dll
+C:\Users\kzabe\OneDrive\Документы\EPAM.RD.2016.S\MVC\Day1\Routing\RemoteLib\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\kzabe\OneDrive\Документы\EPAM.RD.2016.S\MVC\Day1\Routing\RemoteLib\bin\Debug\System.Web.WebPages.dll
+C:\Users\kzabe\OneDrive\Документы\EPAM.RD.2016.S\MVC\Day1\Routing\RemoteLib\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\kzabe\OneDrive\Документы\EPAM.RD.2016.S\MVC\Day1\Routing\RemoteLib\bin\Debug\System.Web.Helpers.xml
+C:\Users\kzabe\OneDrive\Документы\EPAM.RD.2016.S\MVC\Day1\Routing\RemoteLib\bin\Debug\System.Web.Mvc.xml
+C:\Users\kzabe\OneDrive\Документы\EPAM.RD.2016.S\MVC\Day1\Routing\RemoteLib\bin\Debug\System.Web.Razor.xml
+C:\Users\kzabe\OneDrive\Документы\EPAM.RD.2016.S\MVC\Day1\Routing\RemoteLib\bin\Debug\System.Web.WebPages.xml
+C:\Users\kzabe\OneDrive\Документы\EPAM.RD.2016.S\MVC\Day1\Routing\RemoteLib\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\kzabe\OneDrive\Документы\EPAM.RD.2016.S\MVC\Day1\Routing\RemoteLib\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\kzabe\OneDrive\Документы\EPAM.RD.2016.S\MVC\Day1\Routing\RemoteLib\obj\Debug\RemoteLib.dll
+C:\Users\kzabe\OneDrive\Документы\EPAM.RD.2016.S\MVC\Day1\Routing\RemoteLib\obj\Debug\RemoteLib.pdb

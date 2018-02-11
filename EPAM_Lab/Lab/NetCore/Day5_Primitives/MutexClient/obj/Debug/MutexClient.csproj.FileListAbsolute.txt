@@ -1,0 +1,12 @@
+D:\Katsiaryna_Zabelava\Day5_Primitives\MutexClient\bin\Debug\MutexClient.exe.config
+D:\Katsiaryna_Zabelava\Day5_Primitives\MutexClient\bin\Debug\MutexClient.exe
+D:\Katsiaryna_Zabelava\Day5_Primitives\MutexClient\bin\Debug\MutexClient.pdb
+D:\Katsiaryna_Zabelava\Day5_Primitives\MutexClient\obj\Debug\MutexClient.csprojResolveAssemblyReference.cache
+D:\Katsiaryna_Zabelava\Day5_Primitives\MutexClient\obj\Debug\MutexClient.exe
+D:\Katsiaryna_Zabelava\Day5_Primitives\MutexClient\obj\Debug\MutexClient.pdb
+D:\github\EPAM.RD.2016.S\Day5_Primitives\MutexClient\bin\Debug\MutexClient.exe.config
+D:\github\EPAM.RD.2016.S\Day5_Primitives\MutexClient\bin\Debug\MutexClient.exe
+D:\github\EPAM.RD.2016.S\Day5_Primitives\MutexClient\bin\Debug\MutexClient.pdb
+D:\github\EPAM.RD.2016.S\Day5_Primitives\MutexClient\obj\Debug\MutexClient.csprojResolveAssemblyReference.cache
+D:\github\EPAM.RD.2016.S\Day5_Primitives\MutexClient\obj\Debug\MutexClient.exe
+D:\github\EPAM.RD.2016.S\Day5_Primitives\MutexClient\obj\Debug\MutexClient.pdb

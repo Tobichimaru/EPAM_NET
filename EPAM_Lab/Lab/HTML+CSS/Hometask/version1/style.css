@@ -1,0 +1,496 @@
+@font-face {
+    font-family: MyriadBold;
+    src: url(fonts/MyriadPro-Bold.otf);
+}
+@font-face {
+    font-family: MyriadRegular;
+    src: url(fonts/MyriadPro-Regular.otf);
+}
+@font-face {
+    font-family: MyriadCond;
+    src: url(fonts/MyriadPro-Cond.otf);
+}
+@font-face {
+    font-family: MyriadLight;
+    src: url(fonts/MyriadPro-Light.otf);
+}
+* {
+    font-family: MyriadRegular, Tahoma, Arial, sans-serif;
+    font-size: 1vw;
+}
+body {
+    margin: 0;
+    width: 100%;
+}
+html, body, .main-container  {height: 100%;}
+
+body > .main-container  {height: auto; min-height: 95%;}
+
+
+.panel {
+    float: left;
+    width: 43.2%;
+}
+.left {
+    float: left;
+}
+.panel.left {
+    margin-left: 5%;
+}
+.violet {
+    color: #601C6A;
+}
+.title-block {
+    margin-left: 5%;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+h1,
+h3,
+h4,
+h5,
+h6 {
+    font-family: MyriadBold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	white-space: nowrap;
+    text-transform: uppercase;
+}
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 930%;
+    line-height: 72%;
+}
+h1 span {
+    font-size: 60%;
+    font-family: MyriadBold;
+    font-weight: bold;
+    display: block;
+}
+h2 {
+    font-family: MyriadLight;
+    font-size: 390%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    line-height: 140%;
+}
+h2 span {
+    font-family: MyriadLight;
+    font-weight: lighter;
+    font-size: 160%;
+    display: block;
+}
+h4 {
+    font-size: 227%;
+    border-left: 0.7vw solid #601C6A;
+    margin: 0;
+    padding-left: 2%;
+}
+h4 span {
+    font-family: MyriadBold;
+    font-size: 100%;
+}
+h5 {
+    font-family: MyriadBold;
+    font-size: 230%;
+    margin: 0;
+}
+h6 {
+    font-family: MyriadLight;
+    font-size: 275%;
+    margin: 0;
+    margin-top: -2%;
+}
+h6 span {
+    font-family: MyriadLight;
+    font-size: 100%;
+}
+h7, h8 {
+	font-size: 188%;
+    font-family: MyriadBold;
+    line-height: 110%;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+}
+h7 {
+	color: #601C6A;
+}
+
+.article-block {
+    margin-bottom: 16%;
+    margin-left: 1.5%;
+}
+
+.h5-container {
+    padding: 1% 0;
+    margin-bottom: 0.5%;
+    margin-top: -1.5%;
+}
+
+blockquote {
+    margin-top: 0;
+    font-weight: bold;
+    margin-left: 7%;
+    width: 100%;
+}
+blockquote p {
+    font-weight: 100;
+    line-height: 1.2vw;
+    font-size: 110%;
+    padding-right: 25%;
+}
+blockquote:before,
+blockquote:after {
+	content: "\"";
+	font-family: Georgia;
+    color: #601C6A;
+    font-size: 500%;
+    display: block;
+    margin-left: -4%;
+    height: 2vw;
+}
+blockquote:after {
+	margin-left: 75%;
+	height: 0.9vw;
+}
+
+.education {
+	margin-left: 2%;
+}
+.triangle {
+	background-image: url(img/triangle.png);
+	background-size: 120%;
+    width: 1.5%;
+    height: 1.2vw;
+    position: absolute;
+    left: 6.5%;
+}
+
+.tall-left-border {
+	border-left: 0.4vw solid #601C6A;
+	height: 6vw;
+}
+.tall-left-border:before {
+    content: "";
+}
+
+.years {
+    float: left;
+    font-size: 153%;
+    font-family: MyriadBold;
+    padding-left: 2%;
+    padding-bottom: 8%;
+    margin: 0;
+    width: 25%;
+}
+.description {
+	font-family: MyriadBold;
+    font-size: 113%;
+    margin: 0 auto;
+}
+.reasons {
+    margin-left: 4.5%;
+}
+.reasons p {
+    font-size: 150%;
+    line-height: 13.5%;
+}
+
+.contacts {
+    padding-left: 4.5%;
+}
+.contact {
+    margin-bottom: 4.5%;
+}
+.contacts .contact:before {
+    content: "";
+    background-color: #601C6A;
+    height: 2.9vw;
+    width: 7%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 2.5%;
+}
+.contact .violet {
+    margin-top: 0;
+    font-family: MyriadBold;
+    font-size: 150%;
+}
+.contact p {
+    font-size: 150%;
+    line-height: 30%;
+}
+
+.panel-small {
+    float: left;
+    width: 32%;
+}
+.panel-middle {
+    padding-top: 3%;
+    width: 22%;
+    position: relative;
+}
+.panel-right {
+    width: 33%;
+}
+.panel-right p {
+    text-align: right;
+}
+.article-block.balance-article {
+    width: 100%;
+}
+.balance-block {
+    padding-left: 2%;
+    display: flex;
+}
+.balance-img {
+    padding-top: 41%;
+    margin-left: -53%;
+    width: 250%;
+}
+.transperant-circle {
+    height: 11vw;
+    width: 48%;
+    position: relative;
+    background-color: #601C6A;
+    border-radius: 100%;
+    float: left;
+    margin-right: 2.5%;
+    opacity: 0.2;
+}
+.transperant-circle.right {
+    margin-left: -17%;
+}
+.balance-dots {
+	height: 87%;
+	border-right: 0.2vw dotted black;
+	position: absolute;
+	margin-left: 50%;
+}
+.circle-icon {
+    width: 30%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.balance-header {
+    font-family: MyriadRegular;
+    font-size: 230%;
+    margin-top: 3%;
+}
+.balance.m1 {
+    margin-top: 35%;
+}
+.balance.m2 {
+    margin-top: 29%;
+}
+.balance.m3 {
+    margin-top: 21%;
+}
+.balance.m3 p {
+    line-height: 40%;
+}
+.balance.m4 {
+    margin-top: 23%;
+}
+.balance .violet {
+    margin-top: 0;
+    font-family: MyriadBold;
+    font-size: 155%;
+}
+.balance .violet.middle {
+    margin-top: 5%;
+    margin-left: -5%;
+    font-size: 200%;
+}
+.balance p {
+    line-height: 120%;
+    font-size: 150%;
+    line-height: 30%;
+    font-family: MyriadRegular;
+}
+.skill {
+    margin-left: 3%;
+}
+.skill label {
+    font-size: 150%;
+    float: left;
+}
+.gradient {
+    background: linear-gradient(to right, #95679b, #ded0e0, white, #ded0e0, #95679b);
+    height: 3.8vw;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+.violet-block {
+    background-color: #e7dde9;
+    width: 50%;
+    height: 1.4vw;
+    margin-left: 38%;
+    margin-bottom: 2.5%;
+}
+.skill-info.gradient {
+    position: relative;
+    height: 100%;
+}
+.s1,
+.s2,
+.s3,
+.s4,
+.s5 {
+    z-index: 1;
+}
+.s1 {
+    width: 91%;
+}
+.s2 {
+    width: 59%;
+}
+.s3 {
+    width: 75%;
+}
+.s4 {
+    width: 82%;
+}
+.s5 {
+    width: 97%;
+}
+
+.diagram-container {
+    padding-left: 6%;
+}
+.black-line-vertical {
+    margin-left: 4.5%;
+    background-color: black;
+    height: 25vw;
+    width: 0.7%;
+    float: left;
+}
+.black-line-horizontal {
+    background-color: black;
+    float: left;
+    height: 0.3vw;
+    width: 74%;
+    margin-top: 2%;
+    margin-left: -0.5%;
+}
+.software-article {
+    margin-top: -5%;
+    margin-bottom: 3%;
+}
+.software {
+    height: 23vw;
+    border-left: 0.3vw solid black;
+    border-bottom: 0.3vw solid black;
+    margin-left: 12%;
+}
+.software-article label {
+    float: left;
+    font-size: 145%;
+    margin: 2% -3% 0 3%;
+}
+.software li {
+    background: linear-gradient(to right, #95679b, #ded0e0, white, #ded0e0, #95679b);
+    width: 8%;
+    float: left;
+    margin-right: 1%;
+    margin-left: 1.5%;
+}
+.software .deep-violet-block  {
+    background: linear-gradient(to right, #95679b, #782185, #95679b);
+}
+.deep-violet-block p {
+    color: white;
+}
+.v1 {
+    margin-top: 12%;
+    height: 6.3vw;
+    padding-top: 30%;
+}
+.v2 {
+    margin-top: 9%;
+    height: 6vw;
+    padding-top: 34%;
+}
+.v3 {
+    margin-top: 5%;
+    height: 6.3vw;
+    padding-top: 37%;
+}
+.v4 {
+    margin-top: 28%;
+    height: 7.2vw;
+    padding-top: 12%;
+}
+.v4 p {
+    margin-left: -3%
+}
+.v5 {
+    margin-top: 9%;
+    height: 6.3vw;
+    padding-top: 33.5%;
+}
+.v6 {
+    margin-top: 14%;
+    height: 6.8vw;
+    padding-top: 27%;
+}
+.v7 {
+    margin-top: 29%;
+    height: 6vw;
+    padding-top: 14%;
+}
+.print-design,
+.web-design {
+    width: 5.5%;
+    height: 2vw;
+    float: left;
+    margin-left: 7%;
+}
+.print-design {
+    background: linear-gradient(to right, #95679b, #ded0e0, white, #ded0e0, #95679b);
+}
+.web-design {
+    background: linear-gradient(to right, #95679b, #782185, #95679b);
+}
+.info-design-block {
+    margin-left: 9%;
+}
+.info-design-block p {
+    float: left;
+    font-size: 160%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.rotate-text {
+    font-size: 150%;
+    position: absolute;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    filter: none;
+    margin: 0;
+    margin-left: -2%;
+    margin-top: 1.5%;
+}
+.footer-logo-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.gradient.bottom {
+	width: 100%;
+    position: relative;
+    clear:both;
+}

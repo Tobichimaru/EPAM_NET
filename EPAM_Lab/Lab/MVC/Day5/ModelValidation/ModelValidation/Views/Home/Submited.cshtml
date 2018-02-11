@@ -1,0 +1,48 @@
+﻿@model ModelValidation.Models.Voucher
+
+@{
+    ViewBag.Title = Model.Title;
+}
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h4>@Model.Title</h4>
+    </div>
+    <div class="panel-body">
+        <dl class="row">
+            <dt class="col-md-2">
+                @Html.NameFor(model => model.Name)
+            </dt>
+            <dd class="col-md-10">
+                &nbsp;@Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class="col-md-2">
+                @Html.NameFor(model => model.Prefix)
+            </dt>
+            <dd class="col-md-10">
+                &nbsp;@Html.DisplayFor(model => model.Prefix)
+            </dd>
+            <dt class="col-md-2">
+                @Html.NameFor(model => model.Postfix)
+            </dt>
+            <dd class="col-md-10">
+                &nbsp;@Html.DisplayFor(model => model.Postfix)
+            </dd>
+            <dt class="col-md-2">
+                @Html.NameFor(model => model.StartDate)
+            </dt>
+            <dd class="col-md-10">
+                &nbsp;@Html.DisplayFor(model => model.StartDate)
+            </dd>
+            <dt class="col-md-2">
+                @Html.NameFor(model => model.EndDate)
+            </dt>
+            <dd class="col-md-10">
+                &nbsp;@Html.DisplayFor(model => model.EndDate)
+            </dd>
+        </dl>
+    </div>
+    <div class="panel-footer">
+        @Html.ActionLink("Back", "Index", null, new { @class = "btn btn-warning" })
+    </div>
+</div>

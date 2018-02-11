@@ -1,0 +1,11 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day8\UniversityUnitTests\bin\Debug\UniversityUnitTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day8\UniversityUnitTests\bin\Debug\UniversityUnitTests.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day8\UniversityUnitTests\obj\Debug\UniversityUnitTests.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day8\UniversityUnitTests\obj\Debug\UniversityUnitTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day8\UniversityUnitTests\obj\Debug\UniversityUnitTests.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day8\UniversityUnitTests\bin\Debug\University.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day8\UniversityUnitTests\bin\Debug\University.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day8\UniversityUnitTests\bin\Debug\NLog.config
+D:\github\epam\ASP.NET.2.Zabelova.Day8\UniversityUnitTests\bin\Debug\NLog.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day8\UniversityUnitTests\bin\Debug\NLog.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day8\UniversityUnitTests\bin\Debug\University.xml

@@ -1,0 +1,6 @@
+D:\study\WCF\2_Contracts\WCFContracts\UnitTestProject\bin\Debug\UnitTestProject.dll
+D:\study\WCF\2_Contracts\WCFContracts\UnitTestProject\bin\Debug\UnitTestProject.pdb
+D:\study\WCF\2_Contracts\WCFContracts\UnitTestProject\obj\Debug\UnitTestProject.csprojResolveAssemblyReference.cache
+D:\study\WCF\2_Contracts\WCFContracts\UnitTestProject\obj\Debug\UnitTestProject.dll
+D:\study\WCF\2_Contracts\WCFContracts\UnitTestProject\obj\Debug\UnitTestProject.pdb
+D:\study\WCF\2_Contracts\WCFContracts\UnitTestProject\bin\Debug\UnitTestProject.dll.config

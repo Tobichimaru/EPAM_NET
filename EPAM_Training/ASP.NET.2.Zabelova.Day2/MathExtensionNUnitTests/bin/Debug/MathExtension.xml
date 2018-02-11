@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MathExtension</name>
+    </assembly>
+    <members>
+        <member name="T:MathExtension.MathFunctions">
+            <summary>
+            Class for calculating GCD
+            </summary>
+        </member>
+        <member name="M:MathExtension.MathFunctions.GcdEuclid(System.Int32[])">
+            <summary>
+            Method for calculating GCD by Euclid approach
+            </summary>
+            <param name="a">array of integers</param>
+            <returns>greatest common divisor</returns>
+        </member>
+        <member name="M:MathExtension.MathFunctions.GcdEuclid(System.Double@,System.Int32[])">
+            <summary>
+            Method for calculating GCD by Euclid approach
+            </summary>
+            <param name="time">time of calculation GCD</param>
+            <param name="a">array of integers</param>
+            <returns>greatest common divisor</returns>
+        </member>
+        <member name="M:MathExtension.MathFunctions.GcdBinary(System.Int32[])">
+            <summary>
+            Method for calculating GCD by Shtein approach
+            </summary>
+            <param name="a">array of integers</param>
+            <returns>greatest common divisor</returns>
+        </member>
+        <member name="M:MathExtension.MathFunctions.GcdBinary(System.Double@,System.Int32[])">
+            <summary>
+            Method for calculating GCD by Shtein approach
+            </summary>
+            <param name="time">time of calculation GCD</param>
+            <param name="a">array of integers</param>
+            <returns>greatest common divisor</returns>
+        </member>
+        <member name="M:MathExtension.MathFunctions.GcdDelegate(MathExtension.MathFunctions.CalculateGcd,System.Int32[])">
+            <summary>
+            Method for calculating GCD by custom algorithm
+            </summary>
+            <param name="calculate">delegate describing method of calculation GCD</param>
+            <param name="a">array of integers</param>
+            <returns>greatest common divisor</returns>
+        </member>
+        <member name="M:MathExtension.MathFunctions.GcdDelegate(System.Double@,MathExtension.MathFunctions.CalculateGcd,System.Int32[])">
+            <summary>
+            Method for calculating GCD by custom algorithm
+            </summary>
+            <param name="time">time of calculation GCD</param>
+            <param name="calculate">delegate describing method of calculation GCD</param>
+            <param name="a">array of integers</param>
+            <returns>greatest common divisor</returns>
+        </member>
+        <member name="M:MathExtension.MathFunctions.Swap(System.Int32@,System.Int32@)">
+            <summary>
+            Method for swaping two itegers
+            </summary>
+            <param name="a">first integer</param>
+            <param name="b">second integer</param>
+        </member>
+        <member name="M:MathExtension.MathFunctions.GcdEuclid(System.Int32,System.Int32)">
+            <summary>
+            Method for calculating GCD for two integers by Euclid approach
+            </summary>
+            <param name="a">first integer</param>
+            <param name="b">second integer</param>
+            <returns>greatest common divisor</returns>
+        </member>
+        <member name="M:MathExtension.MathFunctions.GcdBinary(System.Int32,System.Int32)">
+            <summary>
+            Method for calculating GCD for two integers by Shtein approach
+            </summary>
+            <param name="a">first integer</param>
+            <param name="b">second integer</param>
+            <returns>greatest common divisor</returns>
+        </member>
+        <member name="T:MathExtension.MathFunctions.CalculateGcd">
+            <summary>
+            Delegate describes method of calculation of GCD of two integers.
+            </summary>
+            <param name="x">first integer</param>
+            <param name="y">second integer</param>
+            <returns>greatest common divisor</returns>
+        </member>
+    </members>
+</doc>

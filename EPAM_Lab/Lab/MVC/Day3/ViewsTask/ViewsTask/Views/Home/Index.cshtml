@@ -1,0 +1,23 @@
+﻿@model List<ViewsTask.Models.User>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="side">
+    @foreach (var user in Model)
+    {
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => user.Name)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => user.Name)
+            </dd>
+            <dd>
+                @Html.ActionLink("Info", "Info", new {userId = user.Id})
+            </dd>
+        </dl>
+    }
+</div>
+

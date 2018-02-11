@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "Matrix\Matrix.csproj", "{2FC1A47F-59A9-4715-B6E8-893E44779834}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MatrixTask", "MatrixTask", "{468CB761-F72E-4899-9680-BC8A15BD086B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixUnitTests", "MatrixUnitTests\MatrixUnitTests.csproj", "{4E1EE360-81AE-4F6C-8FEA-DDFD2424BF85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinarySearchTreeTask", "BinarySearchTreeTask", "{0A15EAFD-73A9-4155-BA71-F51B3263F09C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTreeLib", "BinarySearchTreeLib\BinarySearchTreeLib.csproj", "{2FED2915-C388-47B0-9342-201453296C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchConsoleUI", "BinarySearchConsoleUI\BinarySearchConsoleUI.csproj", "{75E0CDE0-42DC-4E64-8CBF-5A7C0C713772}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FC1A47F-59A9-4715-B6E8-893E44779834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC1A47F-59A9-4715-B6E8-893E44779834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC1A47F-59A9-4715-B6E8-893E44779834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC1A47F-59A9-4715-B6E8-893E44779834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E1EE360-81AE-4F6C-8FEA-DDFD2424BF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1EE360-81AE-4F6C-8FEA-DDFD2424BF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1EE360-81AE-4F6C-8FEA-DDFD2424BF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E1EE360-81AE-4F6C-8FEA-DDFD2424BF85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FED2915-C388-47B0-9342-201453296C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FED2915-C388-47B0-9342-201453296C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FED2915-C388-47B0-9342-201453296C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FED2915-C388-47B0-9342-201453296C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E0CDE0-42DC-4E64-8CBF-5A7C0C713772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E0CDE0-42DC-4E64-8CBF-5A7C0C713772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E0CDE0-42DC-4E64-8CBF-5A7C0C713772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E0CDE0-42DC-4E64-8CBF-5A7C0C713772}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2FC1A47F-59A9-4715-B6E8-893E44779834} = {468CB761-F72E-4899-9680-BC8A15BD086B}
+		{4E1EE360-81AE-4F6C-8FEA-DDFD2424BF85} = {468CB761-F72E-4899-9680-BC8A15BD086B}
+		{2FED2915-C388-47B0-9342-201453296C73} = {0A15EAFD-73A9-4155-BA71-F51B3263F09C}
+		{75E0CDE0-42DC-4E64-8CBF-5A7C0C713772} = {0A15EAFD-73A9-4155-BA71-F51B3263F09C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShapesLib</name>
+    </assembly>
+    <members>
+        <member name="T:ShapesLib.Circle">
+            <summary>
+            Class describes plane figure circle
+            </summary>
+        </member>
+        <member name="T:ShapesLib.IFigure">
+            <summary>
+            Interface containing properties of a geometric figure
+            </summary>
+        </member>
+        <member name="M:ShapesLib.IFigure.Area">
+            <summary>
+            Calculates the area of a plane figure
+            </summary>
+            <returns>The area of a figure</returns>
+        </member>
+        <member name="M:ShapesLib.IFigure.Perimeter">
+            <summary>
+            Calculates the perimeter of a plane figure
+            </summary>
+            <returns>The perimeter of a figure</returns>
+        </member>
+        <member name="M:ShapesLib.Circle.#ctor">
+            <summary>
+            Initialize default circle with the center at the beginning of coordinates and radius equal to one
+            </summary>
+        </member>
+        <member name="M:ShapesLib.Circle.#ctor(ShapesLib.Point2D)">
+            <summary>
+            Initialize custom circle with the custom center and radius equal to one
+            </summary>
+            <param name="center">point which will be the center of the circle</param>
+        </member>
+        <member name="M:ShapesLib.Circle.#ctor(System.Double)">
+            <summary>
+            Initialize custom circle with the center at the beginning of coordinates and radius equal to custom value
+            </summary>
+            <param name="radius">radius of the circle</param>
+        </member>
+        <member name="M:ShapesLib.Circle.#ctor(ShapesLib.Point2D,System.Double)">
+            <summary>
+            Initialize circle with the custom center and radius equal to custom value
+            </summary>
+            <param name="center">the center of the circle</param>
+            <param name="radius">the radius of the circle</param>
+        </member>
+        <member name="M:ShapesLib.Circle.Area">
+            <summary>
+            Calculates an area of the circle
+            </summary>
+            <returns>The area of the circle</returns>
+        </member>
+        <member name="M:ShapesLib.Circle.Perimeter">
+            <summary>
+            Calculates a perimeter of the circle
+            </summary>
+            <returns>The perimeter of the circle</returns>
+        </member>
+        <member name="P:ShapesLib.Circle.Radius">
+            <summary>
+            Radius of the circle
+            </summary>
+        </member>
+        <member name="P:ShapesLib.Circle.Center">
+            <summary>
+            The center of the circle - point at the plane
+            </summary>
+        </member>
+        <member name="T:ShapesLib.Point2D">
+            <summary>
+            Structure describes point with real coordinates on the plane
+            </summary>
+        </member>
+        <member name="M:ShapesLib.Point2D.#ctor(System.Double,System.Double)">
+            <summary>
+            Initializes point with custom coordinates
+            </summary>
+            <param name="x">X-th coordinates</param>
+            <param name="y">Y-th coordinate</param>
+        </member>
+        <member name="P:ShapesLib.Point2D.X">
+            <summary>
+            X-th coordinate of the point
+            </summary>
+        </member>
+        <member name="P:ShapesLib.Point2D.Y">
+            <summary>
+            Y-th coordinate of the point
+            </summary>
+        </member>
+        <member name="T:ShapesLib.Polygon">
+            <summary>
+            Class describes convex polygon and its properties
+            </summary>
+        </member>
+        <member name="M:ShapesLib.Polygon.#cctor">
+            <summary>
+            static constructor for initializing epsilon value
+            </summary>
+        </member>
+        <member name="M:ShapesLib.Polygon.#ctor">
+            <summary>
+            Empty constructor for possible inheritors
+            </summary>
+        </member>
+        <member name="M:ShapesLib.Polygon.#ctor(ShapesLib.Point2D[])">
+            <summary>
+            Initializes vertices of polygon
+            </summary>
+            <param name="points">vertices of polygon - points on the plane</param>
+        </member>
+        <member name="M:ShapesLib.Polygon.Area">
+            <summary>
+            Method for calculating area of the polygon
+            </summary>
+            <returns>the area of the polygon</returns>
+        </member>
+        <member name="M:ShapesLib.Polygon.Perimeter">
+            <summary>
+            Method for calculating perimeter of the polygon
+            </summary>
+            <returns>the perimeter of the polygon</returns>
+        </member>
+        <member name="M:ShapesLib.Polygon.IsConvex">
+            <summary>
+            Determine either polygon convex or not
+            </summary>
+            <returns>true - if polygon is convex, otherwise - false</returns>
+        </member>
+        <member name="P:ShapesLib.Polygon.Epsilon">
+            <summary>
+            Value for determination of absolute error
+            </summary>
+        </member>
+        <member name="T:ShapesLib.Rectangle">
+            <summary>
+            Class describes plane figure rectangle and its properties
+            </summary>
+        </member>
+        <member name="M:ShapesLib.Rectangle.#ctor">
+            <summary>
+            Initialize default rectangle with the lower left vertex at the beginning of coordinates and side length equal to one and two
+            </summary>
+        </member>
+        <member name="M:ShapesLib.Rectangle.#ctor(ShapesLib.Point2D,ShapesLib.Point2D)">
+            <summary>
+            Initialize the rectangle by the lower left vertex and the upper right vertex.
+            </summary>
+            <param name="p1">the lower left vertex of the rectangle</param>
+            <param name="p2">the upper right vertex of the rectangle</param>
+        </member>
+        <member name="M:ShapesLib.Rectangle.#ctor(System.Double,System.Double)">
+            <summary>
+            Initializes rectangle by the length of its sides
+            </summary>
+            <param name="a">the length of one side (x-th coord)</param>
+            <param name="b">the length of other side (y-th coord)</param>
+        </member>
+        <member name="M:ShapesLib.Rectangle.#ctor(ShapesLib.Point2D,System.Double,System.Double)">
+            <summary>
+            Initializes rectangle by the lower left vertex and the length of its sides
+            </summary>
+            <param name="p">the lower left vertex of the rectangle</param>
+            <param name="a">the length of one side (x-th coord)</param>
+            <param name="b">the length of other side (y-th coord)</param>
+        </member>
+        <member name="M:ShapesLib.Rectangle.IsSideLength(System.Double)">
+            <summary>
+            Checks if parametr is sutable as length of smth
+            </summary>
+            <param name="a">parametr to check</param>
+            <returns>true, if the parametr is positive number, false otherwise</returns>
+        </member>
+        <member name="T:ShapesLib.Square">
+            <summary>
+            Class describes plane figure square and its properties
+            </summary>
+        </member>
+        <member name="M:ShapesLib.Square.#ctor">
+            <summary>
+            Initialize default square with the left lower vertex at the beginning of coordinates and side length equal to one
+            </summary>
+        </member>
+        <member name="M:ShapesLib.Square.#ctor(ShapesLib.Point2D,System.Double)">
+            <summary>
+            Initialize a square figure by the bottom left vertex and the length of the side
+            </summary>
+            <param name="point">bottom left vertex of the square</param>
+            <param name="a">the length of the side of the square</param>
+        </member>
+        <member name="M:ShapesLib.Square.#ctor(System.Double)">
+            <summary>
+            Initialize a square figure by the length of the side
+            </summary>
+            <param name="a">the length of the side of the square</param>
+        </member>
+        <member name="T:ShapesLib.Triangle">
+            <summary>
+            Class describes plane figure triangle and its properties
+            </summary>
+        </member>
+        <member name="M:ShapesLib.Triangle.#ctor">
+            <summary>
+            Empty constructor for possible inheritors
+            </summary>
+        </member>
+        <member name="M:ShapesLib.Triangle.#ctor(ShapesLib.Point2D,ShapesLib.Point2D,ShapesLib.Point2D)">
+            <summary>
+            Initializes triangle by three vertices
+            </summary>
+            <param name="p1">first vertex</param>
+            <param name="p2">second vertex</param>
+            <param name="p3">third vertex</param>
+        </member>
+    </members>
+</doc>

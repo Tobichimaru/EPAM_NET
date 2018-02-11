@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetworkConfig</name>
+    </assembly>
+    <members>
+        <member name="T:NetworkConfig.Receiver`1">
+            <summary>
+                Reciever class
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:NetworkConfig.Receiver`1.#ctor(System.Net.IPAddress,System.Int32)">
+            <summary>
+                Parametrized constructor
+            </summary>
+            <param name="ipAddress"></param>
+            <param name="port"></param>
+        </member>
+        <member name="P:NetworkConfig.Receiver`1.IpEndPoint">
+            <summary>
+                Gets the ip address of the port
+            </summary>
+        </member>
+        <member name="M:NetworkConfig.Receiver`1.AcceptConnection">
+            <summary>
+                Accepts connection
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NetworkConfig.Receiver`1.Receive">
+            <summary>
+                Recieves message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NetworkConfig.Receiver`1.Dispose">
+            <summary>
+                Releases sockets
+            </summary>
+        </member>
+        <member name="T:NetworkConfig.MessageType">
+            <summary>
+                Enumeration for message type
+            </summary>
+        </member>
+        <member name="F:NetworkConfig.MessageType.Added">
+            <summary>
+                Added
+            </summary>
+        </member>
+        <member name="F:NetworkConfig.MessageType.Deleted">
+            <summary>
+                Deleted
+            </summary>
+        </member>
+        <member name="T:NetworkConfig.NetworkMessage`1">
+            <summary>
+                Helper class for network message
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:NetworkConfig.NetworkMessage`1.#ctor(`0,NetworkConfig.MessageType)">
+            <summary>
+                Parametrized constructor
+            </summary>
+            <param name="entity"></param>
+            <param name="messageType"></param>
+        </member>
+        <member name="P:NetworkConfig.NetworkMessage`1.Entity">
+            <summary>
+                Property for message info
+            </summary>
+        </member>
+        <member name="P:NetworkConfig.NetworkMessage`1.MessageType">
+            <summary>
+                Property for message type
+            </summary>
+        </member>
+        <member name="T:NetworkConfig.Sender`1">
+            <summary>
+                Sender class
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:NetworkConfig.Sender`1.#ctor">
+            <summary>
+                Default constructor
+            </summary>
+        </member>
+        <member name="M:NetworkConfig.Sender`1.Connect(System.Collections.Generic.IEnumerable{System.Net.IPEndPoint})">
+            <summary>
+                Connects to collection of listeners
+            </summary>
+            <param name="ipEndPoints"></param>
+        </member>
+        <member name="M:NetworkConfig.Sender`1.Send(NetworkConfig.NetworkMessage{`0})">
+            <summary>
+                Sends message
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:NetworkConfig.Sender`1.Dispose">
+            <summary>
+                Releases sockets
+            </summary>
+        </member>
+    </members>
+</doc>

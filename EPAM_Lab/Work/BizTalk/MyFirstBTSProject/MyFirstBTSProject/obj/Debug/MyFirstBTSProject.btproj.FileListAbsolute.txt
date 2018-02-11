@@ -1,0 +1,4 @@
+D:\study\MyFirstBTSProject\MyFirstBTSProject\bin\Debug\MyFirstBTSProject.dll
+D:\study\MyFirstBTSProject\MyFirstBTSProject\bin\Debug\MyFirstBTSProject.pdb
+D:\study\MyFirstBTSProject\MyFirstBTSProject\obj\Debug\MyFirstBTSProject.dll
+D:\study\MyFirstBTSProject\MyFirstBTSProject\obj\Debug\MyFirstBTSProject.pdb

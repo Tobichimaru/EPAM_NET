@@ -1,0 +1,11 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day1\SortingTests\obj\Debug\SortingTests.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day1\SortingTests\obj\Debug\TestSorting.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day1\SortingTests\bin\Debug\TestSorting.dll.config
+D:\github\epam\ASP.NET.2.Zabelova.Day1\SortingTests\bin\Debug\TestSorting.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day1\SortingTests\bin\Debug\TestSorting.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day1\SortingTests\bin\Debug\nunit.framework.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day1\SortingTests\bin\Debug\Sorting.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day1\SortingTests\bin\Debug\Sorting.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day1\SortingTests\bin\Debug\Sorting.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day1\SortingTests\bin\Debug\nunit.framework.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day1\SortingTests\obj\Debug\TestSorting.pdb

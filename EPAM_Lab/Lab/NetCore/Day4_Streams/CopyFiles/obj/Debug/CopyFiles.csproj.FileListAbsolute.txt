@@ -1,0 +1,7 @@
+D:\Katsiaryna_Zabelava\Day4_Streams\CopyFiles\bin\Debug\CopyFiles.exe.config
+D:\Katsiaryna_Zabelava\Day4_Streams\CopyFiles\bin\Debug\TextFile.txt
+D:\Katsiaryna_Zabelava\Day4_Streams\CopyFiles\bin\Debug\CopyFiles.exe
+D:\Katsiaryna_Zabelava\Day4_Streams\CopyFiles\bin\Debug\CopyFiles.pdb
+D:\Katsiaryna_Zabelava\Day4_Streams\CopyFiles\obj\Debug\CopyFiles.csprojResolveAssemblyReference.cache
+D:\Katsiaryna_Zabelava\Day4_Streams\CopyFiles\obj\Debug\CopyFiles.exe
+D:\Katsiaryna_Zabelava\Day4_Streams\CopyFiles\obj\Debug\CopyFiles.pdb

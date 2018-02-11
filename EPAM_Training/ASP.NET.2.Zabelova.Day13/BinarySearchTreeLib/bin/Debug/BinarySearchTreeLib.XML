@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BinarySearchTreeLib</name>
+    </assembly>
+    <members>
+        <member name="T:BinarySearchTreeLib.BinaryTree`1">
+            <summary>
+            Represents collection of binary search tree
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:BinarySearchTreeLib.BinaryTree`1.#ctor">
+            <summary>
+            Initializes default binary tree
+            </summary>
+        </member>
+        <member name="M:BinarySearchTreeLib.BinaryTree`1.#ctor(System.Comparison{`0})">
+            <summary>
+            Initializes default binary tree with custom comparision
+            <param name="comparison">custom comparision</param>
+            </summary>
+        </member>
+        <member name="M:BinarySearchTreeLib.BinaryTree`1.#ctor(System.Collections.Generic.IComparer{`0})">
+            <summary>
+            Initializes default binary tree with custom comparer
+            <param name="comparer">custom comparer</param>
+            </summary>
+        </member>
+        <member name="M:BinarySearchTreeLib.BinaryTree`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Initializes default binary tree by collection of items
+            </summary>
+            <param name="collection">collection of items</param>
+        </member>
+        <member name="M:BinarySearchTreeLib.BinaryTree`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Comparison{`0})">
+            <summary>
+            Initializes default binary tree with custom comparision by collection of items
+            </summary>
+            <param name="collection">collection of items</param>
+            <param name="comparison">custom comparision</param>
+        </member>
+        <member name="M:BinarySearchTreeLib.BinaryTree`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Collections.Generic.IComparer{`0})">
+            <summary>
+            Initializes default binary tree with custom comparer by collection of items
+            </summary>
+            <param name="collection">collection of items</param>
+            <param name="comparer">custom comparer</param>
+        </member>
+        <member name="M:BinarySearchTreeLib.BinaryTree`1.Insert(`0)">
+            <summary>
+            Inserts item into the tree
+            </summary>
+            <param name="item">item to be added</param>
+        </member>
+        <member name="M:BinarySearchTreeLib.BinaryTree`1.Contains(`0)">
+            <summary>
+            Checks if the item whithin binary tree
+            </summary>
+            <param name="item">item to be found</param>
+            <returns>true, if binary tree contatins this item, otherwise false</returns>
+        </member>
+        <member name="M:BinarySearchTreeLib.BinaryTree`1.IsEmpty">
+            <summary>
+            Checks if the tree is empty
+            </summary>
+            <returns>true, if empty, otherwise false</returns>
+        </member>
+        <member name="M:BinarySearchTreeLib.BinaryTree`1.InOrderIterator">
+             <summary>
+             Works this way:
+             Iteratore the LeftChild node by recursively calling the in-order function.
+            Display the Data part of the root (or current node).
+            Iteratore the RightChild node by recursively calling the in-order function.
+             </summary>
+             <returns>iterator</returns>
+        </member>
+        <member name="M:BinarySearchTreeLib.BinaryTree`1.PreOrderIterator">
+            <summary>
+            Works this way:
+            Display the Data part of the root (or current node).
+            Iteratore the LeftChild node by recursively calling the pre-order function.
+            Iteratore the RightChild node by recursively calling the pre-order function.
+            </summary>
+            <returns>iterator</returns>
+        </member>
+        <member name="M:BinarySearchTreeLib.BinaryTree`1.PostOrderIterator">
+             <summary>
+             Works this way:
+             Iteratore the LeftChild node by recursively calling the post-order function.
+            Iteratore the RightChild node by recursively calling the post-order function.
+            Display the Data part of the root (or current node).
+             </summary>
+             <returns>iterator</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,14 @@
+D:\study\EPAM.RD.2016.S\Work\WebAPI\UniformInterface\TrainingCompany\obj\Debug\TrainingCompany.csprojResolveAssemblyReference.cache
+D:\study\EPAM.RD.2016.S\Work\WebAPI\UniformInterface\TrainingCompany\bin\TrainingCompany.dll.config
+D:\study\EPAM.RD.2016.S\Work\WebAPI\UniformInterface\TrainingCompany\bin\TrainingCompany.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\UniformInterface\TrainingCompany\bin\TrainingCompany.pdb
+D:\study\EPAM.RD.2016.S\Work\WebAPI\UniformInterface\TrainingCompany\bin\Newtonsoft.Json.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\UniformInterface\TrainingCompany\bin\System.Net.Http.Formatting.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\UniformInterface\TrainingCompany\bin\System.Web.Http.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\UniformInterface\TrainingCompany\bin\System.Web.Http.WebHost.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\UniformInterface\TrainingCompany\bin\Newtonsoft.Json.xml
+D:\study\EPAM.RD.2016.S\Work\WebAPI\UniformInterface\TrainingCompany\bin\System.Net.Http.Formatting.xml
+D:\study\EPAM.RD.2016.S\Work\WebAPI\UniformInterface\TrainingCompany\bin\System.Web.Http.xml
+D:\study\EPAM.RD.2016.S\Work\WebAPI\UniformInterface\TrainingCompany\bin\System.Web.Http.WebHost.xml
+D:\study\EPAM.RD.2016.S\Work\WebAPI\UniformInterface\TrainingCompany\obj\Debug\TrainingCompany.dll
+D:\study\EPAM.RD.2016.S\Work\WebAPI\UniformInterface\TrainingCompany\obj\Debug\TrainingCompany.pdb

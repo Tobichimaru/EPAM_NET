@@ -1,0 +1,26 @@
+.content {
+	background-color: #81BEF7;
+	border-radius: 5px;
+	width: 305px;
+	padding: 5px;
+}
+
+.register-form {
+	border: 1px solid black;
+	width: 300px;
+}
+
+.register-input {
+	padding: 5px;
+	border-bottom: 1px dashed blue;
+}
+
+.input-info {
+	width: 100px;
+	display: inline-block;
+}
+
+.center-align {
+	padding: 5px 0;
+	text-align:center;
+}

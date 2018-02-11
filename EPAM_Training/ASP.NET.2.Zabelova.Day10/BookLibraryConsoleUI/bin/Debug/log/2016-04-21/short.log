@@ -1,0 +1,18 @@
+16:57:36 (WARN) : Error occurs: Путь UNC должен иметь вид \\server\share.
+16:57:36 (WARN) : Incorrect path. The path was replaced by default path: "library"
+16:57:37 (INFO) : The library was cleared
+17:18:33 (WARN) : Error occurs: Путь UNC должен иметь вид \\server\share.
+17:18:33 (WARN) : Incorrect path. The path was replaced by default path: "library"
+17:18:33 (INFO) : The library was cleared
+17:18:53 (WARN) : Error occurs: Путь UNC должен иметь вид \\server\share.
+17:18:53 (WARN) : Incorrect path. The path was replaced by default path: "library"
+17:18:54 (INFO) : The library was cleared
+17:19:31 (WARN) : Error occurs: Путь UNC должен иметь вид \\server\share.
+17:19:31 (WARN) : Incorrect path. The path was replaced by default path: "library"
+17:19:31 (INFO) : The library was cleared
+17:19:51 (WARN) : Error occurs: Путь UNC должен иметь вид \\server\share.
+17:19:51 (WARN) : Incorrect path. The path was replaced by default path: "library"
+17:19:51 (INFO) : The library was cleared
+17:20:35 (WARN) : Error occurs: Путь UNC должен иметь вид \\server\share.
+17:20:35 (WARN) : Incorrect path. The path was replaced by default path: "library"
+17:20:35 (INFO) : The library was cleared

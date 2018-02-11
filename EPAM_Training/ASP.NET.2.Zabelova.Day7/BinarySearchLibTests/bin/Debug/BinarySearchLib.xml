@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BinarySearchLib</name>
+    </assembly>
+    <members>
+        <member name="T:BinarySearchLib.BinarySearchClass">
+            <summary>
+            Class contains methods for searching elements in generic array
+            </summary>
+        </member>
+        <member name="M:BinarySearchLib.BinarySearchClass.BinarySearch``1(``0[],``0,System.Collections.Generic.IComparer{``0})">
+            <summary>
+            Searches the sorted generic array for an element using the custom comparer and returns the zero-based index of the element.
+            </summary>
+            <typeparam name="T">type of elements in the array</typeparam>
+            <param name="a">sorted array to be searched</param>
+            <param name="elem">element to find in the array</param>
+            <param name="comparer">custom comparer</param>
+            <returns>The zero-based index of item in the sorted array, if item is found; otherwise, a negative number -1</returns>
+        </member>
+        <member name="M:BinarySearchLib.BinarySearchClass.BinarySearch``1(``0[],``0,System.Comparison{``0})">
+            <summary>
+            Searches the sorted generic array for an element using the custom comparision delegate and returns the zero-based index of the element.
+            </summary>
+            <typeparam name="T">type of elements in the array</typeparam>
+            <param name="a">sorted array to be searched</param>
+            <param name="elem">element to find in the array</param>
+            <param name="comparisonDelegate">custom comparision delegate</param>
+            <returns>The zero-based index of item in the sorted array, if item is found; otherwise, a negative number -1</returns>
+        </member>
+    </members>
+</doc>

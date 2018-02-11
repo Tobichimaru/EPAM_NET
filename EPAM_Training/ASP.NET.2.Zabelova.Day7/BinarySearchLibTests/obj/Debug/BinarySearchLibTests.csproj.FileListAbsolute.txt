@@ -1,0 +1,10 @@
+D:\github\epam\ASP.NET.2.Zabelova.Day7\BinarySearchLibTests\bin\Debug\BinarySearchLibTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day7\BinarySearchLibTests\bin\Debug\BinarySearchLibTests.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day7\BinarySearchLibTests\bin\Debug\BinarySearchLib.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day7\BinarySearchLibTests\bin\Debug\nunit.framework.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day7\BinarySearchLibTests\bin\Debug\BinarySearchLib.pdb
+D:\github\epam\ASP.NET.2.Zabelova.Day7\BinarySearchLibTests\bin\Debug\BinarySearchLib.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day7\BinarySearchLibTests\bin\Debug\nunit.framework.xml
+D:\github\epam\ASP.NET.2.Zabelova.Day7\BinarySearchLibTests\obj\Debug\BinarySearchLibTests.csprojResolveAssemblyReference.cache
+D:\github\epam\ASP.NET.2.Zabelova.Day7\BinarySearchLibTests\obj\Debug\BinarySearchLibTests.dll
+D:\github\epam\ASP.NET.2.Zabelova.Day7\BinarySearchLibTests\obj\Debug\BinarySearchLibTests.pdb

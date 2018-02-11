@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>University</name>
+    </assembly>
+    <members>
+        <member name="T:University.Classes.Archive">
+            <summary>
+            Describes archive class which contains all information about students
+            </summary>
+        </member>
+        <member name="M:University.Classes.Archive.RecordMark(University.Interfaces.IStudent,University.Interfaces.ICourse,University.Interfaces.IWork,System.Int32)">
+            <summary>
+            Store a mark into the archive
+            </summary>
+            <param name="student">student</param>
+            <param name="course">course</param>
+            <param name="task">graded task</param>
+            <param name="mark">recieved grade</param>
+        </member>
+        <member name="M:University.Classes.Archive.GetMark(University.Interfaces.IStudent,University.Interfaces.ICourse,University.Interfaces.IWork)">
+            <summary>
+            Gets the mark from the archive
+            </summary>
+            <param name="student">student</param>
+            <param name="course">course</param>
+            <param name="task">graded task if the task was completed, otherwise -1</param>
+        </member>
+        <member name="P:University.Classes.Archive.Instance">
+            <summary>
+            Provides instance of the archive
+            </summary>
+        </member>
+        <member name="T:University.Classes.Course">
+            <summary>
+            Desribes course 
+            </summary>
+        </member>
+        <member name="T:University.Interfaces.ICourse">
+            <summary>
+            Describes course interface
+            </summary>
+        </member>
+        <member name="T:University.Interfaces.IObservable`1">
+            <summary>
+            Defines a provider for push-based notification.
+            </summary>
+            <typeparam name="T">The object that provides notification information.</typeparam>
+        </member>
+        <member name="M:University.Interfaces.IObservable`1.AddObserver(University.Interfaces.IObserver{`0})">
+            <summary>
+            Adds an observer to receive notifications.
+            </summary>
+            <param name="o">observer to be added</param>
+        </member>
+        <member name="M:University.Interfaces.IObservable`1.RemoveObserver(University.Interfaces.IObserver{`0})">
+            <summary>
+            Removes an observer to receive notifications.
+            </summary>
+            <param name="o">observer to be removed</param>
+        </member>
+        <member name="M:University.Interfaces.IObservable`1.NotifyObservers(`0)">
+            <summary>
+            Notifies all observers 
+            </summary>
+            <param name="info">info to be send</param>
+        </member>
+        <member name="T:University.Interfaces.INameId">
+            <summary>
+            Provides name and Id for each descendant
+            </summary>
+        </member>
+        <member name="P:University.Interfaces.INameId.Name">
+            <summary>
+            Name of the instance
+            </summary>
+        </member>
+        <member name="P:University.Interfaces.INameId.Id">
+            <summary>
+            Unique Id for each instance
+            </summary>
+        </member>
+        <member name="M:University.Interfaces.ICourse.GetHomework(University.Classes.HomeWork,University.Classes.HomeTask)">
+            <summary>
+            Recieves homework from student on specifed task
+            </summary>
+            <param name="homeWork">completed homework</param>
+            <param name="task">performed task</param>
+        </member>
+        <member name="M:University.Classes.Course.#ctor(System.String,University.Interfaces.ICurator)">
+            <summary>
+            Initializes course with custom name and curator
+            </summary>
+            <param name="name">name of the course</param>
+            <param name="curator">curator of the course</param>
+        </member>
+        <member name="M:University.Classes.Course.AddObserver(University.Interfaces.IStudent)">
+            <summary>
+            Add student to the Course
+            </summary>
+            <param name="student">student</param>
+        </member>
+        <member name="M:University.Classes.Course.RemoveObserver(University.Interfaces.IStudent)">
+            <summary>
+            remove student from the course
+            </summary>
+            <param name="student">student</param>
+        </member>
+        <member name="T:University.Classes.LoggerClass">
+            <summary>
+            Provides logger instance
+            </summary>
+        </member>
+        <member name="P:University.Classes.LoggerClass.Logger">
+            <summary>
+            Gets the logger instance
+            </summary>
+        </member>
+        <member name="T:University.Interfaces.IWork">
+            <summary>
+            Describes Interface for different types of courses assignments
+            </summary>
+        </member>
+        <member name="P:University.Interfaces.IWork.Description">
+            <summary>
+            Description of the assignment
+            </summary>
+        </member>
+        <member name="P:University.Interfaces.IWork.Title">
+            <summary>
+            The Title of the assignment
+            </summary>
+        </member>
+        <member name="T:University.Classes.HomeWork">
+            <summary>
+            Describes student homework
+            </summary>
+        </member>
+        <member name="M:University.Classes.HomeWork.#ctor(System.String,System.String,University.Interfaces.IStudent)">
+            <summary>
+            Initialize homework
+            </summary>
+            <param name="title">title of the homework</param>
+            <param name="text">text of the homework</param>
+            <param name="author">author of the homework</param>
+        </member>
+        <member name="P:University.Classes.HomeWork.StudentAuthor">
+            <summary>
+            Author of the homework
+            </summary>
+        </member>
+        <member name="T:University.Interfaces.ICurator">
+            <summary>
+            Describes curator of courses interface
+            </summary>
+        </member>
+        <member name="M:University.Interfaces.ICurator.SetMark(University.Interfaces.IWork)">
+            <summary>
+            Set mark for the homework
+            </summary>
+            <param name="homework">homework to be rated</param>
+            <returns>mark for the homework</returns>
+        </member>
+        <member name="T:University.Interfaces.IObserver`1">
+            <summary>
+            Provides a mechanism for receiving push-based notifications.
+            </summary>
+            <typeparam name="T">The object that provides notification information.</typeparam>
+        </member>
+        <member name="M:University.Interfaces.IObserver`1.Update(`0)">
+            <summary>
+            Recieves information
+            </summary>
+            <param name="info">information to be recieved</param>
+        </member>
+        <member name="T:University.Interfaces.IStudent">
+            <summary>
+            Describes student interface
+            </summary>
+        </member>
+        <member name="T:University.Classes.Professor">
+            <summary>
+            Describes professor 
+            </summary>
+        </member>
+        <member name="M:University.Classes.Professor.#ctor(System.String)">
+            <summary>
+            Initialize professor instance
+            </summary>
+            <param name="name">name of the professor</param>
+        </member>
+        <member name="T:University.Classes.Student">
+            <summary>
+            Describes student
+            </summary>
+        </member>
+        <member name="M:University.Classes.Student.#ctor(System.String)">
+            <summary>
+            Initialize student instance
+            </summary>
+            <param name="name">name of student</param>
+        </member>
+        <member name="T:University.Classes.HomeTask">
+            <summary>
+            Describes course task
+            </summary>
+        </member>
+        <member name="M:University.Classes.HomeTask.#ctor(System.String,System.String,University.Interfaces.ICourse)">
+            <summary>
+            Initialize a task
+            </summary>
+            <param name="title">name of a task</param>
+            <param name="text">description of a task</param>
+            <param name="course">course which provides a task</param>
+        </member>
+        <member name="P:University.Classes.HomeTask.InitialCourse">
+            <summary>
+            The course which provides a task
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Matrix</name>
+    </assembly>
+    <members>
+        <member name="T:Matrix.Event.MatrixEventArgs">
+            <summary>
+                Describes info about event
+            </summary>
+        </member>
+        <member name="M:Matrix.Event.MatrixEventArgs.#ctor(System.String)">
+            <summary>
+                Initializes event with the message
+            </summary>
+            <param name="message">message</param>
+        </member>
+        <member name="P:Matrix.Event.MatrixEventArgs.Message">
+            <summary>
+                Message of the event
+            </summary>
+        </member>
+        <member name="T:Matrix.Exception.DimensionsMismatchException`1">
+            <summary>
+                An exception that indicates a mismatch between the dimension of two matrices.
+            </summary>
+            <typeparam name="T">The data type of the matrices.</typeparam>
+        </member>
+        <member name="M:Matrix.Exception.DimensionsMismatchException`1.#ctor(Matrix.Matrices.AbstractMatrix{`0},Matrix.Matrices.AbstractMatrix{`0})">
+            <summary>
+                Initializes a new instance of the <see cref="T:Matrix.Exception.DimensionsMismatchException`1"/> class.
+            </summary>
+            <param name="left">The first matrix.</param>
+            <param name="right">The second matrix.</param>
+        </member>
+        <member name="T:Matrix.Extension.MatrixDeepCopyExtension">
+            <summary>
+                Provides extension for matrix deep copy
+            </summary>
+        </member>
+        <member name="M:Matrix.Extension.MatrixDeepCopyExtension.DeepClone``1(Matrix.Matrices.AbstractMatrix{``0},``0)">
+            <summary>
+                Creates deep copy of an element
+            </summary>
+            <typeparam name="T">T</typeparam>
+            <param name="matrix"></param>
+            <param name="item">item to copy</param>
+            <returns>deep copy of the item</returns>
+        </member>
+        <member name="T:Matrix.Matrices.AbstractMatrix`1">
+            <summary>
+                Represents an AbstractMatrix type.
+            </summary>
+        </member>
+        <member name="F:Matrix.Matrices.AbstractMatrix`1.array">
+            <summary>
+                The elements of the AbstractMatrix.
+            </summary>
+        </member>
+        <member name="M:Matrix.Matrices.AbstractMatrix`1.#ctor">
+            <summary>
+                Empty initialization of the <see cref="T:Matrix.Matrices.AbstractMatrix`1"/> for inheritance
+            </summary>
+        </member>
+        <member name="M:Matrix.Matrices.AbstractMatrix`1.#ctor(System.Int32,System.Int32)">
+            <summary>
+                Initializes a new instance of the <see cref="T:Matrix.Matrices.AbstractMatrix`1"/> class with a empty array of elements.
+            </summary>
+            <param name="n">number of rows</param>
+            <param name="m">number of columns</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                AbstractMatrix dimensions is non positive
+            </exception>
+        </member>
+        <member name="M:Matrix.Matrices.AbstractMatrix`1.#ctor(`0[])">
+            <summary>
+                Initializes <see cref="T:Matrix.Matrices.AbstractMatrix`1"/> by list of diagonal elements
+            </summary>
+            <exception cref="T:System.ArgumentNullException">
+                elements is null
+            </exception>
+            <param name="diagonalEntries"></param>
+        </member>
+        <member name="M:Matrix.Matrices.AbstractMatrix`1.#ctor(`0[0:,0:])">
+            <summary>
+                Initializes a new instance of the <see cref="T:Matrix.Matrices.AbstractMatrix`1"/> class with a multidimensional array of elements.
+            </summary>
+            <param name="elements">The elements of the AbstractMatrix.</param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                The AbstractMatrix cannot be empty.
+                or
+                The structure of the AbstractMatrix is unbalanced.
+            </exception>
+        </member>
+        <member name="M:Matrix.Matrices.AbstractMatrix`1.OnElementChanged(Matrix.Event.MatrixEventArgs)">
+            <summary>
+                Determines if some element of the AbstractMatrix was changed
+            </summary>
+            <param name="e">event info</param>
+        </member>
+        <member name="M:Matrix.Matrices.AbstractMatrix`1.Equals(System.Object)">
+            <summary>
+                Determines whether the specified <see cref="T:System.Object"/> is equal to this instance.
+            </summary>
+            <param name="obj">The object to compare with the current object.</param>
+            <returns><c>true</c> if the specified <see cref="T:System.Object"/> is equal to this instance; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:Matrix.Matrices.AbstractMatrix`1.Equals(Matrix.Matrices.AbstractMatrix{`0})">
+            <summary>
+                Indicates whether the current object is equal to another object of the same type.
+            </summary>
+            <param name="other">An object to compare with this object.</param>
+            <returns>true if the current object is equal to the <paramref name="other" /> parameter; otherwise, false.</returns>
+        </member>
+        <member name="M:Matrix.Matrices.AbstractMatrix`1.GetHashCode">
+            <summary>
+                Returns a hash code for this instance.
+            </summary>
+            <returns>A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table.</returns>
+        </member>
+        <member name="M:Matrix.Matrices.AbstractMatrix`1.ToString">
+            <summary>
+            Generates string representation of the matrix
+            </summary>
+            <returns>string representation</returns>
+        </member>
+        <member name="E:Matrix.Matrices.AbstractMatrix`1.ElementChanged">
+            <summary>
+                Event provides information on changing some element of the AbstractMatrix
+            </summary>
+        </member>
+        <member name="P:Matrix.Matrices.AbstractMatrix`1.Height">
+            <summary>
+                Number of rows
+            </summary>
+        </member>
+        <member name="P:Matrix.Matrices.AbstractMatrix`1.Width">
+            <summary>
+                Number of columns
+            </summary>
+        </member>
+        <member name="P:Matrix.Matrices.AbstractMatrix`1.Item(System.Int32,System.Int32)">
+            <summary>
+                Gets the element of type T at i and j index.
+            </summary>
+            <param name="i">The row index</param>
+            <param name="j">The column index</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                Index out of bounds of the AbstractMatrix
+            </exception>
+            <returns>T</returns>
+        </member>
+        <member name="T:Matrix.Matrices.DiagonalMatrix`1">
+            <summary>
+                Represents an Diagonal Matrix data type.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:Matrix.Matrices.SquareMatrix`1">
+            <summary>
+                Represents an Square Matrix data type.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Matrix.Matrices.SquareMatrix`1.#ctor">
+            <summary>
+                Empty initialization of the <see cref="T:Matrix.Matrices.SquareMatrix`1"/> for inheritance
+            </summary>
+        </member>
+        <member name="M:Matrix.Matrices.SquareMatrix`1.#ctor(System.Int32)">
+            <summary>
+                Initializes a new instance of the <see cref="T:Matrix.Matrices.SquareMatrix`1"/> class with a empty array of elements.
+            </summary>
+            <param name="n">the dimension of the matrix</param>
+        </member>
+        <member name="M:Matrix.Matrices.SquareMatrix`1.#ctor(`0[])">
+            <summary>
+                Initializes a new instance of the <see cref="T:Matrix.Matrices.SquareMatrix`1"/> class with a empty array of elements.
+            </summary>
+            <param name="diagonal">the diagonal elements of the matrix</param>
+        </member>
+        <member name="M:Matrix.Matrices.SquareMatrix`1.#ctor(`0[0:,0:])">
+            <summary>
+                Initializes a new instance of the <see cref="T:Matrix.Matrices.SquareMatrix`1"/> class with a multidimensional array of elements.
+            </summary>
+            <param name="elements">The elements of the matrix.</param>
+            <exception cref="T:System.ArgumentException">
+                Matrix is not square-type
+            </exception>
+        </member>
+        <member name="M:Matrix.Matrices.DiagonalMatrix`1.#ctor">
+            <summary>
+                Empty initialization of the <see cref="T:Matrix.Matrices.DiagonalMatrix`1"/> for inheritance
+            </summary>
+        </member>
+        <member name="M:Matrix.Matrices.DiagonalMatrix`1.#ctor(`0[])">
+            <summary>
+                Initializes <see cref="T:Matrix.Matrices.DiagonalMatrix`1"/> by list of diagonal elements
+            </summary>
+            <param name="diagonalEntries">the diagonal elements of the matrix</param>
+        </member>
+        <member name="M:Matrix.Matrices.DiagonalMatrix`1.#ctor(System.Int32)">
+            <summary>
+                Initializes a new instance of the <see cref="T:Matrix.Matrices.DiagonalMatrix`1"/> class with a empty array of elements.
+            </summary>
+            <param name="n">dimension of the matrix</param>
+        </member>
+        <member name="P:Matrix.Matrices.DiagonalMatrix`1.Item(System.Int32,System.Int32)">
+            <summary>
+                Gets the element of type T at i and j index.
+            </summary>
+            <param name="i">The row index</param>
+            <param name="j">The column index</param>
+            <exception cref="T:System.ArgumentException">
+                Impossible to change non-diagonal elements of the matrix
+            </exception>
+            <returns>T</returns>
+        </member>
+        <member name="T:Matrix.Matrices.Matrix`1">
+            <summary>
+                Represents an Matrix data type.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Matrix.Matrices.Matrix`1.#ctor">
+            <summary>
+                Empty initialization of the <see cref="T:Matrix.Matrices.Matrix`1"/> for inheritance
+            </summary>
+        </member>
+        <member name="M:Matrix.Matrices.Matrix`1.#ctor(System.Int32,System.Int32)">
+            <summary>
+                Initializes a new instance of the <see cref="T:Matrix.Matrices.Matrix`1"/> class with a empty array of elements.
+            </summary>
+            <param name="n">number of rows</param>
+            <param name="m">number of columns</param>
+        </member>
+        <member name="M:Matrix.Matrices.Matrix`1.#ctor(`0[])">
+            <summary>
+                Initializes a new instance of the <see cref="T:Matrix.Matrices.Matrix`1"/> class with a multidimensional array of elements.
+            </summary>
+            <param name="diagonal">The diagonal elements of the matrix.</param>
+        </member>
+        <member name="M:Matrix.Matrices.Matrix`1.#ctor(`0[0:,0:])">
+            <summary>
+                Initializes a new instance of the <see cref="T:Matrix.Matrices.Matrix`1"/> class with a multidimensional array of elements.
+            </summary>
+            <param name="elements">The elements of the matrix.</param>
+        </member>
+        <member name="T:Matrix.Extension.MatrixAdditionExtension">
+            <summary>
+                Provides extension for matrix addition
+            </summary>
+        </member>
+        <member name="M:Matrix.Extension.MatrixAdditionExtension.Add``1(Matrix.Matrices.AbstractMatrix{``0},Matrix.Matrices.AbstractMatrix{``0})">
+            <summary>
+                Sums the two matrices without any check regarding the dimensions.
+            </summary>
+            <param name="left">The first matrix.</param>
+            <param name="right">The second matrix.</param>
+            <returns>The return value is the sum of the two matrices..</returns>
+        </member>
+        <member name="T:Matrix.Matrices.SymmetricMatrix`1">
+            <summary>
+                Represents an Symmetric Matrix data type.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Matrix.Matrices.SymmetricMatrix`1.#ctor">
+            <summary>
+                Empty initialization of the <see cref="T:Matrix.Matrices.SymmetricMatrix`1"/> for inheritance
+            </summary>
+        </member>
+        <member name="M:Matrix.Matrices.SymmetricMatrix`1.#ctor(System.Int32)">
+            <summary>
+                Initializes a new instance of the <see cref="T:Matrix.Matrices.SymmetricMatrix`1"/> class with a empty array of elements.
+            </summary>
+            <param name="n">dimension of the matrix</param>
+        </member>
+        <member name="M:Matrix.Matrices.SymmetricMatrix`1.#ctor(`0[0:,0:])">
+            <summary>
+                Initializes a new instance of the <see cref="T:Matrix.Matrices.SymmetricMatrix`1"/> class with a multidimensional array of
+                elements.
+            </summary>
+            <param name="elements">The elements of the matrix.</param>
+            <exception cref="T:System.ArgumentException">
+                Matrix is not symmetric
+            </exception>
+        </member>
+        <member name="P:Matrix.Matrices.SymmetricMatrix`1.Item(System.Int32,System.Int32)">
+            <summary>
+                Gets the element of type T at i and j index.
+            </summary>
+            <param name="i">The row index</param>
+            <param name="j">The column index</param>
+            <exception cref="T:System.ArgumentException">
+                Impossible to change non-diagonal elements of the matrix
+            </exception>
+            <returns>T</returns>
+        </member>
+    </members>
+</doc>

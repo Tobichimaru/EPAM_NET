@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TimerLib</name>
+    </assembly>
+    <members>
+        <member name="T:TimerLib.Listeners.OtherClass">
+            <summary>
+                Other Listener, registers to the event through method
+            </summary>
+        </member>
+        <member name="M:TimerLib.Listeners.OtherClass.Register(TimerLib.Manager.TimerManager)">
+            <summary>
+                Registers this listener to the events of the manager
+            </summary>
+            <param name="timer">manager that is generates events</param>
+        </member>
+        <member name="M:TimerLib.Listeners.OtherClass.Unregister(TimerLib.Manager.TimerManager)">
+            <summary>
+                Unegisters this listener from the events of the manager
+            </summary>
+            <param name="timer">manager that is generates events</param>
+        </member>
+        <member name="T:TimerLib.Listeners.SomeClass">
+            <summary>
+                Some Listenerm registres to the event through ctor
+            </summary>
+        </member>
+        <member name="M:TimerLib.Listeners.SomeClass.#ctor(TimerLib.Manager.TimerManager)">
+            <summary>
+                Registers this listener to the events of the manager
+            </summary>
+            <param name="timer">manager that is generates events</param>
+        </member>
+        <member name="M:TimerLib.Listeners.SomeClass.Unregister(TimerLib.Manager.TimerManager)">
+            <summary>
+                Unegisters this listener from the events of the manager
+            </summary>
+            <param name="timer">manager that is generates events</param>
+        </member>
+        <member name="T:TimerLib.Manager.TimerMessageEventArgs">
+            <summary>
+                Class describes arguments of the event
+            </summary>
+        </member>
+        <member name="M:TimerLib.Manager.TimerMessageEventArgs.#ctor(System.String,System.Int32)">
+            <summary>
+                Initializes arguments
+            </summary>
+            <param name="message">Message to write</param>
+            <param name="milliseconds">Time to count</param>
+        </member>
+        <member name="P:TimerLib.Manager.TimerMessageEventArgs.Message">
+            <summary>
+                Mwssage that should be written after finishing timers work
+            </summary>
+        </member>
+        <member name="P:TimerLib.Manager.TimerMessageEventArgs.Milliseconds">
+            <summary>
+                Time for timer to count
+            </summary>
+        </member>
+        <member name="T:TimerLib.Manager.TimerManager">
+            <summary>
+                Class managing countdown timer
+            </summary>
+        </member>
+        <member name="M:TimerLib.Manager.TimerManager.Start(System.Int32)">
+            <summary>
+                Starts the work of countdown timer
+            </summary>
+            <param name="milliseconds">Time to count</param>
+        </member>
+        <member name="M:TimerLib.Manager.TimerManager.SimulateNewTimer(System.String,System.Int32)">
+            <summary>
+                Simulates some work
+            </summary>
+            <param name="message">Message to write</param>
+            <param name="milliseconds">Time to count</param>
+        </member>
+        <member name="M:TimerLib.Manager.TimerManager.OnTimerEvent(System.Object,TimerLib.Manager.TimerMessageEventArgs)">
+            <summary>
+                Methods that handle the event
+            </summary>
+            <param name="sender">The sender of the event</param>
+            <param name="e">Arguments of the event</param>
+        </member>
+        <member name="E:TimerLib.Manager.TimerManager.TimerEvent">
+            <summary>
+                Some custom event
+            </summary>
+        </member>
+        <member name="T:TimerLib.Manager.TimerManager.TimerMessageEventHandler">
+            <summary>
+                Custom EventHandler
+            </summary>
+            <param name="sender">Sender of the event</param>
+            <param name="e">Arguments of the event</param>
+        </member>
+    </members>
+</doc>

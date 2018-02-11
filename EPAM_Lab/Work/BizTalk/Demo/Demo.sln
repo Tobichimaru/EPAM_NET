@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schemas", "Schemas\Schemas.btproj", "{ADDCFD96-C279-4209-BD68-2B818424DD2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maps", "Maps\Maps.btproj", "{3560239C-8EFB-4538-BDA1-8952A2B1DEEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchestrations", "Orchestrations\Orchestrations.btproj", "{53680109-87EE-4A04-B7F8-064BF464C9AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADDCFD96-C279-4209-BD68-2B818424DD2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADDCFD96-C279-4209-BD68-2B818424DD2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADDCFD96-C279-4209-BD68-2B818424DD2C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ADDCFD96-C279-4209-BD68-2B818424DD2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDCFD96-C279-4209-BD68-2B818424DD2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADDCFD96-C279-4209-BD68-2B818424DD2C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3560239C-8EFB-4538-BDA1-8952A2B1DEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3560239C-8EFB-4538-BDA1-8952A2B1DEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3560239C-8EFB-4538-BDA1-8952A2B1DEEA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3560239C-8EFB-4538-BDA1-8952A2B1DEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3560239C-8EFB-4538-BDA1-8952A2B1DEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3560239C-8EFB-4538-BDA1-8952A2B1DEEA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{53680109-87EE-4A04-B7F8-064BF464C9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53680109-87EE-4A04-B7F8-064BF464C9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53680109-87EE-4A04-B7F8-064BF464C9AA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{53680109-87EE-4A04-B7F8-064BF464C9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53680109-87EE-4A04-B7F8-064BF464C9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53680109-87EE-4A04-B7F8-064BF464C9AA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

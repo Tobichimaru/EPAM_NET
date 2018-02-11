@@ -1,0 +1,83 @@
+@import "definitions.less";
+
+@media only screen and (max-width: 991px) {
+    body { 
+        font-size: 2vw; 
+    }
+
+    .col-md-6 {  
+        width: 100%;
+    }
+
+    h4 { 
+        border-left: 1.2vw solid @main-color; 
+    }
+
+    blockquote {
+        p { 
+            line-height: 2.7vw; 
+        }
+        :before { 
+            margin: 6vw auto -1vw -4%;
+        }
+        :after { 
+            .wh(auto, 1.8vw);
+        }
+    }
+
+    .triangle{  
+        border-top: 1.4vw solid transparent;
+        border-bottom: 1.4vw solid transparent;
+        border-left: 2.8vw solid @main-color;
+        left: 7.5%;
+    }
+
+    .tall-left-border {
+        border-left: 0.6vw solid @main-color;
+    }
+
+    .contacts .contact:before { 
+        .wh(7vw, 7vw);
+    }
+
+    .contact .main-color { 
+        margin-bottom: 3vw;
+    }
+
+    .transperant-circle { 
+        height: 21vw; 
+        width: 21vw;
+    }
+
+    .balance-dots {
+        border-right: 0.4vw dotted black;
+        margin-left: 40%;
+    }
+
+    .skill { 
+        margin-bottom: 2.6vw;
+
+        .progress { 
+            height: 2.6vw; 
+        }
+    }
+
+    .software {
+        width: 40%; 
+        margin-left: 18%;
+
+        li .progress {
+            height: 6vw; 
+            margin: 2vw auto 2vw 2vw;
+
+            .progress-bar { 
+                font-size: 130%; 
+            }
+        }
+    }
+
+    .print-design,
+    .web-design { 
+        height: 4vw;
+    }
+}

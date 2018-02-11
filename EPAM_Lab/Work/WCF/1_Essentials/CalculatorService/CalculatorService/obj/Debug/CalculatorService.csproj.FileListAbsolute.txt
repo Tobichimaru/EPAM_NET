@@ -1,0 +1,5 @@
+D:\study\WCF\1_Essentials\CalculatorService\CalculatorService\bin\Debug\CalculatorService.dll
+D:\study\WCF\1_Essentials\CalculatorService\CalculatorService\bin\Debug\CalculatorService.pdb
+D:\study\WCF\1_Essentials\CalculatorService\CalculatorService\obj\Debug\CalculatorService.dll
+D:\study\WCF\1_Essentials\CalculatorService\CalculatorService\obj\Debug\CalculatorService.pdb
+D:\study\WCF\1_Essentials\CalculatorService\CalculatorService\obj\Debug\CalculatorService.csprojResolveAssemblyReference.cache

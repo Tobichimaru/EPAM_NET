@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomerInfo</name>
+    </assembly>
+    <members>
+        <member name="T:CustomerInfo.Customer">
+            <summary>
+             Class for storing information about customer
+            </summary>
+        </member>
+        <member name="M:CustomerInfo.Customer.#ctor(System.String,System.String,System.Decimal)">
+            <summary>
+            Initialize all information of the customer
+            </summary>
+            <param name="name">Name of the customer</param>
+            <param name="phone">Phone Number of the customer</param>
+            <param name="revenue">Revenue amount of the customer</param>
+        </member>
+        <member name="M:CustomerInfo.Customer.ToString">
+            <summary>
+            Returns string representation of a class customer
+            </summary>
+            <returns>string representation</returns>
+        </member>
+        <member name="M:CustomerInfo.Customer.ToString(System.String)">
+            <summary>
+            Returns string representation of a class customer
+            </summary>
+            <param name="format">format for string representation</param>
+            <returns>string representation</returns>
+        </member>
+        <member name="M:CustomerInfo.Customer.ToString(System.IFormatProvider)">
+            <summary>
+            Returns string representation of a class customer
+            </summary>
+            <param name="formatProvider">formatProvider for string representation</param>
+            <returns>string representation</returns>
+        </member>
+        <member name="M:CustomerInfo.Customer.ToString(System.String,System.IFormatProvider)">
+            <summary>
+            Returns string representation of a class customer
+            </summary>
+            <param name="format">format for string representation</param>
+            <param name="formatProvider">formatProvider for string representation</param>
+            <returns>string representation</returns>
+        </member>
+        <member name="P:CustomerInfo.Customer.ContactPhone">
+            <summary>
+            get: allows to get the phone number of a customer
+            set: checks and format input data to appropriate phone number format
+            </summary>
+        </member>
+        <member name="P:CustomerInfo.Customer.Name">
+            <summary>
+            get: allows to get the name of a customer
+            set: checks and format input data to appropriate name format
+            </summary>
+        </member>
+        <member name="P:CustomerInfo.Customer.Revenue">
+            <summary>
+            Auto-generated property for the revenue amount of a customer
+            </summary>
+        </member>
+        <member name="T:CustomerInfo.CustomerFormatProvider">
+            <summary>
+            Providing custom formatter for Customer class
+            </summary>
+        </member>
+        <member name="M:CustomerInfo.CustomerFormatProvider.Format(System.String,System.Object,System.IFormatProvider)">
+            <summary>
+            Creates string representation of inputed object due provided format
+            </summary>
+            <param name="format">format for string representation</param>
+            <param name="arg">object for formating</param>
+            <param name="formatProvider">format for string representation</param>
+            <returns>string representation of an object</returns>
+        </member>
+    </members>
+</doc>
